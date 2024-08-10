@@ -17,7 +17,7 @@ include('include/config.php');
       <main id="content" class="site-main">
          <!-- ***home banner html start form here*** -->
          <section class="home-banner-section home-banner-slider">
-            <div class="home-banner d-flex flex-wrap align-items-center" style="background-image: url(assets/images/gosaikunda.jpg);">
+            <div class="home-banner d-flex flex-wrap align-items-center" style="background-image: url(assets/images/home.jpg);">
                <div class="overlay"></div>
                <div class="container">
                   <div class="banner-content text-center">
@@ -151,7 +151,7 @@ include('include/config.php');
                                  </div>
                               </div>
                               <h6 class="price-list">
-                                 <span>₹<?php echo htmlentities($result->PackagePrice); ?></span>
+                                 <span>Rs<?php echo htmlentities($result->PackagePrice); ?></span>
                                  / per person
                               </h6>
                               <a href="package-detail.php?pkgid=<?php echo htmlentities($result->PackageId); ?>" class="outline-btn outline-btn-white">Details</a>
@@ -167,14 +167,14 @@ include('include/config.php');
          </section>
          <!-- ***Home package html end here*** -->
          <!-- ***Home callback html start from here*** -->
-         <section class="home-callback bg-img-fullcallback" style="background-image: url(assets/images/gosaikunda.jpg);">
+         <section class="home-callback bg-img-fullcallback" style="background-image: url(./assets/images/home.jpg);">
             <div class="overlay"></div>
             <div class="container">
                <div class="row">
                   <div class="col-lg-8 offset-lg-2 text-center">
                      <div class="callback-content">
                         <div class="video-button">
-                           <a id="video-container" data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=2OYar8OHEOU">
+                           <a id="video-container" data-fancybox="video-gallery" href="https://youtu.be/bY_gRApfoJk?si=mQpDZbUrwPdySLEe">
                               <i class="fas fa-play"></i>
                            </a>
                         </div>
@@ -191,12 +191,12 @@ include('include/config.php');
          </section>
          <!-- ***Home callback html end here*** -->
          <!-- ***Home counter html start from here*** -->
-         <div class="home-counter">
+         <!-- <div class="home-counter">
             <div class="container">
                <div class="counter-wrap">
                   <div class="counter-item">
                      <span class="counter-no">
-                        <span class="counter">80</span>K+
+                        <span class="counter">1</span>K+
                      </span>
                      <span class="counter-desc">
                         SATISFIED CUSTOMER
@@ -204,7 +204,7 @@ include('include/config.php');
                   </div>
                   <div class="counter-item">
                      <span class="counter-no">
-                        <span class="counter">18</span>+
+                        <span class="counter">1</span>+
                      </span>
                      <span class="counter-desc">
                         ACTIVE MEMBERS
@@ -212,7 +212,7 @@ include('include/config.php');
                   </div>
                   <div class="counter-item">
                      <span class="counter-no">
-                        <span class="counter">220</span>+
+                        <span class="counter">100</span>+
                      </span>
                      <span class="counter-desc">
                         TOUR DESTINATION
@@ -220,7 +220,7 @@ include('include/config.php');
                   </div>
                   <div class="counter-item">
                      <span class="counter-no">
-                        <span class="counter">75</span>+
+                        <span class="counter">10</span>+
                      </span>
                      <span class="counter-desc">
                         TRAVEL GUIDES
@@ -228,7 +228,7 @@ include('include/config.php');
                   </div>
                </div>
             </div>
-         </div>
+         </div> -->
          <!-- ***Home counter html end here*** -->
          <!-- ***Home offer html start from here*** -->
          <section class="home-offer">
@@ -370,7 +370,7 @@ include('include/config.php');
                               <img src="assets/images/user-img.png" alt="">
                            </figure>
                            <div class="author-name">
-                              <h5>Bishant Tamang</h5>
+                              <h5>Bishal Tamang</h5>
                               <span>B&B Tours and Travels Pvt. Ltd.</span>
                            </div>
                         </div>

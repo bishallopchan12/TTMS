@@ -15,7 +15,7 @@ include('include/config.php');
          <section class="confirm-inner-page">
             <!-- ***Inner Banner html start form here*** -->
             <div class="inner-banner-wrap">
-               <div class="inner-baner-container" style="background-image: url(assets/images/img7.jpg);">
+               <div class="inner-baner-container" style="background-image: url(assets/images/himal.jpg);">
                   <div class="container">
                      <div class="inner-banner-content">
                         <h1 class="page-title">Confirmation</h1>
@@ -109,7 +109,7 @@ include('include/config.php');
                               <div class="details">
                                  <h3>VIEW BOOKING DETAILS</h3>
                                  <div class="details-desc">
-                                    <p><a href="#">https://www.traveler.com/index.php</a></p>
+                                    <p><a href="#">https://facebook.com/bishallama2058</a></p>
                                  </div>
                               </div>
                            </div>
@@ -135,7 +135,7 @@ include('include/config.php');
                                        <td>
                                           <strong>Packages cost </strong>
                                        </td>
-                                       <td class="text-right">₹
+                                       <td class="text-right">Rs
                                           <?php echo $price = htmlentities($result->PackagePrice); ?>
                                        </td>
                                     </tr>
@@ -144,7 +144,7 @@ include('include/config.php');
                                           <strong>Dedicated tour guide</strong>
                                        </td>
                                        <td class="text-right">
-                                          ₹
+                                          Rs
                                           <?php echo $dtg = 500; ?>
                                        </td>
                                     </tr>
@@ -180,7 +180,7 @@ include('include/config.php');
                               </div>
                               <div class="support-content">
                                  <h5>HELP AND SUPPORT</h5>
-                                 <a href="telto:12345678" class="phone">+91 8126XXXXXX</a>
+                                 <a href="telto:9818676198" class="phone">+977 9818676198</a>
                                  <small>Monday to Friday 9.00am - 7.30pm</small>
                               </div>
                            </div>

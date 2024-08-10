@@ -10,7 +10,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 	<html>
 
 	<head>
-		<title>Traveler | Admin Manage Packages</title>
+		<title>B&B Tours And Travels Pvt. Ltd. | Admin Manage Packages</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script type="application/x-javascript">

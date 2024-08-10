@@ -494,7 +494,7 @@ table {
   font-size: 15px;
 }
 table thead tr {
-  background-color: #262626;
+  background-color: whitesmoke;
 }
 table thead tr th {
   color: #383838;
@@ -2717,7 +2717,8 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-banner .overlay {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  background-image: url(assets/images/home.jpg);
 }
 @media screen and (max-width: 575px) {
   .home-banner {
@@ -2891,7 +2892,7 @@ input[type=submit]:focus {
 .home-trip-search select,
 .home-trip-search input {
   background-color: #F8F8F8;
-  color: #34ebe1;
+  color: #383838;
   border: none;
   height: 56px;
   padding: 0 15px;
@@ -4235,7 +4236,7 @@ input[type=submit]:focus {
   overflow: hidden;
 }
 .sidebar .package-list {
-  background-image: url(assets/images/banner-img1.jpg);
+  background-image: url(assets/images/sange.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -4979,7 +4980,7 @@ input[type=submit]:focus {
   border-bottom-color: rgba(167, 167, 167, 0.25);
 }
 .inner-career-detail-wrap .job-description.bg-image {
-  background-image: url(assets/images/banner-img1.jpg);
+  background-image: url(assets/images/sange.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;

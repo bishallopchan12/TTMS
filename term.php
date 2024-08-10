@@ -12,7 +12,7 @@ error_reporting(0);
       <main id="content" class="site-main">
          <!-- ***Inner Banner html start form here*** -->
          <div class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/gosaikunda.jpg);">
+            <div class="inner-baner-container" style="background-image: url(assets/images/himal.jpg);">
                <div class="container">
                   <div class="inner-banner-content">
                      <h1 class="page-title">Term & Conditions</h1>

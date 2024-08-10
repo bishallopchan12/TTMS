@@ -15,7 +15,7 @@ error_reporting(0);
          <section class="package-inner-page">
             <!-- ***Inner Banner html start form here*** -->
             <div class="inner-banner-wrap">
-               <div class="inner-baner-container" style="background-image: url(assets/images/gosaikunda.jpg);">
+               <div class="inner-baner-container" style="background-image: url(assets/images/himal.jpg);">
                   <div class="container">
                      <div class="inner-banner-content">
                         <h1 class="page-title">Package Detail</h1>
@@ -56,7 +56,7 @@ error_reporting(0);
                               </div>
                               <div class="package-price">
                                  <h6 class="price-list">
-                                    <span>₹<?php echo htmlentities($result->PackagePrice); ?>
+                                    <span>Rs<?php echo htmlentities($result->PackagePrice); ?>
                                        <?php if ($_SESSION['email']) { ?>
                                           <a href="booking.php?pkgid=<?php echo htmlentities($result->PackageId); ?>" class="outline-btn outline-btn-blue">Book now</a>
                                        <?php } else { ?>

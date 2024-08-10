@@ -45,32 +45,32 @@
                               <h3 class="widget-title">Gallery</h3>
                               <div class="gallery gallery-colum-3">
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img10.jpg" data-fancybox="gallery-1">
+                                    <a href="assets/images/boudha.jpg" data-fancybox="gallery-1">
                                        <img src="assets/images/boudha.jpg" alt="">
                                     </a>
                                  </figure>
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img28.jpg" data-fancybox="gallery-1">
+                                    <a href="assets/images/bishal.jpg" data-fancybox="gallery-1">
                                        <img src="assets/images/bishal.jpg" alt="">
                                     </a>
                                  </figure>
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img14.jpg" data-fancybox="gallery-1">
+                                    <a href="assets/images/jamacho.jpg" data-fancybox="gallery-1">
                                        <img src="assets/images/jamacho.jpg" alt="">
                                     </a>
                                  </figure>
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img15.jpg" data-fancybox="gallery-1">
-                                       <img src="assets/images/trekking.jpg" alt="">
+                                    <a href="assets/images/trekking.jpg" data-fancybox="gallery-1">
+                                       <img src="assets/images/bis.jpg" alt="">
                                     </a>
                                  </figure>
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img12.jpg" data-fancybox="gallery-1">
+                                    <a href="assets/images/trek2.jpg" data-fancybox="gallery-1">
                                        <img src="assets/images/trek2.jpg" alt="">
                                     </a>
                                  </figure>
                                  <figure class="gallery-item">
-                                    <a href="assets/images/img13.jpg" data-fancybox="gallery-1">
+                                    <a href="assets/images/trek1.jpg" data-fancybox="gallery-1">
                                        <img src="assets/images/trek1.jpg" alt="">
                                     </a>
                                  </figure>

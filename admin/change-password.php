@@ -33,7 +33,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 	<html>
 
 	<head>
-		<title>Traveler | Admin Change Password</title>
+		<title>B&B Tours And Travels Pvt. Ltd.| Admin Change Password</title>
 
 		<script type="application/x-javascript">
 			addEventListener("load", function() {
