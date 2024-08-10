@@ -1,5 +1,5 @@
-# Travel and Tourism Management System
 
+<<<<<<< HEAD
 The Travel and Tourism Management System is a web application designed to facilitate the management of travel and tourism-related activities. It provides a user-friendly interface for travelers to browse and book travel packages, and for administrators to manage the system's content and bookings. This system has been developed using HTML, CSS, and JavaScript for the frontend, and PHP and MySQL for the backend.
 
 Website: http://traveler.000.pe/traveler/
@@ -58,3 +58,5 @@ We are grateful to the community behind these projects for their excellent work 
 # B-B-Travel-and-Tours
 # B-B-Travel-and-Tours
 # B-B-Travel-and-Tours
+=======
+>>>>>>> origin/Bishal
