@@ -315,7 +315,7 @@ include('include/config.php');
          </section>
          <!-- ***Home client html end here*** -->
          <!-- ***Home testimonial html start from here*** -->
-         <section class="home-testimonial">
+         <!-- <section class="home-testimonial">
             <div class="container">
                <div class="row">
                   <div class="col-lg-8 offset-lg-2 text-center">
@@ -417,7 +417,7 @@ include('include/config.php');
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
          <!-- ***Home testimonial html end here*** -->
          <!-- ***Home callback html start from here*** -->
          <section class="home-callback bg-color-callback primary-bg">

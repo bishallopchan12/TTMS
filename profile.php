@@ -179,7 +179,7 @@ include('includes/config.php');
 
                </div>
             </div>
-            <div class="bg-img-fullcallback" style="background-image: url(assets/images/img7.jpg);">
+            <div class="bg-img-fullcallback" style="background-image: url(assets/images/back.jpg);">
                <div class="overlay"></div>
                <div class="container">
                   <div class="row">

@@ -789,6 +789,7 @@ select:focus {
 
 form label {
   font-weight: normal;
+  color: whitesmoke;
 }
 
 .search-form {

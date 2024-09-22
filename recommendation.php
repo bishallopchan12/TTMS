@@ -21,6 +21,7 @@
         }
 
         .trip-search-form {
+            
             display: flex;
             border: 2px solid #ccc;
             padding: 10px;
@@ -91,26 +92,14 @@
     </style>
 </head>
 <body>
-<div class="trip-search-container">
-    <form class="trip-search-form">
-        <select id="country" class="search-dropdown">
-            <option value="Kathmandu">Kathmandu</option>
-            <option value="Pokhara">Pokhara</option>
-            <option value="Chitwan">Chitwan</option>
-            <option value="Lumbini">Lumbini</option>
-            <option value="Nagarkot">Nagarkot</option>
-            <option value="Dhulikhel">Dhulikhel</option>
-            <option value="Gosaikunda">Gosaikunda</option>
-            <option value="EverestBaseCamp">Everest Base Camp</option>
-            <option value="Annapurna">Annapurna</option>
-            <option value="RaraLake">Rara Lake</option>
-            <option value="Bandipur">Bandipur</option>
-            <option value="Mustang">Mustang</option>
-            <option value="Manang">Manang</option>
-            <option value="Ilam">Ilam</option>
-        </select>
+    <div class="trip-search-container">
 
-        <select id="duration" class="search-dropdown">
+        <form class="trip-search-form">
+            <select id="country" class="search-dropdown">
+                <option value="Nepal">Nepal</option>
+            </select>
+
+            <select id="duration" class="search-dropdown">
             <option value="1-7">1 - 7 Days</option>
             <option value="8-14">8 - 14 Days</option>
             <option value="15-21">15 - 21 Days</option>
@@ -138,10 +127,9 @@
             <option value="Winter">Winter</option>
         </select>
 
-        <button type="button" id="searchBtn">Search</button>
-    </form>
-</div>
-
+            <button type="button" id="searchBtn">Search</button>
+        </form>
+    </div>
 
     <div class="trip-results" id="tripResults"></div>
 
@@ -150,56 +138,56 @@
     
     // Expanded trip data with 50 trips
     const trips = [
-        { id: 1, name: "Everest Base Camp Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.9, price: 1200, region: "Eastern Nepal" },
-        { id: 2, name: "Chitwan Jungle Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.7, price: 700, region: "Southern Nepal" },
-        { id: 3, name: "Kathmandu Cultural Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.5, price: 300, region: "Central Nepal" },
-        { id: 4, name: "Annapurna Circuit Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.8, price: 1500, region: "Western Nepal" },
+        { id: 1, name: "Everest Base Camp Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.9, price: 50200, region: "Eastern Nepal" },
+        { id: 2, name: "Chitwan Jungle Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.7, price: 35000, region: "Southern Nepal" },
+        { id: 3, name: "Kathmandu Cultural Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.5, price: 30000, region: "Central Nepal" },
+        { id: 4, name: "Annapurna Circuit Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.8, price: 15000, region: "Western Nepal" },
         { id: 5, name: "Pokhara Adventure Sports", duration: "1-7", activities: "Adventure", season: "AllYear", rating: 4.6, price: 500, region: "Western Nepal" },
-        { id: 6, name: "Langtang Valley Trek", duration: "8-14", activities: "Trekking", season: "Summer", rating: 4.5, price: 900, region: "Central Nepal" },
-        { id: 7, name: "Poon Hill Sunrise Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.7, price: 400, region: "Western Nepal" },
-        { id: 8, name: "Gosaikunda Lake Pilgrimage", duration: "8-14", activities: "Cultural", season: "Spring", rating: 4.4, price: 600, region: "Central Nepal" },
-        { id: 9, name: "Lumbini Buddhist Pilgrimage", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.6, price: 200, region: "Southern Nepal" },
-        { id: 10, name: "Upper Mustang Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.9, price: 1800, region: "Western Nepal" },
-        { id: 11, name: "Bardia National Park Wildlife Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.5, price: 600, region: "Western Nepal" },
-        { id: 12, name: "Rara Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 1000, region: "Western Nepal" },
-        { id: 13, name: "Ghorepani Poon Hill Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.7, price: 800, region: "Western Nepal" },
-        { id: 14, name: "Dhulikhel Cultural Village Walk", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.3, price: 150, region: "Central Nepal" },
-        { id: 15, name: "Tilicho Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.7, price: 1000, region: "Western Nepal" },
-        { id: 16, name: "Manaslu Circuit Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 1400, region: "Central Nepal" },
-        { id: 17, name: "Patan and Bhaktapur Heritage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.5, price: 250, region: "Central Nepal" },
-        { id: 18, name: "Rafting in the Trishuli River", duration: "1-7", activities: "Adventure", season: "Spring", rating: 4.6, price: 300, region: "Central Nepal" },
-        { id: 19, name: "Helambu Circuit Trek", duration: "8-14", activities: "Trekking", season: "Winter", rating: 4.4, price: 800, region: "Central Nepal" },
-        { id: 20, name: "Dhorpatan Hunting Reserve Adventure", duration: "8-14", activities: "Wildlife", season: "Autumn", rating: 4.3, price: 1200, region: "Western Nepal" },
-        { id: 21, name: "Nagarkot Sunrise Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.2, price: 150, region: "Central Nepal" },
-        { id: 22, name: "Makalu Base Camp Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 1600, region: "Eastern Nepal" },
-        { id: 23, name: "Koshi Tappu Wildlife Reserve Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.4, price: 600, region: "Eastern Nepal" },
-        { id: 24, name: "Bungee Jumping in Bhote Koshi", duration: "1-7", activities: "Adventure", season: "Summer", rating: 4.9, price: 250, region: "Central Nepal" },
-        { id: 25, name: "Chisapani Nagarkot Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.3, price: 400, region: "Central Nepal" },
-        { id: 26, name: "Pikey Peak Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.7, price: 500, region: "Eastern Nepal" },
-        { id: 27, name: "Kanchenjunga Base Camp Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.9, price: 1800, region: "Eastern Nepal" },
-        { id: 28, name: "Janakpur Pilgrimage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.1, price: 150, region: "Southern Nepal" },
-        { id: 29, name: "Khopra Ridge Trek", duration: "8-14", activities: "Trekking", season: "Summer", rating: 4.6, price: 900, region: "Western Nepal" },
-        { id: 30, name: "Seti River Rafting", duration: "1-7", activities: "Adventure", season: "Spring", rating: 4.6, price: 350, region: "Western Nepal" },
-        { id: 31, name: "Kalinchowk Temple Tour", duration: "1-7", activities: "Cultural", season: "Winter", rating: 4.3, price: 200, region: "Central Nepal" },
-        { id: 32, name: "Sundarijal Shivapuri Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.4, price: 250, region: "Central Nepal" },
-        { id: 33, name: "Sikles Eco-Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.5, price: 400, region: "Western Nepal" },
-        { id: 34, name: "Lower Dolpo Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.7, price: 1700, region: "Western Nepal" },
-        { id: 35, name: "Tansen Historical Town Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.1, price: 150, region: "Western Nepal" },
-        { id: 36, name: "Rupa and Begnas Lake Tour", duration: "1-7", activities: "Adventure", season: "Summer", rating: 4.3, price: 200, region: "Western Nepal" },
-        { id: 37, name: "Nar Phu Valley Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.9, price: 1600, region: "Western Nepal" },
-        { id: 38, name: "Ilam Tea Garden Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.4, price: 200, region: "Eastern Nepal" },
-        { id: 39, name: "Phoksundo Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 1300, region: "Western Nepal" },
-        { id: 40, name: "Rasuwa Tamang Heritage Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.3, price: 600, region: "Central Nepal" },
-        { id: 41, name: "Panchase Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.4, price: 300, region: "Western Nepal" },
-        { id: 42, name: "Daman Hill Station Tour", duration: "1-7", activities: "Cultural", season: "Winter", rating: 4.2, price: 180, region: "Central Nepal" },
-        { id: 43, name: "Upper Dolpo Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.9, price: 2000, region: "Western Nepal" },
-        { id: 44, name: "Jomsom Muktinath Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.7, price: 900, region: "Western Nepal" },
-        { id: 45, name: "Hiking to Namobuddha Monastery", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.3, price: 150, region: "Central Nepal" },
-        { id: 46, name: "Mt. Kanjiroba Expedition", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 2200, region: "Western Nepal" },
-        { id: 47, name: "Sailung Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.6, price: 800, region: "Central Nepal" },
-        { id: 48, name: "Mardi Himal Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 700, region: "Western Nepal" },
-        { id: 49, name: "Rupina La Pass Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.7, price: 1500, region: "Central Nepal" },
-        { id: 50, name: "Kapilvastu Cultural Heritage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.2, price: 180, region: "Southern Nepal" }
+        { id: 6, name: "Langtang Valley Trek", duration: "8-14", activities: "Trekking", season: "Summer", rating: 4.5, price: 29000, region: "Central Nepal" },
+        { id: 7, name: "Poon Hill Sunrise Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.7, price: 40000, region: "Western Nepal" },
+        { id: 8, name: "Gosaikunda Lake Pilgrimage", duration: "8-14", activities: "Cultural", season: "Spring", rating: 4.4, price: 26000, region: "Central Nepal" },
+        { id: 9, name: "Lumbini Buddhist Pilgrimage", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.6, price: 20000, region: "Southern Nepal" },
+        { id: 10, name: "Upper Mustang Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.9, price: 18000, region: "Western Nepal" },
+        { id: 11, name: "Bardia National Park Wildlife Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.5, price: 60000, region: "Western Nepal" },
+        { id: 12, name: "Rara Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 41000, region: "Western Nepal" },
+        { id: 13, name: "Ghorepani Poon Hill Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.7, price: 81000, region: "Western Nepal" },
+        { id: 14, name: "Dhulikhel Cultural Village Walk", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.3, price: 45500, region: "Central Nepal" },
+        { id: 15, name: "Tilicho Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.7, price: 50000, region: "Western Nepal" },
+        { id: 16, name: "Manaslu Circuit Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 30000, region: "Central Nepal" },
+        { id: 17, name: "Patan and Bhaktapur Heritage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.5, price: 10050, region: "Central Nepal" },
+        { id: 18, name: "Rafting in the Trishuli River", duration: "1-7", activities: "Adventure", season: "Spring", rating: 4.6, price: 30000, region: "Central Nepal" },
+        { id: 19, name: "Helambu Circuit Trek", duration: "8-14", activities: "Trekking", season: "Winter", rating: 4.4, price: 80000, region: "Central Nepal" },
+        { id: 20, name: "Dhorpatan Hunting Reserve Adventure", duration: "8-14", activities: "Wildlife", season: "Autumn", rating: 4.3, price: 12000, region: "Western Nepal" },
+        { id: 21, name: "Nagarkot Sunrise Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.2, price: 15000, region: "Central Nepal" },
+        { id: 22, name: "Makalu Base Camp Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 16000, region: "Eastern Nepal" },
+        { id: 23, name: "Koshi Tappu Wildlife Reserve Safari", duration: "1-7", activities: "Wildlife", season: "Winter", rating: 4.4, price: 60000, region: "Eastern Nepal" },
+        { id: 24, name: "Bungee Jumping in Bhote Koshi", duration: "1-7", activities: "Adventure", season: "Summer", rating: 4.9, price: 25000, region: "Central Nepal" },
+        { id: 25, name: "Chisapani Nagarkot Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.3, price: 40000, region: "Central Nepal" },
+        { id: 26, name: "Pikey Peak Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.7, price: 50000, region: "Eastern Nepal" },
+        { id: 27, name: "Kanchenjunga Base Camp Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.9, price: 18000, region: "Eastern Nepal" },
+        { id: 28, name: "Janakpur Pilgrimage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.1, price: 10050, region: "Southern Nepal" },
+        { id: 29, name: "Khopra Ridge Trek", duration: "8-14", activities: "Trekking", season: "Summer", rating: 4.6, price: 90000, region: "Western Nepal" },
+        { id: 30, name: "Seti River Rafting", duration: "1-7", activities: "Adventure", season: "Spring", rating: 4.6, price: 35000, region: "Western Nepal" },
+        { id: 31, name: "Kalinchowk Temple Tour", duration: "1-7", activities: "Cultural", season: "Winter", rating: 4.3, price: 20000, region: "Central Nepal" },
+        { id: 32, name: "Sundarijal Shivapuri Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.4, price: 20050, region: "Central Nepal" },
+        { id: 33, name: "Sikles Eco-Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.5, price: 40000, region: "Western Nepal" },
+        { id: 34, name: "Lower Dolpo Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.7, price: 17000, region: "Western Nepal" },
+        { id: 35, name: "Tansen Historical Town Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.1, price: 15000, region: "Western Nepal" },
+        { id: 36, name: "Rupa and Begnas Lake Tour", duration: "1-7", activities: "Adventure", season: "Summer", rating: 4.3, price: 20000, region: "Western Nepal" },
+        { id: 37, name: "Nar Phu Valley Trek", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.9, price: 16000, region: "Western Nepal" },
+        { id: 38, name: "Ilam Tea Garden Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.4, price: 20000, region: "Eastern Nepal" },
+        { id: 39, name: "Phoksundo Lake Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 13000, region: "Western Nepal" },
+        { id: 40, name: "Rasuwa Tamang Heritage Trek", duration: "1-7", activities: "Trekking", season: "AllYear", rating: 4.3, price: 60000, region: "Central Nepal" },
+        { id: 41, name: "Panchase Trek", duration: "1-7", activities: "Trekking", season: "Spring", rating: 4.4, price: 30000, region: "Western Nepal" },
+        { id: 42, name: "Daman Hill Station Tour", duration: "1-7", activities: "Cultural", season: "Winter", rating: 4.2, price: 18000, region: "Central Nepal" },
+        { id: 43, name: "Upper Dolpo Trek", duration: "15+", activities: "Trekking", season: "Summer", rating: 4.9, price: 20000, region: "Western Nepal" },
+        { id: 44, name: "Jomsom Muktinath Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.7, price: 90000, region: "Western Nepal" },
+        { id: 45, name: "Hiking to Namobuddha Monastery", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.3, price: 15000, region: "Central Nepal" },
+        { id: 46, name: "Mt. Kanjiroba Expedition", duration: "15+", activities: "Trekking", season: "Spring", rating: 4.8, price: 22000, region: "Western Nepal" },
+        { id: 47, name: "Sailung Trek", duration: "8-14", activities: "Trekking", season: "Spring", rating: 4.6, price: 28000, region: "Central Nepal" },
+        { id: 48, name: "Mardi Himal Trek", duration: "8-14", activities: "Trekking", season: "Autumn", rating: 4.8, price: 17000, region: "Western Nepal" },
+        { id: 49, name: "Rupina La Pass Trek", duration: "15+", activities: "Trekking", season: "Autumn", rating: 4.7, price: 55000, region: "Central Nepal" },
+        { id: 50, name: "Kapilvastu Cultural Heritage Tour", duration: "1-7", activities: "Cultural", season: "AllYear", rating: 4.2, price: 48000, region: "Southern Nepal" }
     ];
 
 

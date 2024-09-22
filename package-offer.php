@@ -74,7 +74,7 @@ include('include/config.php');
             </div>
             <!-- ***offer package section html start form here*** -->
             <!-- ***callback section html start form here*** -->
-            <div class="bg-img-fullcallback" style="background-image: url(assets/images/trekking.jpg);">
+            <div class="bg-img-fullcallback" style="background-image: url(assets/images/himal.jpg);">
                <div class="overlay"></div>
                <div class="container">
                   <div class="row">
