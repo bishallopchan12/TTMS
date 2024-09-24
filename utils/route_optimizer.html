@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSRM Distance Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Select Start and Destination</h1>
+    <div id="map"></div>
+    <div style="text-align: center; margin-top: 20px;">
+        <button id="calculate">Calculate Distance</button>
+    </div>
+    <div id="result" style="text-align: center; margin-top: 20px;"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([27.7172, 85.324], 8); // Center map on Kathmandu
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        let startMarker, endMarker;
+        const resultsDiv = document.getElementById('result');
+
+        function onMapClick(e) {
+            if (!startMarker) {
+                // Create start marker
+                startMarker = L.marker(e.latlng).addTo(map).bindPopup('Start').openPopup();
+            } else if (!endMarker) {
+                // Create end marker
+                endMarker = L.marker(e.latlng).addTo(map).bindPopup('Destination').openPopup();
+            } else {
+                // Reset markers
+                map.removeLayer(startMarker);
+                map.removeLayer(endMarker);
+                startMarker = L.marker(e.latlng).addTo(map).bindPopup('Start').openPopup();
+                endMarker = null;
+            }
+        }
+
+        map.on('click', onMapClick);
+
+        document.getElementById('calculate').addEventListener('click', function() {
+            if (startMarker && endMarker) {
+                const startLatLng = startMarker.getLatLng();
+                const endLatLng = endMarker.getLatLng();
+
+                const osrmUrl = `https://router.project-osrm.org/route/v1/driving/${startLatLng.lng},${startLatLng.lat};${endLatLng.lng},${endLatLng.lat}?overview=false`;
+                fetch(osrmUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.routes && data.routes.length > 0) {
+                            const distance = data.routes[0].distance / 1000; // Distance in kilometers
+                            resultsDiv.innerHTML = `<p>The distance from Start to Destination is <strong>${distance.toFixed(2)}</strong> km.</p>`;
+                        } else {
+                            resultsDiv.innerHTML = `<p style='color: red;'>No route found.</p>`;
+                        }
+                    })
+                    .catch(err => {
+                        resultsDiv.innerHTML = `<p style='color: red;'>Error: ${err}</p>`;
+                    });
+            } else {
+                resultsDiv.innerHTML = `<p style='color: red;'>Please select both Start and Destination.</p>`;
+            }
+        });
+    </script>
+</body>
+</html>

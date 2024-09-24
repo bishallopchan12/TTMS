@@ -1,8 +1,8 @@
-<?php
+<!-- <?php
 session_start();
 error_reporting(0);
 include('include/config.php');
-?>
+?> -->
 
 
 <!doctype html>
@@ -54,12 +54,10 @@ include('include/config.php');
             </div>
          </section>
          <!-- ***home banner html end here*** -->
-         <?php include 'recommendation.php'; ?>
-          
-         <?php include 'route_optimization.php'; ?>
-    
-
-
+         
+         
+        
+                <?php  include './utils/route_optimizer.php';?>
 
          <!-- ***Home destination html start from here*** -->
          <section class="home-destination">
