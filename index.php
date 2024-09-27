@@ -189,7 +189,7 @@ include './recommend/index.php';
                   <div class="col-lg-8 offset-lg-2 text-center">
                      <div class="callback-content">
                         <div class="video-button">
-                           <a id="video-container" data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=2OYar8OHEOU">
+                           <a id="video-container" data-fancybox="video-gallery" href="https://youtu.be/4OiXfDdbtnM?si=2HxJR-p0PDFqISB6">
                               <i class="fas fa-play"></i>
                            </a>
                         </div>

@@ -130,6 +130,10 @@
                                  </li>
                                  <li>
                                     <a href="faq.php">FAQ</a>
+
+                                 </li>
+                                 <li>
+                                    <a href="service.php">FAQ</a>
                                  </li>
                               </ul>
                            </div>

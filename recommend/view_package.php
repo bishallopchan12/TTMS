@@ -1,14 +1,14 @@
 <?php
-// Database connection (replace with your connection details)
+// Database connection
 $conn = mysqli_connect("localhost", "root", "", "tms");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-// Check if a package ID is passed (e.g., package.php?PackageId=1)
-if (isset($_GET['PackageId'])) {
-    $packageId = intval($_GET['PackageId']);
+// Check if a package ID is passed via POST
+if (isset($_POST['id'])) {  // Use $_POST to capture the 'id' sent via POST
+    $packageId = intval($_POST['id']);
     
     // Increment the views for the package
     $updateViewsQuery = "UPDATE tbltourpackages SET views = views + 1 WHERE PackageId = $packageId";
@@ -23,22 +23,20 @@ if (isset($_GET['PackageId'])) {
     if (!$packageResult) {
         echo "Error fetching package: " . mysqli_error($conn);
     } else {
-        // Check if any packages were found
         if (mysqli_num_rows($packageResult) > 0) {
             $package = mysqli_fetch_assoc($packageResult);
             // Display the package details
             echo "<h1>{$package['PackageName']}</h1>";
             echo "<p>Location: {$package['PackageLocation']}</p>";
             echo "<p>Details: {$package['PackageDetails']}</p>";
-            echo "<p>Views: {$package['views']}</p>"; // Display the views
+            echo "<p>Views: {$package['views']}</p>"; // Display the updated views
         } else {
-            echo "No packages found for PackageId: $packageId";
+            echo "No package found for the provided ID.";
         }
     }
 } else {
     echo "Package ID not provided.";
 }
 
-// Close the database connection
 mysqli_close($conn);
 ?>

@@ -1,151 +1,134 @@
 <?php
-// Database connection (replace with your connection details)
-$conn = mysqli_connect("localhost", "root", "", "tms");
+session_start();
+error_reporting(0);
 
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-// Fetch top 3 packages sorted by views in descending order
-$packagesQuery = "SELECT * FROM tbltourpackages ORDER BY views DESC LIMIT 3"; // Fetch top 3 packages
-$packagesResult = mysqli_query($conn, $packagesQuery);
-
-if (!$packagesResult) {
-    echo "Error fetching packages: " . mysqli_error($conn);
-} else {
-    // Check if any packages were found
-    if (mysqli_num_rows($packagesResult) > 0) {
-        echo "<h1>Top 3 Packages by Views</h1>";
-        echo "<div class='package-grid'>";
-        
-        while ($package = mysqli_fetch_assoc($packagesResult)) {
-            // Display each package's details in a card format
-            echo "<div class='package-card'>";
-
-            // Construct the image URL
-            $imageUrl = 'uploads/' . $package['PackageImage']; // Adjust this path if necessary
-            
-            // Debugging output to show constructed image path
-            echo "<!-- Image Path: {$imageUrl} -->"; 
-            
-            // Check if the file exists before displaying it
-            if (file_exists($imageUrl)) {
-                echo "<img src='{$imageUrl}' alt='{$package['PackageName']}' class='package-image'>";
-            } else {
-                // If the file does not exist, show a placeholder image
-                echo "<img src='uploads/default.jpg' alt='Default Image' class='package-image'>";
-                echo "<p class='error-message'>Image not found: {$imageUrl}</p>"; // Output the missing image path
-            }
-
-            echo "<h2>{$package['PackageName']}</h2>";
-            echo "<p><strong>Location:</strong> {$package['PackageLocation']}</p>";
-            echo "<p>{$package['PackageDetails']}</p>";
-            echo "<p><strong>Views:</strong> {$package['views']}</p>";
-            echo "<a class='view-button' href='package.php?PackageId={$package['PackageId']}'>View Details</a>";
-            echo "</div>"; // End of package-card
-        }
-        
-        echo "</div>"; // End of package-grid
-    } else {
-        echo "<p>No packages found.</p>";
-    }
-}
-
-// Close the database connection
-mysqli_close($conn);
+// Assume you have your database connection and query for top viewed packages here
+include('admin/includes/config.php');
+$sql = "SELECT * FROM tbltourpackages ORDER BY views DESC LIMIT 3"; // Fetch top 3 viewed packages
+$query = $dbh->prepare($sql);
+$query->execute();
+$topViewedPackages = $query->fetchAll(PDO::FETCH_OBJ);
 ?>
 
-<!-- Add some CSS for styling -->
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 20px;
-    }
-
-    h1 {
-        text-align: center;
-        color: #333;
-        margin-bottom: 30px;
-        font-size: 2.5em;
-        animation: fadeIn 1s ease-in-out;
-    }
-
-    .package-grid {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-    }
-
-    .package-card {
-        background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        padding: 20px;
-        width: 300px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-        overflow: hidden;
-        text-align: center;
-        position: relative;
-        animation: fadeInUp 0.5s ease forwards;
-    }
-
-    .package-image {
-        width: 100%;
-        height: 200px;
-        border-radius: 12px 12px 0 0;
-        object-fit: cover;
-        transition: transform 0.3s;
-    }
-
-    .package-card:hover .package-image {
-        transform: scale(1.05); /* Scale image on hover */
-    }
-
-    .package-card h2 {
-        font-size: 1.5em;
-        color: #007bff;
-        margin-top: 15px;
-    }
-
-    .package-card p {
-        color: #555;
-        line-height: 1.5;
-        margin-top: 10px;
-    }
-
-    .view-button {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 12px 20px;
-        background-color: #28a745;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-    }
-
-    .view-button:hover {
-        background-color: #218838;
-    }
-
-    .error-message {
-        color: red;
-        font-size: 0.9em;
-        margin-top: 5px;
-    }
-
-    /* Keyframes for fadeInUp animation */
-    @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(20px);
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        .must-visit-places {
+            background-color: #f9f9f9; /* Light background color */
+            padding: 40px 20px; /* Padding around the section */
+            text-align: center; /* Center align the text */
         }
-        to {
-            opacity: 1;
-            transform: translateY(0);
+
+        .must-visit-places h3 {
+            font-size: 2.5em; /* Larger font size for the title */
+            color: #333; /* Dark color for the title */
+            margin-bottom: 20px; /* Space below the title */
         }
-    }
-</style>
+
+        .places-container {
+            display: flex; /* Use flexbox for a responsive layout */
+            justify-content: center; /* Center align items */
+            flex-wrap: wrap; /* Allow wrapping to next line */
+        }
+
+        .place-card {
+            background: white; /* White background for cards */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin: 10px; /* Margin between cards */
+            overflow: hidden; /* Prevent overflow of child elements */
+            width: 300px; /* Fixed width for cards */
+            transition: transform 0.3s; /* Animation on hover */
+        }
+
+        .place-card:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        .place-image {
+            width: 100%; /* Full width image */
+            height: 200px; /* Fixed height */
+            object-fit: cover; /* Cover the image without distortion */
+        }
+
+        .place-info {
+            padding: 20px; /* Padding inside the card */
+        }
+
+        .place-info h4 {
+            font-size: 1.5em; /* Font size for package name */
+            color: #2c3e50; /* Darker color for package name */
+            margin-bottom: 10px; /* Space below package name */
+        }
+
+        .place-location {
+            font-size: 1.2em; /* Font size for location */
+            color: #7f8c8d; /* Grey color for location */
+        }
+
+        .place-views {
+            font-size: 1em; /* Font size for views */
+            color: #95a5a6; /* Lighter grey for views */
+            margin: 10px 0; /* Space above and below */
+        }
+
+        .view-details-btn {
+            display: inline-block; /* Inline block for the button */
+            padding: 10px 20px; /* Padding for button */
+            background-color: #3498db; /* Button background color */
+            color: white; /* White text color */
+            border-radius: 5px; /* Rounded corners for button */
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.3s; /* Animation for hover */
+        }
+
+        .view-details-btn:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="page" class="page">
+        <!-- ***site header html start*** -->
+        <?php include 'include/navbar.php'; ?>
+        <!-- ***site header html end*** -->
+
+        <main id="content" class="site-main">
+            <section class="package-inner-page">
+                <div class="inner-package-detail-wrap">
+                    <div class="container">
+                        <!-- Must Visit Places Section -->
+                        <div class="must-visit-places">
+                            <h3>Must Visit Places</h3>
+                            <div class="places-container">
+                                <?php if (!empty($topViewedPackages)) : ?>
+                                    <?php foreach ($topViewedPackages as $package) : ?>
+                                        <div class="place-card">
+                                            <img src="admin/packageimages/<?php echo htmlentities($package->PackageImage); ?>" alt="<?php echo htmlentities($package->PackageName); ?>" class="place-image">
+                                            <div class="place-info">
+                                                <h4><?php echo htmlentities($package->PackageName); ?></h4>
+                                                <p class="place-location"><?php echo htmlentities($package->PackageLocation); ?></p>
+                                                <p class="place-views">Views: <?php echo htmlentities($package->views); ?></p>
+                                                <a href="package-detail.php?pkgid=<?php echo htmlentities($package->PackageId); ?>" class="view-details-btn">View Details</a>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                <?php else : ?>
+                                    <p>No packages found.</p>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+      
+    <!-- JavaScript -->
+    <?php include 'include/javascript.php'; ?>
+</body>
+</html>

@@ -29,17 +29,28 @@ error_reporting(0);
                <div class="container">
                   <?php
                   include('admin/includes/config.php');
-                  $pkgid = $_GET['pkgid'];
-                  // echo $pkgid;
-                  $sql = "SELECT * from tbltourpackages where PackageId = $pkgid";
-                  $query = $dbh->prepare($sql);
-                  $query->execute();
-                  $results = $query->fetchAll(PDO::FETCH_OBJ);
-                  $cnt = 1;
-                  if ($query->rowCount() > 0) {
-                     foreach ($results as $result) {
-                        //   print_r($result);
-                     }
+
+                  // Check if pkgid is provided
+                  if (isset($_GET['pkgid'])) {
+                      $pkgid = intval($_GET['pkgid']);
+
+                      // Increment the views for the package
+                      $updateViewsQuery = "UPDATE tbltourpackages SET views = views + 1 WHERE PackageId = $pkgid";
+                      $dbh->query($updateViewsQuery); // Using query method for PDO
+
+                      // Fetch the package details
+                      $sql = "SELECT * FROM tbltourpackages WHERE PackageId = $pkgid";
+                      $query = $dbh->prepare($sql);
+                      $query->execute();
+                      $results = $query->fetchAll(PDO::FETCH_OBJ);
+
+                      if ($query->rowCount() > 0) {
+                          foreach ($results as $result) {
+                              // Your existing code for displaying package details goes here
+                          }
+                      }
+                  } else {
+                      echo "Package ID not provided.";
                   }
                   ?>
                   <div class="row">
@@ -63,7 +74,6 @@ error_reporting(0);
                                           <a href="sign-in.php" class="outline-btn outline-btn-blue">Book now</a>
                                        <?php } ?>
                                     </span>
-
                                  </h6>
                               </div>
                            </div>
@@ -79,9 +89,8 @@ error_reporting(0);
                                  </li>
                                  <li>
                                     <i class="fas fa-swimmer"></i>
-                                    Category : <?php echo htmlentities($result->PackageType); ?>
+                                    Category: <?php echo htmlentities($result->PackageType); ?>
                                  </li>
-
                                  <li>
                                     <i class="fas fa-map-marker-alt"></i>
                                     <?php echo htmlentities($result->PackageLocation); ?>
@@ -89,28 +98,28 @@ error_reporting(0);
                               </ul>
                            </div>
                            <figure class="single-package-image">
-                              <img src=admin/packageimages/<?php echo htmlentities($result->PackageImage); ?> alt="">
+                              <img src="admin/packageimages/<?php echo htmlentities($result->PackageImage); ?>" alt="">
                            </figure>
                            <div class="package-content-detail">
                               <article class="package-overview">
-                                 <h3>OVERVIEW :</h3>
+                                 <h3>OVERVIEW:</h3>
                                  <p><?php echo htmlentities($result->PackageDetails); ?></p>
                               </article>
                               <article class="package-include bg-light-grey">
-                                 <h3>INCLUDE & EXCLUDE :</h3>
+                                 <h3>INCLUDE & EXCLUDE:</h3>
                                  <ul>
-                                    <li><i class="fas fa-check"></i>Specialized bilingual guide</li>
-                                    <li><i class="fas fa-times"></i>Guide Service Fee</li>
-                                    <li><i class="fas fa-check"></i>Private Transport</li>
-                                    <li><i class="fas fa-times"></i>Room Service Fees</li>
-                                    <li><i class="fas fa-check"></i>Entrance Fees</li>
-                                    <li><i class="fas fa-times"></i>Driver Service Fee</li>
-                                    <li><i class="fas fa-check"></i>Breakfast And Lunch Box</li>
-                                    <li><i class="fas fa-times"></i>Any Private Expenses</li>
+                                    <li><i class="fas fa-check"></i> Specialized bilingual guide</li>
+                                    <li><i class="fas fa-times"></i> Guide Service Fee</li>
+                                    <li><i class="fas fa-check"></i> Private Transport</li>
+                                    <li><i class="fas fa-times"></i> Room Service Fees</li>
+                                    <li><i class="fas fa-check"></i> Entrance Fees</li>
+                                    <li><i class="fas fa-times"></i> Driver Service Fee</li>
+                                    <li><i class="fas fa-check"></i> Breakfast And Lunch Box</li>
+                                    <li><i class="fas fa-times"></i> Any Private Expenses</li>
                                  </ul>
                               </article>
                               <article class="package-ininerary">
-                                 <h3>ITINERARY :</h3>
+                                 <h3>ITINERARY:</h3>
                                  <p>Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!</p>
                                  <ul>
                                     <li>
@@ -166,7 +175,7 @@ error_reporting(0);
                                     <a href="#"><i aria-hidden="true" class="icon icon-arrow-right-circle"></i>Vacation Packages</a>
                                  </li>
                                  <li>
-                                    <a href="#"><i aria-hidden="true" class="icon icon-arrow-right-circle"></i>Homeymoon Packages</a>
+                                    <a href="#"><i aria-hidden="true" class="icon icon-arrow-right-circle"></i>Honeymoon Packages</a>
                                  </li>
                                  <li>
                                     <a href="#"><i aria-hidden="true" class="icon icon-arrow-right-circle"></i>New Year Packages</a>
@@ -191,7 +200,6 @@ error_reporting(0);
       <!-- ***custom search field html*** -->
       <?php include 'include/custom_search.php'; ?>
       <!-- ***custom search field html*** -->
-
    </div>
 
    <!-- JavaScript -->
@@ -199,5 +207,4 @@ error_reporting(0);
    include 'include/javascript.php';
    ?>
 </body>
-
 </html>

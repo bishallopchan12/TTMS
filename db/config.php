@@ -1,18 +1,16 @@
 <?php
-$servname = "localhost";
+error_reporting(0); // Disable all error reporting
+
+$servername = "localhost";
 $username = "root";
 $password = "";
-$db = "tms";
+$dbname = "tms";
 
-// Create connection
-$conn = mysqli_connect($servname, $username, $password, $db);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if (!$conn) {
-    // Output the error message
-    die("Connection failed: " . mysqli_connect_error());
-} else {
-    // Uncomment the next line to confirm connection (for debugging purposes)
-    echo "Connected successfully";
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
+
+// Connection successful, but no message is shown
 ?>

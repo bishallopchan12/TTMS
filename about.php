@@ -32,7 +32,7 @@ error_reporting(0);
                            <figure class="about-image">
                               <img src="assets/images/jhanda.jpg" alt="">
                               <div class="about-image-content">
-                                 <h3>WE ARE BEST FOR TOURS & TRAVEL SINCE 1985 !</h3>
+                                 <h3>WE ARE BEST FOR TOURS & TRAVEL SINCE 2024 !</h3>
                               </div>
                            </figure>
                            <h2>HOW WE ARE BEST FOR TRAVEL !</h2>
