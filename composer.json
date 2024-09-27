@@ -1,0 +1,19 @@
+{
+    "name": "acer/b-b-travel-and-tours-bishal",
+    "description": "Its anout Travel and tour management system in Nepal",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Acer\\BBTravelAndToursBishal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bishal Lama"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-ai/php-ml": "^0.10.0"
+    }
+}

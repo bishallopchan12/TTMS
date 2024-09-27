@@ -275,7 +275,7 @@ a:hover {
 
         const placesWithinRange = mockPlaces.filter(place => {
             const distance = haversineDistance(currentLocation, place.coordinates);
-            return distance <= 100; // Show places within 100 km
+            return distance <= 5; // Show places within 100 km
         });
 
         if (placesWithinRange.length === 0) {
@@ -303,7 +303,7 @@ a:hover {
                         <p><strong>Contact Info:</strong> ${place.contactInfo}</p>
                         <p><strong>Accessibility:</strong> ${place.accessibility}</p>
                         <p><strong>Website:</strong> <a href="${place.website}" target="_blank">${place.website}</a></p>
-                        <p><strong>Rating:</strong> ${place.rating} / 5</p>
+                       
                         <button onclick="bookPlace('${place.name}', '${place.package}', '${place.coordinates[0]}', '${place.coordinates[1]}')">Book Now</button>
                     </div>
             `;

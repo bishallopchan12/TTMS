@@ -58,6 +58,12 @@ include('include/config.php');
          
         
                 <?php  include './utils/route_optimizer.php';?>
+                <?php
+// /another-directory/index.php
+
+// Include the fetch_packages.php from the other directory
+include './recommend/index.php';
+?>
 
          <!-- ***Home destination html start from here*** -->
          <section class="home-destination">
@@ -113,6 +119,10 @@ include('include/config.php');
                      </div>
                   </div>
          </section>
+       
+
+<!-- Add any other HTML or content you want here -->
+
          <!-- ***Home destination html end here*** -->
          <!-- ***Home package html start from here*** -->
          <section class="home-package">
@@ -148,7 +158,7 @@ include('include/config.php');
                            </div>
                            <div class="package-price">
                               <div class="review-area">
-                                 <span class="review-text">(25 reviews)</span>
+                                 <span class="review-text">(5 reviews)</span>
                                  <div class="rating-start-wrap d-inline-block">
                                     <div class="rating-start">
                                        <span style="width: 80%"></span>

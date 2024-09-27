@@ -195,7 +195,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `status`, `RegDate`, `UpdationDate`) VALUES
-(9, 'Samba Dorje Lama ', 'sambadorje2024@gmail.com', '456', 'user', 'active', '2023-05-29 08:21:20', '2023-05-29 19:59:45'),
+(9, 'Samba Dorje Lama ', 'sambadorje2024@gmail.com', '456', 'user', 'active', '2023-05-29 08:21:20', '2023-05-29 19:59:45')
 ;
 
 --
