@@ -28,16 +28,36 @@ include 'db/config.php'
                   </a>
                </h1>
             </div>
-            <div class="header-icon text-right">
-               <div class="header-search-icon d-inline-block">
-                  <a href="#">
-                     <i aria-hidden="true" class="fas fa-search"></i>
-                  </a>
-               </div>
+            <!-- Place this where you want the search icon to appear -->
+<!-- Place this where you want the search icon to appear -->
+<a href="recommend/content.php" style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 60px; 
+    height: 60px; 
+    border: 2px solid #007bff; 
+    border-radius: 50%; 
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.3s; 
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Icon color */
+">
 
-            </div>
+    <i class="fas fa-search" style="font-size: 24px;"></i> <!-- Font Awesome Search Icon -->
+</a>
+
+<style>
+    /* Optional: Add hover effect using CSS */
+    a:hover {
+        background-color: #e9ecef; /* Light hover color */
+        transform: scale(1.1); /* Slightly enlarge on hover */
+    }
+</style>
+
          </div>
-      </div>
+     </div>
    </div>
    <div class="bottom-header">
       <div class="container">

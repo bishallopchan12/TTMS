@@ -174,6 +174,7 @@ if (isset($_POST['submit'])) {
                                           <div class="col-sm-6">
                                              <img src="assets/images/cards.png" alt="Cards">
                                           </div>
+                                          
                                        </div>
                                     </div>
                                     <div class="col-12">
@@ -352,13 +353,27 @@ if (isset($_POST['submit'])) {
                               <a href="telto:9818676198" class="phone">+977 9818676198 
                               <small>Monday to Friday 9.00am - 7.30pm</small>
                            </div>
+                           
                         </div>
+                        <?php
+// Including esewa_payment.index.php in another file
+include('./esewapayment/index.php');
+?>
+
+               
+                        
                      </div>
                   </div>
                </div>
             </div>
+
+            
+
+ 
          </section>
       </main>
+   
+
       <?php include 'include/footer.php'; ?>
       <a id="backTotop" href="#" class="to-top-icon">
          <i class="fas fa-chevron-up"></i>

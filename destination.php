@@ -44,11 +44,11 @@ include('include/config.php');
 
                               <article class="destination-item" style="background-image: url(admin/destinationimages/<?php echo htmlentities($result->DestinationImage); ?>);">
                                  <div class="destination-content">
-                                    <div class="rating-start-wrap">
+                                    <!-- <div class="rating-start-wrap">
                                        <div class="rating-start">
                                           <span style="width: 100%"></span>
                                        </div>
-                                    </div>
+                                    </div> -->
                                     <span class="cat-link">
                                        <a href="destination.php?pkgid=<?php echo htmlentities($result->DestinationId); ?>">
                                           <?php echo htmlentities($result->DestinationLocation); ?></a>

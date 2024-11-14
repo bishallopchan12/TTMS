@@ -65,14 +65,14 @@ include('include/config.php');
                               </div>
                            </div>
                            <div class="package-price">
-                              <div class="review-area">
-                                 <span class="review-text">(5 reviews)</span>
+                              <!-- <div class="review-area">
+                                 <span class="review-text"></span>
                                  <div class="rating-start-wrap d-inline-block">
                                     <div class="rating-start">
                                        <span style="width: 80%"></span>
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                               <h6 class="price-list">
                                  <span>Rs <?php echo htmlentities($result->PackagePrice); ?></span>
                                  / per person

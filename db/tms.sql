@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2023 at 10:42 PM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Generation Time: Nov 07, 2024 at 07:19 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'admin', '202cb962ac59075b964b07152d234b70', '2020-05-11 05:48:49');
+(1, 'admin', '331ebd582d369b535917a1fef122f1b3', '2024-09-26 04:15:00');
 
 -- --------------------------------------------------------
 
@@ -75,8 +75,73 @@ CREATE TABLE `booking` (
 --
 
 INSERT INTO `booking` (`BookingId`, `PackageId`, `FirstName`, `Email`, `Phone`, `NameOnCard`, `CardNumber`, `ExpMonth`, `ExpYear`, `CVV`, `Country`, `StreetLine1`, `StreetLine2`, `City`, `State1`, `Pincode`, `Additional_Information`, `status`, `CancelledBy`, `BookingTime`) VALUES
-(31, 18, 'Anjali', 'anjalis3455@gmail.com', '6307134789', 'Anjali Singh', '2154795623', '87', '8954', '', 'United states', 'PATNA', 'apa', 'lambhua', 'patna', '212356', 'Helooooo', 2, 'a', '2023-05-29 10:51:28'),
+(37, 0, 'Samba', 'bshallama16@gmail.com', '98232323232', 'asaasasasasasas', '1212121212121212', '21', '2025', '', 'Satdobato', '212', '2121', '1212', '1212', '21212', '2121', 0, NULL, '2024-09-26 10:42:47'),
+(38, 1, 'Samba', 'bshallama16@gmail.com', '98232323232', 'asaasasasasasas', '1212121212121212', '21', '2024', '', 'Satdobato', '212', '2121', '1212', 'bagmati', '21212', '2121', 1, NULL, '2024-09-27 11:55:56'),
+(39, 3, 'Samba', 'bshallama16@gmail.com', '98232323232', 'asaasasasasasas', '1212324323232323', '21', '2024', '', 'Satdobato', '212', '2121', '1212', 'bagmati', '21212', '32323', 0, NULL, '2024-09-27 12:11:17'),
+(40, 6, 'Samba', 'bshallama16@gmail.com', '98232323232', 'sasas', '2323354345345345', '31', '2025', '', '212', '212', '2121', '1212', '211', '21212', '2132', 0, NULL, '2024-09-27 12:15:54'),
+(41, 1, 'Bishal lama', 'bipin@gmail.com', '21212122121', 'Bishal Lama', '3323232323232323', '12', '2025', '', 'Satdobato', '212', '2121', '1212', '1212', '21212', 'sdsd', 0, NULL, '2024-09-27 15:31:49'),
+(42, 1, 'Samba Dorje Lama', 'samba2081@gmail.com', '98232323232', 'Samba Dorje Lama', '3232323232323232', '32', '2026', '', 'sasasas', '212', '2121', '1212', 'asa', '21212', 'sasas', 0, NULL, '2024-10-21 09:32:14'),
+(43, 1, 'Samba', 'samba2081@gmail.com', '98232323232', 'Samba Dorje Lama', '1323131231231231', '12', '2025', '', 'Satdobato', '212', '2121', '1212', '323', '21212', '313123', 0, NULL, '2024-10-30 12:27:42');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `feedback`
+--
+
+CREATE TABLE `feedback` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `feedbk` text NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `feedback`
+--
+
+INSERT INTO `feedback` (`id`, `name`, `email`, `feedbk`, `created_at`) VALUES
+(1, 'bipn karki', 'bshallama16@gmail.com', 'sasas', '2024-09-26 14:16:37'),
+(2, 'Hiking', 'dasd@gmail.com', 'adada', '2024-09-27 16:00:41');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `near_me`
+--
+
+CREATE TABLE `near_me` (
+  `PlaceId` int(11) NOT NULL,
+  `PlaceName` varchar(200) NOT NULL,
+  `Activities` varchar(255) DEFAULT NULL,
+  `Description` text DEFAULT NULL,
+  `placelatlong` varchar(100) DEFAULT NULL,
+  `ImageSrc` varchar(255) DEFAULT NULL,
+  `CreationDate` timestamp NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `near_me`
+--
+
+INSERT INTO `near_me` (`PlaceId`, `PlaceName`, `Activities`, `Description`, `placelatlong`, `ImageSrc`, `CreationDate`) VALUES
+(14, ' Basantapur', 'Sightseeing, Historical Exploration, Photography', 'Basantapur Durbar Square is a UNESCO World Heritage site in Kathmandu, known for its historical palaces, temples, and cultural significance.', '27.7040091756425,85.30779451131822', 'uploads/Basantapur.jpg', '2024-09-26 12:14:04'),
+(15, 'Begnas Lake', 'Boating, Fishing, Relaxation', ' Begnas Lake is a freshwater lake near Pokhara, providing serene views and opportunities for boating and relaxation.', '28.153892480325993,83.97674560546876', 'uploads/Begnas Lake.jpg', '2024-09-26 12:14:59'),
+(16, 'Bhaktapur', 'Heritage Walking, Pottery, Temple Visits', 'Bhaktapur is an ancient city renowned for its well-preserved medieval art, temples, and craftsmanship.', '27.669817747277378,85.4267692565918', 'uploads/bhaktapur.jpg', '2024-09-26 12:16:01'),
+(17, 'Boudhanath', 'Pilgrimage, Meditation, Cultural Exploration', 'Boudhanath Stupa is one of the largest stupas in Nepal and a significant site for Tibetan Buddhism.', '27.72146541039002,85.36204218864442', 'uploads/Boudhanath.jpg', '2024-09-26 12:16:29'),
+(18, 'Chitwan National Park', 'Wildlife Safari, Bird Watching, Canoeing', 'Chitwan National Park is a UNESCO World Heritage site, famous for its Bengal tigers, rhinos, and diverse wildlife.', '27.675290686695963,84.42701339721681', 'uploads/Chitwan National Park.jpg', '2024-09-26 12:17:22'),
+(19, 'Lumbini Museum', ' Historical Exploration, Pilgrimage', ' Lumbini Museum is dedicated to the life of Lord Buddha, showcasing artifacts and historical details from his life.', '27.52509420065489,83.04428100585939', 'uploads/Lumbini Museum.jpg', '2024-09-26 12:18:24'),
+(20, 'Lumbini', 'Pilgrimage, Temple Visits', 'Lumbini is the birthplace of Lord Buddha, making it one of the most significant pilgrimage sites for Buddhists.', '27.54906079793732,83.05419445037843', 'uploads/Lumbini.jpg', '2024-09-26 12:19:08'),
+(21, 'Nagarkot', 'Trekking, Sunrise Viewing, Relaxation', 'Nagarkot is famous for its panoramic sunrise views of the Himalayas, including Mount Everest.', '27.716632920713657,85.52221298217775', 'uploads/Nagarkot.jpg', '2024-09-26 12:20:01'),
+(22, 'Paragliding (Pokhara)', ' Paragliding, Adventure Sports', 'Pokhara is one of the world’s top paragliding destinations, offering stunning aerial views of the lakes and mountains.', '28.201443961600766,83.9842987060547', 'uploads/Paragliding.jpg', '2024-09-26 12:21:15'),
+(23, 'Pashupatinath', 'Pilgrimage, Temple Visits', 'Pashupatinath Temple is a sacred Hindu temple on the banks of the Bagmati River, dedicated to Lord Shiva.', '27.70855860578817,85.34818589687349', 'uploads/Pashupatinath.jpg', '2024-09-26 12:22:31'),
+(24, 'Patan', 'Heritage Walking, Museum Visits', 'Patan, also known as Lalitpur, is a historic city famous for its ancient art, temples, and craftsmanship.', '27.67334503647425,85.32443895936014', 'uploads/Patan.jpg', '2024-09-26 12:26:01'),
+(25, 'Phewa Lake', 'Boating, Paragliding, Fishing', 'Phewa Lake is a scenic freshwater lake in Pokhara, offering picturesque views of Mount Machhapuchhre.', '28.178332874993796,83.99459838867189', 'uploads/Phewa Lake.jpg', '2024-09-26 12:26:42'),
+(26, 'Sarangkot ', 'Trekking, Sunrise Viewing, Paragliding', 'Sarangkot is known for its panoramic sunrise views of the Annapurna range and the Pokhara valley below.', '28.192971737460347,83.99665832519533', 'uploads/Sarangkot.jpg', '2024-09-26 12:27:12'),
+(27, 'Swayambhunath (Monkey Temple)', 'Pilgrimage, Cultural Exploration', ' Swayambhunath, also known as the Monkey Temple, is a significant Buddhist stupa with panoramic views of Kathmandu.', '27.715690854115657,85.28955817222595', 'uploads/Swoyambhunath.jpg', '2024-09-26 12:27:49'),
+(28, 'Taudaha Lake', ' Bird Watching, Fishing, Relaxation', 'Taudaha Lake is a peaceful and small lake located in the outskirts of Kathmandu, popular for birdwatching and its mythological importance.', '27.64863246537657,85.28233766555788', 'uploads/Taudaha.jpg', '2024-09-26 13:40:47'),
+(29, 'White Gumba (Seto Gumba)', 'Pilgrimage, Meditation, Sightseeing', 'White Gumba, also known as Seto Gumba, is a Buddhist monastery in the outskirts of Kathmandu known for its architecture and peaceful environment.', '28.204122122635894,83.99189472198488', 'uploads/White Gumba.jpg', '2024-09-26 13:42:10');
 
 -- --------------------------------------------------------
 
@@ -102,11 +167,9 @@ CREATE TABLE `packageoffer` (
 --
 
 INSERT INTO `packageoffer` (`OfferId`, `OfferName`, `OfferLocation`, `OfferDetails`, `ActualPrice`, `OfferPrice`, `PercentageOff`, `OfferImage`, `Creationdate`, `UpdationDate`) VALUES
-(17, 'Chitwan National Park', 'Chitwan', 'Chitwan National Park is Nepal’s first national park and a UNESCO World Heritage Site. Famous for its wildlife, visitors can enjoy jungle safaris and spot endangered species like the Bengal tiger, one-horned rhinoceros, and various bird species. The park offers guided tours, elephant safaris, canoeing, and jungle walks, making it a paradise for nature lovers and adventurers alike. Located in the subtropical lowlands of Nepal, Chitwan provides a serene getaway into the heart of the wilderness.', '7500', '6800', '9%', 'nepal_chitwan.jpg', '2023-05-20 11:00:00', NULL),
-(18, 'Nagarkot - Scenic Mountain Village', 'Nagarkot', 'Nagarkot is a small village located about 32 km from Kathmandu, famous for its panoramic views of the Himalayas, including Mount Everest on a clear day. It is a popular destination for those looking to witness breathtaking sunrises and sunsets over the Himalayas. Surrounded by terraced fields and pine forests, Nagarkot offers a tranquil retreat with a wide range of hiking trails and opportunities for mountain biking. It is a perfect destination for those seeking nature, serenity, and stunning mountain vistas.', '6800', '6100', '10%', 'nepal_nagarkot.jpg', '2023-05-20 11:30:00', NULL),
-(19, 'Bhaktapur - City of Devotees', 'Bhaktapur', 'Bhaktapur is an ancient city known for its well-preserved medieval architecture, rich culture, and traditional craftsmanship. The city is a UNESCO World Heritage Site, and its Durbar Square is filled with intricate temples, statues, and courtyards. Bhaktapur is famous for its pottery, wood carvings, and the annual Bisket Jatra festival. A visit to Bhaktapur is like stepping back in time, with its narrow streets and local artisans showcasing their skills. It is a must-visit for history buffs and cultural enthusiasts.', '7200', '6700', '7%', 'nepal_bhaktapur.jpg', '2023-05-20 12:00:00', NULL),
-(20, 'Bandipur - Hilltop Town', 'Bandipur', 'Bandipur is a charming hilltop town in Nepal that offers spectacular views of the Himalayas and is known for its well-preserved Newari culture. The town has a laid-back atmosphere, with its cobblestone streets and traditional houses adding to its old-world charm. Bandipur is ideal for relaxing and taking in the stunning mountain scenery. Visitors can also explore nearby caves, temples, and hiking trails. It is a hidden gem, offering a peaceful escape from the bustling cities of Nepal.', '6000', '5500', '8%', 'nepal_bandipur.jpg', '2023-05-20 12:30:00', NULL),
-(21, 'Sagarmatha National Park', 'Everest Region', 'Sagarmatha National Park is home to Mount Everest, the world’s highest peak, and is a UNESCO World Heritage Site. The park is famous for its rugged terrain, glaciers, and deep valleys, making it a haven for trekkers and mountaineers. It is also home to various endangered species, including the snow leopard and red panda. The park offers numerous trekking routes, including the famous Everest Base Camp trek, which attracts adventurers from around the world seeking to experience the grandeur of the Himalayas.', '9500', '8800', '7%', 'nepal_sagarmatha.jpg', '2023-05-20 13:00:00', NULL);
+(13, 'Kathmandu Valley', 'Kathmandu', 'Kathmandu Valley is the cultural heart of Nepal. The valley includes the cities of Kathmandu, Bhaktapur, and Patan, which are known for their ancient temples, stupas, and vibrant festivals. Visitors can explore UNESCO World Heritage Sites like Pashupatinath Temple, Boudhanath Stupa, Swayambhunath (Monkey Temple), and the Durbar Squares. The city offers a unique blend of tradition, spirituality, and modernity.', '5000', '4500', '10%', 'kathmanduvalley.jpg', '2024-09-26 01:15:00', NULL),
+(14, 'Pokhara', 'Gandaki', 'Pokhara, located in the Gandaki Province, is famous for its stunning views of the Annapurna mountain range and the serene Phewa Lake. It is a base for trekkers heading to the Annapurna Circuit. Visitors can enjoy paragliding, boating, and visiting attractions like Davis Falls, the World Peace Pagoda, and Gupteshwor Cave. The city is known for its laid-back atmosphere and breathtaking natural beauty.', '7000', '6300', '10%', 'Pokhara.jpg', '2024-09-17 01:25:00', NULL),
+(15, 'Chitwan National Park', 'Chitwan', 'Chitwan National Park is one of Nepal’s most popular destinations for wildlife enthusiasts. It offers jungle safaris, where visitors can spot Bengal tigers, one-horned rhinoceros, elephants, and various bird species. The park also provides opportunities for canoeing, birdwatching, and cultural experiences with the Tharu community. It is a perfect destination for nature and wildlife lovers.', '6000', '5400', '10%', 'ChitwanNationalPark.jpg', '2023-09-26 01:30:00', NULL);
 
 -- --------------------------------------------------------
 
@@ -129,14 +192,14 @@ CREATE TABLE `tbldestination` (
 --
 
 INSERT INTO `tbldestination` (`DestinationId`, `DestinationName`, `DestinationLocation`, `DestinationDetails`, `DestinationImage`, `Creationdate`, `UpdationDate`) VALUES
-(19, 'Kathmandu Valley', 'Kathmandu-Nepal', 'Kathmandu Valley, a UNESCO World Heritage Site, is rich in history and culture. It is home to seven World Heritage monuments, including the Swayambhunath (Monkey Temple), Boudhanath Stupa, and the Durbar Squares of Kathmandu, Patan, and Bhaktapur. The valley is known for its ancient architecture, vibrant streets, and rich cultural heritage. The intricate wood carvings, centuries-old temples, and religious practices reflect the essence of Nepal’s spiritual and artistic identity.', 'kathmandu_valley.jpg', '2023-05-20 10:00:00', NULL),
-(20, 'Pokhara - Gateway to Annapurna', 'Pokhara-Nepal', 'Pokhara is a peaceful lakeside town, and one of the most popular tourist destinations in Nepal. It is the gateway to the Annapurna Circuit, a popular trekking route, and offers stunning views of the Annapurna range, including Machhapuchhre (Fishtail) Mountain. Visitors can enjoy boating on Phewa Lake, paragliding, and exploring the nearby caves and waterfalls. Pokhara’s tranquil ambiance and natural beauty make it a perfect retreat for nature lovers and adventurers alike.', 'pokhara_nepal.jpg', '2023-05-20 10:30:00', NULL),
-(21, 'Lumbini - Birthplace of Buddha', 'Lumbini-Nepal', 'Lumbini is the birthplace of Lord Buddha and a UNESCO World Heritage Site. It is one of the most important pilgrimage sites for Buddhists from around the world. The Maya Devi Temple, marking the spot where Buddha was born, is the centerpiece of the Lumbini complex. The surrounding area is dotted with monasteries and meditation centers built by various countries. Lumbini offers a serene atmosphere for those seeking spiritual peace and reflection.', 'lumbini_nepal.jpg', '2023-05-20 11:00:00', NULL),
-(22, 'Chitwan National Park', 'Chitwan-Nepal', 'Chitwan National Park is Nepal’s first national park and a UNESCO World Heritage Site. It is known for its rich biodiversity and offers jungle safaris, bird watching, and the opportunity to see endangered species such as the one-horned rhinoceros and Bengal tiger. Chitwan is perfect for nature lovers who wish to experience the subtropical wilderness and wildlife of Nepal.', 'chitwan_national_park.jpg', '2023-05-20 11:30:00', NULL),
-(23, 'Nagarkot - Scenic Himalayan View', 'Nagarkot-Nepal', 'Nagarkot is a small hill station near Kathmandu that offers panoramic views of the Himalayan range, including Mount Everest on clear days. It is popular for watching breathtaking sunrises and sunsets over the Himalayas. Surrounded by terraced fields and pine forests, Nagarkot is a favorite destination for trekkers and those seeking a peaceful escape from the city.', 'nagarkot_nepal.jpg', '2023-05-20 12:00:00', NULL),
-(24, 'Bhaktapur Durbar Square', 'Bhaktapur-Nepal', 'Bhaktapur, a UNESCO World Heritage Site, is renowned for its medieval architecture, vibrant culture, and traditional craftsmanship. The Durbar Square in Bhaktapur is filled with intricate temples and statues. It’s a place where visitors can experience Nepal’s rich history and culture firsthand. Bhaktapur is famous for its pottery, wood carvings, and festivals, making it a cultural hub.', 'bhaktapur_nepal.jpg', '2023-05-20 12:30:00', NULL),
-(25, 'Bandipur - Hilltop Heritage Town', 'Bandipur-Nepal', 'Bandipur is a picturesque hilltop town with stunning views of the Himalayas. It is known for its well-preserved Newari culture and old-world charm, with cobblestone streets and traditional houses. Bandipur offers a peaceful environment with plenty of hiking trails and scenic beauty. It is perfect for those looking to immerse themselves in Nepal’s rural charm and natural beauty.', 'bandipur_nepal.jpg', '2023-05-20 13:00:00', NULL),
-(26, 'Sagarmatha National Park - Everest Region', 'Everest Region-Nepal', 'Sagarmatha National Park is home to Mount Everest, the highest peak in the world. The park is a UNESCO World Heritage Site and offers numerous trekking routes, including the famous Everest Base Camp trek. The park is known for its dramatic scenery, glaciers, and diverse wildlife, including the snow leopard. It is a destination for trekkers and adventurers seeking the grandeur of the Himalayas.', 'sagarmatha_national_park.jpg', '2023-05-20 13:30:00', NULL);
+(24, 'Bandipur', 'Nepal', 'Bandipur is a hilltop settlement and a municipality in Tanahun District. It is known for its preserved, old-time cultural atmosphere and offers breathtaking views of the Himalayas.', '66f53df918ab7.jpg', '2024-09-26 10:56:57', NULL),
+(25, 'Bhaktapur', 'Nepal', 'Bhaktapur, also known as Bhadgaon, is an ancient city near Kathmandu, renowned for its rich culture, temples, artwork, and pottery. It is one of the UNESCO World Heritage Sites in the Kathmandu Valley.', '66f53e0cc9b0b.jpg', '2024-09-26 10:57:16', NULL),
+(26, 'Chitwan National Park', ' Nepal', 'Chitwan National Park is a UNESCO World Heritage site famous for its diverse wildlife, including Bengal tigers, one-horned rhinos, and a wide variety of birds. It\'s one of the most popular ecotourism destinations in Nepal.', '66f53e1f1b248.jpg', '2024-09-26 10:57:35', NULL),
+(27, 'Kathmandu Valley', 'Nepal', 'The Kathmandu Valley is a cultural and historical region filled with temples, palaces, and religious sites. It contains several UNESCO World Heritage Sites, including the famous Swayambhunath (Monkey Temple) and Pashupatinath Temple.', '66f53e5419767.jpg', '2024-09-26 10:58:28', NULL),
+(28, 'Lumbini', 'Nepal', 'Lumbini is the birthplace of Siddhartha Gautama, who later became the Buddha. It is a sacred pilgrimage site for Buddhists, and the area is home to many monasteries and stupas. It\'s also a UNESCO World Heritage Site.', '66f53e66a25d6.jpg', '2024-09-26 10:58:46', NULL),
+(29, 'Nagarkot', 'Nepal', 'Nagarkot is a popular hill station known for its stunning sunrise views of the Himalayas, including Mount Everest. It is also a great spot for short treks and enjoying nature.', '66f53e781366b.jpg', '2024-09-26 10:59:04', NULL),
+(30, 'Pokhara', 'Nepal', 'Pokhara is a city in central Nepal known for its beautiful lakes, stunning mountain views, and adventure sports like paragliding and trekking. It\'s a gateway to the Annapurna Circuit and a favorite among travelers for relaxation and sightseeing.', '66f53e879d647.jpg', '2024-09-26 10:59:19', NULL),
+(31, 'Sagarmatha National Park', 'Nepal', 'Sagarmatha National Park is home to Mount Everest and several other prominent peaks of the Himalayas. It\'s a UNESCO World Heritage Site and offers visitors a chance to experience both the natural beauty and rich Sherpa culture of the region.', '66f53ec18b4ee.jpg', '2024-09-26 11:00:17', NULL);
 
 -- --------------------------------------------------------
 
@@ -154,24 +217,25 @@ CREATE TABLE `tbltourpackages` (
   `PackageDetails` mediumtext DEFAULT NULL,
   `PackageImage` varchar(100) DEFAULT NULL,
   `Creationdate` timestamp NULL DEFAULT current_timestamp(),
-  `UpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
+  `UpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  `views` int(11) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tbltourpackages`
 --
 
-INSERT INTO `tbltourpackages` 
-(`PackageId`, `PackageName`, `PackageType`, `PackageLocation`, `PackagePrice`, `PackageFetures`, `PackageDetails`, `PackageImage`, `Creationdate`, `UpdationDate`) 
-VALUES
-(1, 'Kathmandu Valley Tour', 'Family Package', 'Kathmandu', 4500, 'Free pickup and drop facility', 'Explore the rich cultural heritage of Kathmandu Valley, including UNESCO World Heritage Sites like Swayambhunath Stupa, Pashupatinath Temple, and Bhaktapur Durbar Square...', 'kathmandu_valley.jpg', '2023-05-19 05:57:39', '2023-05-19 05:57:39'),
-(2, 'Annapurna Base Camp Trek', 'Adventure Package', 'Annapurna Region', 12000, 'Guided trek, meals included', 'Experience the stunning beauty of the Annapurna Range. This trek takes you through lush forests, picturesque villages, and offers breathtaking mountain views...', 'annapurna_base_camp.jpg', '2023-05-19 05:58:00', '2023-05-19 05:58:00'),
-(3, 'Pokhara Lakeside Retreat', 'Couple Package', 'Pokhara', 5500, 'Free pickup and drop facility', 'Enjoy a romantic getaway at Pokhara, famous for its serene lakes, stunning mountain views, and adventure sports like paragliding and boating...', 'pokhara_lakeside.jpg', '2023-05-19 05:58:30', '2023-05-19 05:58:30'),
-(4, 'Chitwan National Park Safari', 'Family Package', 'Chitwan', 7000, 'Free pickup and drop facility', 'Embark on a wildlife safari in Chitwan National Park, home to diverse wildlife including Bengal tigers, one-horned rhinoceroses, and elephants. Enjoy jungle walks and canoeing...', 'chitwan_safari.jpg', '2023-05-19 05:59:00', '2023-05-19 05:59:00'),
-(5, 'Everest Base Camp Trek', 'Adventure Package', 'Everest Region', 15000, 'Guided trek, meals included', 'Trek to the base of the world’s highest peak, Mt. Everest. This challenging trek offers breathtaking views of the Himalayas and a glimpse into Sherpa culture...', 'everest_base_camp.jpg', '2023-05-19 05:59:30', '2023-05-19 05:59:30'),
-(6, 'Lumbini Pilgrimage Tour', 'Cultural Package', 'Lumbini', 4000, 'Free pickup and drop facility', 'Visit the birthplace of Lord Buddha in Lumbini. Explore the sacred garden, Maya Devi Temple, and various monasteries built by different countries...', 'lumbini_pilgrimage.jpg', '2023-05-19 06:00:00', '2023-05-19 06:00:00'),
-(7, 'Nagarkot Sunrise Tour', 'Couple Package', 'Nagarkot', 3000, 'Free pickup and drop facility', 'Experience the breathtaking sunrise over the Himalayas from Nagarkot, a popular hill station near Kathmandu. Ideal for couples seeking a romantic getaway...', 'nagarkot_sunrise.jpg', '2023-05-19 06:00:30', '2023-05-19 06:00:30');
-
+INSERT INTO `tbltourpackages` (`PackageId`, `PackageName`, `PackageType`, `PackageLocation`, `PackagePrice`, `PackageFetures`, `PackageDetails`, `PackageImage`, `Creationdate`, `UpdationDate`, `views`) VALUES
+(1, 'Kathmandu Cultural Tour', 'Cultural', 'Kathmandu', 12000, 'Sightseeing, Heritage, Temples', 'Explore the rich cultural heritage of Kathmandu, including visits to UNESCO World Heritage sites like Basantapur Durbar Square, Pashupatinath, and Swayambhunath (Monkey Temple).', 'kathmandu_tour.jpg', '2024-09-26 14:00:48', '2024-10-30 12:27:17', 18),
+(2, 'Pokhara Adventure Package', 'Adventure', 'Pokhara', 15000, 'Boating, Paragliding, Trekking', 'A thrilling adventure in Pokhara, where you can enjoy paragliding, boating in Phewa Lake, and hiking to Sarangkot for a breathtaking sunrise view.', 'pokhara_adventure.jpg', '2024-09-26 14:00:48', '2024-09-27 12:06:55', 6),
+(3, 'Chitwan Jungle Safari', 'Wildlife', 'Chitwan National Park', 18000, 'Wildlife Safari, Bird Watching, Canoeing', 'Experience the wildlife of Nepal with a jungle safari in Chitwan National Park. Witness the endangered one-horned rhinoceros, Bengal tigers, and other diverse species.', 'chitwan_safari.jpg', '2024-09-26 14:00:48', '2024-09-28 12:46:04', 32),
+(4, 'Lumbini Pilgrimage Tour', 'Pilgrimage', 'Lumbini', 10000, 'Buddhist Pilgrimage, Meditation, Museum Visit', 'Visit the birthplace of Lord Buddha in Lumbini, a UNESCO World Heritage Site, and explore the Lumbini Museum, monasteries, and meditation centers.', 'lumbini_tour.jpg', '2024-09-26 14:00:48', '2024-09-27 11:54:29', 2),
+(5, 'Nagarkot Hill Station Getaway', 'Leisure', 'Nagarkot', 8000, 'Sunrise View, Relaxation, Short Hiking', 'A perfect getaway to Nagarkot to enjoy the stunning sunrise view of the Himalayas, including Mount Everest, and short hikes around the tranquil hill station.', 'nagarkot_getaway.jpg', '2024-09-26 14:00:48', NULL, 0),
+(6, 'Boudhanath Stupa Meditation Package', 'Spiritual', 'Boudhanath', 9000, 'Meditation, Cultural Exploration', 'Immerse yourself in spiritual peace with a meditation retreat at Boudhanath Stupa, one of the largest stupas in Nepal, surrounded by Tibetan monasteries.', 'boudhanath_meditation.jpg', '2024-09-26 14:00:48', '2024-09-27 12:15:27', 3),
+(7, 'Begnas Lake Retreat', 'Leisure', 'Begnas Lake', 11000, 'Boating, Fishing, Relaxation', 'A relaxing retreat by the serene Begnas Lake, offering boating, fishing, and peaceful surroundings far from the hustle and bustle of city life.', 'begnas_retreat.jpg', '2024-09-26 14:00:48', '2024-09-28 12:47:11', 1),
+(8, 'Patan Heritage Walk', 'Cultural', 'Patan', 7000, 'Heritage Walk, Temples, Museums', 'Discover the ancient city of Patan, known for its rich history, art, and architecture. Visit Patan Durbar Square, the Golden Temple, and local museums.', 'patan_walk.jpg', '2024-09-26 14:00:48', NULL, 0),
+(9, 'Sarangkot Paragliding Experience', 'Adventure', 'Sarangkot', 13000, 'Paragliding, Sunrise View, Trekking', 'Soar high above Pokhara valley with a paragliding experience from Sarangkot. Also, enjoy trekking and a beautiful sunrise over the Himalayas.', 'sarangkot_paragliding.jpg', '2024-09-26 14:00:48', NULL, 0),
+(10, 'Swoyambhunath Cultural Day Trip', 'Cultural', 'Swoyambhunath', 6000, 'Heritage, Pilgrimage, City View', 'A day trip to Swoyambhunath (Monkey Temple), offering panoramic views of Kathmandu city and a deep dive into the Buddhist culture and history.', 'swoyambhunath_daytrip.jpg', '2024-09-26 14:00:48', '2024-09-27 11:03:59', 1);
 
 -- --------------------------------------------------------
 
@@ -195,8 +259,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `status`, `RegDate`, `UpdationDate`) VALUES
-(9, 'Samba Dorje Lama ', 'sambadorje2024@gmail.com', '456', 'user', 'active', '2023-05-29 08:21:20', '2023-05-29 19:59:45')
-;
+(12, 'Bishal Lama', 'bshallama16@gmail.com', 'Bishal@123', 'user', 'active', '2024-09-26 10:36:48', NULL),
+(13, 'beepin Karki', 'bipin@gmail.com', 'bipin@123', 'user', 'active', '2024-09-27 15:26:30', NULL),
+(14, 'Samba Dorje Lama', 'samba2081@gmail.com', 'Samba@123', 'user', 'active', '2024-10-21 09:31:05', NULL);
 
 --
 -- Indexes for dumped tables
@@ -207,6 +272,18 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `status`, `RegDa
 --
 ALTER TABLE `booking`
   ADD PRIMARY KEY (`BookingId`);
+
+--
+-- Indexes for table `feedback`
+--
+ALTER TABLE `feedback`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `near_me`
+--
+ALTER TABLE `near_me`
+  ADD PRIMARY KEY (`PlaceId`);
 
 --
 -- Indexes for table `packageoffer`
@@ -240,19 +317,31 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `BookingId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `BookingId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+
+--
+-- AUTO_INCREMENT for table `feedback`
+--
+ALTER TABLE `feedback`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `near_me`
+--
+ALTER TABLE `near_me`
+  MODIFY `PlaceId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `packageoffer`
 --
 ALTER TABLE `packageoffer`
-  MODIFY `OfferId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `OfferId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `tbldestination`
 --
 ALTER TABLE `tbldestination`
-  MODIFY `DestinationId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `DestinationId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `tbltourpackages`
@@ -264,23 +353,9 @@ ALTER TABLE `tbltourpackages`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-CREATE TABLE locations (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE distances (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    location_from INT NOT NULL,
-    location_to INT NOT NULL,
-    distance INT NOT NULL,
-    FOREIGN KEY (location_from) REFERENCES locations(id),
-    FOREIGN KEY (location_to) REFERENCES locations(id)
-);
-

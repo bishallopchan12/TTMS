@@ -109,7 +109,7 @@ include('include/config.php');
                               <div class="details">
                                  <h3>VIEW BOOKING DETAILS</h3>
                                  <div class="details-desc">
-                                    <p><a href="#">https://facebook.com/bishallama2058</a></p>
+                                    <p><a href="view-your-bookings.php">View Your Bookings</a></p>
                                  </div>
                               </div>
                            </div>

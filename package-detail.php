@@ -59,11 +59,11 @@ error_reporting(0);
                            <div class="single-package-head d-flex align-items-center">
                               <div class="package-title">
                                  <h2><?php echo htmlentities($result->PackageName); ?></h2>
-                                 <div class="rating-start-wrap">
+                                 <!-- <div class="rating-start-wrap">
                                     <div class="rating-start">
                                        <span style="width: 80%"></span>
                                     </div>
-                                 </div>
+                                 </div> -->
                               </div>
                               <div class="package-price">
                                  <h6 class="price-list">

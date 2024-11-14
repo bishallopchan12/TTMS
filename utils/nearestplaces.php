@@ -21,7 +21,7 @@ try {
     $places = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     foreach ($places as &$place) {
-        $place['imagesrc'] = 'http://localhost/B-B-Travel-and-Tours-Bishal/admin/' . $place['imagesrc']; // Adjust if necessary
+        $place['imagesrc'] = 'http://localhost/B&BTravel/admin/' . $place['imagesrc']; // Adjust if necessary
     }
 
     echo json_encode($places);

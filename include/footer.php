@@ -30,6 +30,7 @@
                                        <a >
                                           <i aria-hidden="true" class="icon icon-envelope1"></i>
                                         bshallama16@gmail.com  
+                                        bipinkarki07bca@acem.edu.np
                                        </a>
                                     </li>
                                     <li>
@@ -109,12 +110,12 @@
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.instagram.com/itsmebishal_12/" target="_blank">
                                        <i class="fab fa-instagram" aria-hidden="true"></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.linkedin.com/in/bishal-lama-450673313/" target="_blank">
                                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                                     </a>
                                  </li>

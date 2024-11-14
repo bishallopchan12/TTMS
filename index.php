@@ -93,11 +93,11 @@ include './recommend/index.php';
 
                               <article class="destination-item" style="background-image: url(admin/destinationimages/<?php echo htmlentities($result->DestinationImage); ?>);">
                                  <div class="destination-content" style="background-color: rgba(255, 255, 255, 0.5);" >
-                                    <div class="rating-start-wrap">
+                                    <!-- <div class="rating-start-wrap">
                                        <div class="rating-start">
                                           <span style="width: 100%"></span>
                                        </div>
-                                    </div>
+                                    </div> -->
                                     <span class="cat-link">
                                        <a href="destination.php?pkgid=<?php echo htmlentities($result->DestinationId); ?>">
                                           <?php echo htmlentities($result->DestinationLocation); ?></a>
@@ -158,11 +158,11 @@ include './recommend/index.php';
                            </div>
                            <div class="package-price">
                               <div class="review-area">
-                                 <span class="review-text">(5 reviews)</span>
+                                 <span class="review-text"></span>
                                  <div class="rating-start-wrap d-inline-block">
-                                    <div class="rating-start">
+                                    <!-- <div class="rating-start">
                                        <span style="width: 80%"></span>
-                                    </div>
+                                    </div> -->
                                  </div>
                               </div>
                               <h6 class="price-list">

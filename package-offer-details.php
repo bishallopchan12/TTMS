@@ -47,11 +47,11 @@ error_reporting(0);
                            <div class="single-package-head d-flex align-items-center">
                               <div class="package-title">
                                  <h2><?php echo htmlentities($result->OfferName); ?></h2>
-                                 <div class="rating-start-wrap">
+                                 <!-- <div class="rating-start-wrap">
                                     <div class="rating-start">
                                        <span style="width: 80%"></span>
                                     </div>
-                                 </div>
+                                 </div> -->
                               </div>
                               <div class="package-price">
                                  <h6 class="price-list">
@@ -137,7 +137,7 @@ error_reporting(0);
                         <div class="sidebar">
                            <div class="related-package">
                               <h3>RELATED IMAGES</h3>
-                              <p>Quaerat inventore! Vestibulum aenean volutpat gravida. Sagittis, euismod perferendis.</p>
+                              <p>Glimpses of some related  images</p>
                               <div class="related-package-slide">
                                  <div class="related-package-item">
                                     <img src="assets/images/img1.jpg" alt="">
@@ -151,7 +151,7 @@ error_reporting(0);
                               </div>
                            </div>
                            <div class="package-map">
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.540423056448!2d-0.12174238402827448!3d51.50330061882345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2snp!4v1646314586610!5m2!1sen!2snp" width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28272.886951577602!2d85.30786843628454!3d27.652041327683744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1763afe90a91%3A0x24e78f10fcea8163!2sSatdobato%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1731057423041!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                            </div>
                            <div class="package-list">
                               <div class="overlay"></div>
