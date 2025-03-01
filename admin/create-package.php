@@ -41,7 +41,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 	<html>
 
 	<head>
-		<title>Traveler | Admin Package Creation</title>
+		<title>B&B Tours And Travels Pvt. Ltd.| Admin Package Creation</title>
 
 		<script type="application/x-javascript">
 			addEventListener("load", function() {

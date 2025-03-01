@@ -2,7 +2,9 @@
 session_start();
 error_reporting(0);
 include('db/config.php');
+
 if (isset($_POST['submit'])) {
+   
    $pid=intval($_GET['pkgid']);
    $bname = $_POST['fullname'];
    $bemail = $_POST['email'];
@@ -50,7 +52,7 @@ if (isset($_POST['submit'])) {
          <section class="booking-inner-page">
             <!-- ***Inner Banner html start form here*** -->
             <div class="inner-banner-wrap">
-               <div class="inner-baner-container" style="background-image: url(assets/images/gosaikunda.jpg);">
+               <div class="inner-baner-container" style="background-image: url(assets/images/home.jpg);">
                   <div class="container">
                      <div class="inner-banner-content">
                         <h1 class="page-title">Booking</h1>
@@ -58,6 +60,7 @@ if (isset($_POST['submit'])) {
                   </div>
                </div>
             </div>
+            
             <!-- ***Inner Banner html end here*** -->
             <div class="booking-section">
                <div class="container">
@@ -250,6 +253,7 @@ if (isset($_POST['submit'])) {
                            <?php
                               include('include/config.php');
                               $pid=$_GET['pkgid'];
+                              // echo "PackageId";
                               $sql = "SELECT * from tbltourpackages where PackageId=$pid";
                               $query = $dbh->prepare($sql);
                               $query->execute();
@@ -266,7 +270,7 @@ if (isset($_POST['submit'])) {
                                        <td>
                                           <strong>Packages cost </strong>
                                        </td>
-                                       <td class="text-right">₹
+                                       <td class="text-right">Rs
                                           <?php echo $price = htmlentities($result->PackagePrice); ?>
                                        </td>
                                     </tr>
@@ -275,7 +279,7 @@ if (isset($_POST['submit'])) {
                                           <strong>Dedicated tour guide</strong>
                                        </td>
                                        <td class="text-right">
-                                          ₹
+                                          Rs
                                           <?php echo $dtg = 500; ?>
                                        </td>
                                     </tr>
@@ -311,7 +315,7 @@ if (isset($_POST['submit'])) {
                            </div>
                            <div class="support-content">
                               <h5>HELP AND SUPPORT</h5>
-                              <a href="telto:9818676198" class="phone">+977 9818676198/a>
+                              <a href="telto:9818676198" class="phone">+977 9818676198 
                               <small>Monday to Friday 9.00am - 7.30pm</small>
                            </div>
                         </div>

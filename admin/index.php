@@ -14,18 +14,16 @@ if (isset($_POST['login'])) {
 		$_SESSION['alogin'] = $_POST['username'];
 		echo "<script type='text/javascript'> document.location = 'dashboard.php'; </script>";
 	} else {
-
 		echo "<script>alert('Invalid Details');</script>";
 	}
 }
-
 ?>
 
 <!DOCTYPE HTML>
 <html>
 
 <head>
-	<title>Traveler | Admin Sign in</title>
+	<title>B&B Travels and Tours Pvt. Ltd. Admin Sign in</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript">
@@ -53,6 +51,86 @@ if (isset($_POST['login'])) {
 	<!-- lined-icons -->
 	<link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
 	<!-- //lined-icons -->
+
+	<!-- Additional CSS for Styling -->
+	<style>
+		body {
+			background: url('../assets/images/sange.jpg') no-repeat center center fixed;
+			background-size: cover;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.main-wthree {
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+			background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+		}
+		.sin-w3-agile {
+			background: #fff;
+			padding: 40px;
+			border-radius: 10px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			max-width: 400px;
+			width: 100%;
+			position: relative;
+		}
+		.sin-w3-agile h2 {
+			margin-bottom: 30px;
+			font-size: 24px;
+			color: #333;
+			position: relative;
+		}
+		.sin-w3-agile h2::after {
+			content: '';
+			width: 50px;
+			height: 3px;
+			background: #5151E5;
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.form-control {
+			border-radius: 20px;
+			padding: 10px 15px;
+			font-size: 16px;
+			margin-bottom: 20px;
+			border: 1px solid #ddd;
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease-in-out;
+		}
+		.form-control:focus {
+			border-color: #5151E5;
+			box-shadow: 0 0 8px rgba(81, 81, 229, 0.1);
+		}
+		.login-w3 input {
+			background: #5151E5;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 20px;
+			color: #fff;
+			font-size: 18px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		.login-w3 input:hover {
+			background: #4141d5;
+		}
+		.back a {
+			color: #333;
+			text-decoration: none;
+			display: inline-block;
+			margin-top: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+		.back a:hover {
+			color: #5151E5;
+			text-decoration: underline;
+		}
+	</style>
 </head>
 
 <body>
@@ -61,26 +139,21 @@ if (isset($_POST['login'])) {
 			<div class="sin-w3-agile">
 				<h2>Sign In</h2>
 				<form method="post">
-					<div class="username">
-						<span class="username">Username:</span>
-						<input type="text" name="username" class="name" placeholder="" required="">
-						<div class="clearfix"></div>
+					<div class="form-group">
+						<label for="username">Username:</label>
+						<input type="text" name="username" class="form-control" id="username" placeholder="Enter your username" required="">
 					</div>
-					<div class="password-agileits">
-						<span class="username">Password:</span>
-						<input type="password" name="password" class="password" placeholder="" required="">
-						<div class="clearfix"></div>
+					<div class="form-group">
+						<label for="password">Password:</label>
+						<input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required="">
 					</div>
-
 					<div class="login-w3">
 						<input type="submit" class="login" name="login" value="Sign In">
 					</div>
-					<div class="clearfix"></div>
 				</form>
 				<div class="back">
 					<a href="../index.php">Back to home</a>
 				</div>
-
 			</div>
 		</div>
 	</div>

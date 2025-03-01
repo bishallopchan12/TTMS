@@ -74,7 +74,7 @@ include('include/config.php');
                                  </div>
                               </div>
                               <h6 class="price-list">
-                                 <span>₹ <?php echo htmlentities($result->PackagePrice); ?></span>
+                                 <span>Rs <?php echo htmlentities($result->PackagePrice); ?></span>
                                  / per person
                               </h6>
                               <a href="package-detail.php?pkgid=<?php echo htmlentities($result->PackageId); ?>" class="outline-btn outline-btn-white">Details</a>
@@ -86,7 +86,7 @@ include('include/config.php');
             </div>
             <!-- ***package section html start form here*** -->
             <!-- ***client section html start form here*** -->
-            <div class="client-section" style="background-image: url(assets/images/gosaikunda.jpg);">
+            <div class="client-section" style="background-image: url(assets/images/home.jpg);">
                <div class="overlay"></div>
                <div class="container">
                   <div class="row align-items-center">

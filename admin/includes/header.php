@@ -1,6 +1,6 @@
 <div class="header-main">
 					<div class="logo-w3-agile">
-								<h1><a href="dashboard.php">Traveler</a></h1>
+								<h1><a href="dashboard.php">B&B Travels and Tours Pvt. Ltd.</a></h1>
 							</div>
 				
 						
@@ -9,7 +9,7 @@
 									<li class="dropdown profile_details_drop">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 											<div class="profile_img">	
-												<span class="prfil-img"><img src="images/User-icon.png" alt=""> </span> 
+												<span class="prfil-img"><img src="../assets/images/user-img.png" alt=""> </span> 
 												<div class="user-name">
 													<p>Welcome</p>
 													<span>Administrator</span>

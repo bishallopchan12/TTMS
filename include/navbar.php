@@ -8,7 +8,7 @@ include 'db/config.php'
       <div class="container">
          <div class="top-header-inner">
             <div class="header-contact text-left">
-               <a href="telto:01977259912">
+               <a href="telto:9818676198">
                   <i aria-hidden="true" class="icon icon-phone-call2"></i>
                   <div class="header-contact-details d-none d-sm-block">
                      <span class="contact-label">For Further Inquires :</span>

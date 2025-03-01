@@ -1,3 +1,3 @@
 <div class="copyrights">
-	 <p>© 2023 Traveler | All Rights Reserved</p>
+	 <p>© 2024 B&B Travels and Tours Pvt. Ltd. | All Rights Reserved</p>
 </div>	
