@@ -1,0 +1,733 @@
+2025-03-10 20:16:54,430 - WARNING -  * Debugger is active!
+2025-03-10 20:16:54,433 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 20:18:10,585 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\train.py', reloading
+2025-03-10 20:18:10,962 - WARNING -  * Debugger is active!
+2025-03-10 20:18:10,965 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 20:20:23,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 20:20:23,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 20:20:23,395 - INFO -  * Restarting with stat
+2025-03-10 20:20:23,627 - WARNING -  * Debugger is active!
+2025-03-10 20:20:23,631 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 20:20:35,212 - INFO - 127.0.0.1 - - [10/Mar/2025 20:20:35] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 20:20:40,291 - INFO - 127.0.0.1 - - [10/Mar/2025 20:20:40] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 20:20:43,241 - INFO - 127.0.0.1 - - [10/Mar/2025 20:20:43] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 21:15:21,671 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 21:15:21,672 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 21:15:21,673 - INFO -  * Restarting with stat
+2025-03-10 21:15:21,902 - WARNING -  * Debugger is active!
+2025-03-10 21:15:21,906 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 21:16:50,497 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 21:16:50,497 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 21:16:50,498 - INFO -  * Restarting with stat
+2025-03-10 21:16:50,728 - WARNING -  * Debugger is active!
+2025-03-10 21:16:50,731 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 21:21:12,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 21:21:12,748 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 21:21:12,748 - INFO -  * Restarting with stat
+2025-03-10 21:21:12,987 - WARNING -  * Debugger is active!
+2025-03-10 21:21:12,989 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 21:21:33,952 - INFO - 127.0.0.1 - - [10/Mar/2025 21:21:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 21:21:37,252 - INFO - 127.0.0.1 - - [10/Mar/2025 21:21:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 21:21:41,971 - INFO - 127.0.0.1 - - [10/Mar/2025 21:21:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 21:56:32,816 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-10 21:56:33,011 - INFO -  * Restarting with stat
+2025-03-10 22:06:48,858 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 22:06:48,858 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 22:06:48,859 - INFO -  * Restarting with stat
+2025-03-10 22:06:49,097 - WARNING -  * Debugger is active!
+2025-03-10 22:06:49,100 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:07:30,461 - INFO - 127.0.0.1 - - [10/Mar/2025 22:07:30] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:07:31,381 - INFO - 127.0.0.1 - - [10/Mar/2025 22:07:31] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:07:33,659 - INFO - 127.0.0.1 - - [10/Mar/2025 22:07:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:07:35,101 - INFO - 127.0.0.1 - - [10/Mar/2025 22:07:35] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:07:38,479 - INFO - 127.0.0.1 - - [10/Mar/2025 22:07:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:08:14,924 - INFO - 127.0.0.1 - - [10/Mar/2025 22:08:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:16:01,448 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-10 22:16:01,482 - INFO -  * Restarting with stat
+2025-03-10 22:18:31,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 22:18:31,993 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 22:18:31,993 - INFO -  * Restarting with stat
+2025-03-10 22:18:32,218 - WARNING -  * Debugger is active!
+2025-03-10 22:18:32,222 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:19:34,208 - INFO - 127.0.0.1 - - [10/Mar/2025 22:19:34] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:19:35,554 - INFO - 127.0.0.1 - - [10/Mar/2025 22:19:35] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:19:37,867 - INFO - 127.0.0.1 - - [10/Mar/2025 22:19:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:23:41,985 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-10 22:23:42,026 - INFO -  * Restarting with stat
+2025-03-10 22:23:42,409 - WARNING -  * Debugger is active!
+2025-03-10 22:23:42,411 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:23:50,990 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 22:23:50,991 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 22:23:50,991 - INFO -  * Restarting with stat
+2025-03-10 22:23:51,215 - WARNING -  * Debugger is active!
+2025-03-10 22:23:51,218 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:24:09,999 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:09] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:10,248 - INFO - Received message: popular destinations
+2025-03-10 22:24:10,248 - INFO - Intents loaded successfully
+2025-03-10 22:24:10,249 - INFO - Matched intent: list_packages
+2025-03-10 22:24:10,249 - INFO - Matched intent: package_details
+2025-03-10 22:24:10,249 - INFO - Matched intent: book_tour
+2025-03-10 22:24:10,249 - INFO - Matched intent: cancel_booking
+2025-03-10 22:24:10,249 - INFO - Matched intent: popular_destinations
+2025-03-10 22:24:10,249 - INFO - Matched intent: destination_details
+2025-03-10 22:24:10,249 - INFO - Matched intent: weather
+2025-03-10 22:24:10,249 - INFO - Matched intent: food
+2025-03-10 22:24:10,249 - INFO - Matched intent: emergency
+2025-03-10 22:24:10,249 - INFO - Matched intent: fun
+2025-03-10 22:24:10,327 - INFO - Database connected successfully
+2025-03-10 22:24:10,329 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:10] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:14,334 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:14,638 - INFO - Received message: list packages
+2025-03-10 22:24:14,639 - INFO - Intents loaded successfully
+2025-03-10 22:24:14,639 - INFO - Matched intent: list_packages
+2025-03-10 22:24:14,639 - INFO - Matched intent: package_details
+2025-03-10 22:24:14,640 - INFO - Matched intent: book_tour
+2025-03-10 22:24:14,640 - INFO - Matched intent: cancel_booking
+2025-03-10 22:24:14,640 - INFO - Matched intent: list_offers
+2025-03-10 22:24:14,640 - INFO - Matched intent: destination_details
+2025-03-10 22:24:14,640 - INFO - Matched intent: about_us
+2025-03-10 22:24:14,640 - INFO - Matched intent: fun
+2025-03-10 22:24:14,642 - INFO - Database connected successfully
+2025-03-10 22:24:14,643 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:14] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:16,595 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:16] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:16,846 - INFO - Received message: list packages
+2025-03-10 22:24:16,847 - INFO - Intents loaded successfully
+2025-03-10 22:24:16,847 - INFO - Matched intent: list_packages
+2025-03-10 22:24:16,847 - INFO - Matched intent: package_details
+2025-03-10 22:24:16,847 - INFO - Matched intent: book_tour
+2025-03-10 22:24:16,847 - INFO - Matched intent: cancel_booking
+2025-03-10 22:24:16,847 - INFO - Matched intent: list_offers
+2025-03-10 22:24:16,847 - INFO - Matched intent: destination_details
+2025-03-10 22:24:16,848 - INFO - Matched intent: about_us
+2025-03-10 22:24:16,848 - INFO - Matched intent: fun
+2025-03-10 22:24:16,849 - INFO - Database connected successfully
+2025-03-10 22:24:16,850 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:16] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:20,918 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:21,221 - INFO - Received message: hey
+2025-03-10 22:24:21,221 - INFO - Intents loaded successfully
+2025-03-10 22:24:21,221 - INFO - Matched intent: greeting
+2025-03-10 22:24:21,223 - INFO - Database connected successfully
+2025-03-10 22:24:21,223 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:21] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:26,203 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:26] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:26,454 - INFO - Received message: lhaso
+2025-03-10 22:24:26,454 - INFO - Intents loaded successfully
+2025-03-10 22:24:26,454 - INFO - Matched intent: package_details
+2025-03-10 22:24:26,455 - INFO - Matched intent: book_tour
+2025-03-10 22:24:26,455 - INFO - Matched intent: cancel_booking
+2025-03-10 22:24:26,455 - INFO - Matched intent: destination_details
+2025-03-10 22:24:26,455 - INFO - Matched intent: fun
+2025-03-10 22:24:26,456 - INFO - Database connected successfully
+2025-03-10 22:24:26,457 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:26] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:29,812 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:30,115 - INFO - Received message: yes
+2025-03-10 22:24:30,115 - INFO - Intents loaded successfully
+2025-03-10 22:24:30,117 - INFO - Database connected successfully
+2025-03-10 22:24:30,118 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:30] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:34,944 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:34] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:24:35,193 - INFO - Received message: list pacakges
+2025-03-10 22:24:35,194 - INFO - Intents loaded successfully
+2025-03-10 22:24:35,194 - INFO - Matched intent: list_packages
+2025-03-10 22:24:35,194 - INFO - Matched intent: package_details
+2025-03-10 22:24:35,194 - INFO - Matched intent: book_tour
+2025-03-10 22:24:35,194 - INFO - Matched intent: cancel_booking
+2025-03-10 22:24:35,194 - INFO - Matched intent: list_offers
+2025-03-10 22:24:35,194 - INFO - Matched intent: destination_details
+2025-03-10 22:24:35,195 - INFO - Matched intent: about_us
+2025-03-10 22:24:35,195 - INFO - Matched intent: fun
+2025-03-10 22:24:35,196 - INFO - Database connected successfully
+2025-03-10 22:24:35,197 - INFO - 127.0.0.1 - - [10/Mar/2025 22:24:35] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:29:59,627 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-10 22:29:59,669 - INFO -  * Restarting with stat
+2025-03-10 22:30:00,003 - WARNING -  * Debugger is active!
+2025-03-10 22:30:00,007 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:31:17,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 22:31:17,696 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 22:31:17,697 - INFO -  * Restarting with stat
+2025-03-10 22:31:17,946 - WARNING -  * Debugger is active!
+2025-03-10 22:31:17,949 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:32:36,700 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:36] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:36,950 - INFO - Received message: list packages
+2025-03-10 22:32:36,950 - INFO - Intents loaded successfully
+2025-03-10 22:32:36,950 - INFO - Matched intent: list_packages
+2025-03-10 22:32:36,950 - INFO - Matched intent: package_details
+2025-03-10 22:32:36,950 - INFO - Matched intent: book_tour
+2025-03-10 22:32:36,950 - INFO - Matched intent: cancel_booking
+2025-03-10 22:32:36,950 - INFO - Matched intent: list_offers
+2025-03-10 22:32:36,951 - INFO - Matched intent: destination_details
+2025-03-10 22:32:36,951 - INFO - Matched intent: about_us
+2025-03-10 22:32:36,951 - INFO - Matched intent: fun
+2025-03-10 22:32:37,000 - INFO - Database connected successfully
+2025-03-10 22:32:37,000 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:37] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:39,619 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:39,922 - INFO - Received message: popular destinations
+2025-03-10 22:32:39,923 - INFO - Intents loaded successfully
+2025-03-10 22:32:39,923 - INFO - Matched intent: list_packages
+2025-03-10 22:32:39,923 - INFO - Matched intent: package_details
+2025-03-10 22:32:39,923 - INFO - Matched intent: book_tour
+2025-03-10 22:32:39,923 - INFO - Matched intent: cancel_booking
+2025-03-10 22:32:39,923 - INFO - Matched intent: popular_destinations
+2025-03-10 22:32:39,923 - INFO - Matched intent: destination_details
+2025-03-10 22:32:39,923 - INFO - Matched intent: weather
+2025-03-10 22:32:39,923 - INFO - Matched intent: food
+2025-03-10 22:32:39,923 - INFO - Matched intent: emergency
+2025-03-10 22:32:39,923 - INFO - Matched intent: fun
+2025-03-10 22:32:39,925 - INFO - Database connected successfully
+2025-03-10 22:32:39,925 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:39] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:42,470 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:42] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:42,718 - INFO - Received message: book a package
+2025-03-10 22:32:42,718 - INFO - Intents loaded successfully
+2025-03-10 22:32:42,718 - INFO - Matched intent: package_details
+2025-03-10 22:32:42,718 - INFO - Matched intent: book_tour
+2025-03-10 22:32:42,718 - INFO - Matched intent: cancel_booking
+2025-03-10 22:32:42,718 - INFO - Matched intent: destination_details
+2025-03-10 22:32:42,718 - INFO - Matched intent: fun
+2025-03-10 22:32:42,720 - INFO - Database connected successfully
+2025-03-10 22:32:42,720 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:42] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:44,314 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:44] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:32:44,616 - INFO - Received message: book a package
+2025-03-10 22:32:44,616 - INFO - Intents loaded successfully
+2025-03-10 22:32:44,616 - INFO - Matched intent: package_details
+2025-03-10 22:32:44,616 - INFO - Matched intent: book_tour
+2025-03-10 22:32:44,616 - INFO - Matched intent: cancel_booking
+2025-03-10 22:32:44,618 - INFO - Matched intent: destination_details
+2025-03-10 22:32:44,618 - INFO - Matched intent: fun
+2025-03-10 22:32:44,620 - INFO - Database connected successfully
+2025-03-10 22:32:44,620 - INFO - 127.0.0.1 - - [10/Mar/2025 22:32:44] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:37:27,789 - WARNING -  * Debugger is active!
+2025-03-10 22:37:27,791 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:37:40,335 - INFO - 127.0.0.1 - - [10/Mar/2025 22:37:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-10 22:37:40,354 - INFO - 127.0.0.1 - - [10/Mar/2025 22:37:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 22:38:38,354 - INFO - 127.0.0.1 - - [10/Mar/2025 22:38:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-10 22:39:02,045 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\Chatbot\\app.py', reloading
+2025-03-10 22:39:02,406 - WARNING -  * Debugger is active!
+2025-03-10 22:39:02,409 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:39:44,154 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:44] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:39:44,405 - INFO - Received message: list packages
+2025-03-10 22:39:44,406 - INFO - Intents loaded successfully
+2025-03-10 22:39:44,406 - INFO - Matched intent: list_packages
+2025-03-10 22:39:44,407 - INFO - Matched intent: package_details
+2025-03-10 22:39:44,407 - INFO - Matched intent: book_tour
+2025-03-10 22:39:44,407 - INFO - Matched intent: cancel_booking
+2025-03-10 22:39:44,407 - INFO - Matched intent: list_offers
+2025-03-10 22:39:44,407 - INFO - Matched intent: destination_details
+2025-03-10 22:39:44,407 - INFO - Matched intent: about_us
+2025-03-10 22:39:44,407 - INFO - Matched intent: fun
+2025-03-10 22:39:44,439 - INFO - Database connected successfully
+2025-03-10 22:39:44,441 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:44] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:39:47,143 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:47] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:39:47,448 - INFO - Received message: popular destinations
+2025-03-10 22:39:47,449 - INFO - Intents loaded successfully
+2025-03-10 22:39:47,449 - INFO - Matched intent: list_packages
+2025-03-10 22:39:47,449 - INFO - Matched intent: package_details
+2025-03-10 22:39:47,449 - INFO - Matched intent: book_tour
+2025-03-10 22:39:47,450 - INFO - Matched intent: cancel_booking
+2025-03-10 22:39:47,450 - INFO - Matched intent: popular_destinations
+2025-03-10 22:39:47,450 - INFO - Matched intent: destination_details
+2025-03-10 22:39:47,450 - INFO - Matched intent: weather
+2025-03-10 22:39:47,450 - INFO - Matched intent: food
+2025-03-10 22:39:47,451 - INFO - Matched intent: emergency
+2025-03-10 22:39:47,451 - INFO - Matched intent: fun
+2025-03-10 22:39:47,454 - INFO - Database connected successfully
+2025-03-10 22:39:47,454 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:47] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:39:49,812 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:49] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:39:50,062 - INFO - Received message: book a package
+2025-03-10 22:39:50,063 - INFO - Intents loaded successfully
+2025-03-10 22:39:50,063 - INFO - Matched intent: package_details
+2025-03-10 22:39:50,063 - INFO - Matched intent: book_tour
+2025-03-10 22:39:50,063 - INFO - Matched intent: cancel_booking
+2025-03-10 22:39:50,063 - INFO - Matched intent: destination_details
+2025-03-10 22:39:50,063 - INFO - Matched intent: fun
+2025-03-10 22:39:50,066 - INFO - Database connected successfully
+2025-03-10 22:39:50,067 - INFO - 127.0.0.1 - - [10/Mar/2025 22:39:50] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:45:14,184 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\Chatbot\\app.py', reloading
+2025-03-10 22:45:14,707 - WARNING -  * Debugger is active!
+2025-03-10 22:45:14,709 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:45:18,665 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:18] "GET / HTTP/1.1" 200 -
+2025-03-10 22:45:18,727 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 22:45:22,853 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:22] "GET / HTTP/1.1" 200 -
+2025-03-10 22:45:22,877 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 22:45:39,576 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:45:39,827 - INFO - Received message: popular destinations
+2025-03-10 22:45:39,827 - INFO - Intents loaded successfully
+2025-03-10 22:45:39,827 - INFO - Matched intent: list_packages
+2025-03-10 22:45:39,828 - INFO - Matched intent: package_details
+2025-03-10 22:45:39,828 - INFO - Matched intent: book_tour
+2025-03-10 22:45:39,828 - INFO - Matched intent: cancel_booking
+2025-03-10 22:45:39,828 - INFO - Matched intent: popular_destinations
+2025-03-10 22:45:39,828 - INFO - Matched intent: destination_details
+2025-03-10 22:45:39,828 - INFO - Matched intent: weather
+2025-03-10 22:45:39,828 - INFO - Matched intent: food
+2025-03-10 22:45:39,828 - INFO - Matched intent: emergency
+2025-03-10 22:45:39,828 - INFO - Matched intent: fun
+2025-03-10 22:45:39,865 - INFO - Database connected successfully
+2025-03-10 22:45:39,866 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:39] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:45:41,814 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:45:42,115 - INFO - Received message: list packages
+2025-03-10 22:45:42,117 - INFO - Intents loaded successfully
+2025-03-10 22:45:42,117 - INFO - Matched intent: list_packages
+2025-03-10 22:45:42,117 - INFO - Matched intent: package_details
+2025-03-10 22:45:42,117 - INFO - Matched intent: book_tour
+2025-03-10 22:45:42,117 - INFO - Matched intent: cancel_booking
+2025-03-10 22:45:42,117 - INFO - Matched intent: list_offers
+2025-03-10 22:45:42,117 - INFO - Matched intent: destination_details
+2025-03-10 22:45:42,117 - INFO - Matched intent: about_us
+2025-03-10 22:45:42,117 - INFO - Matched intent: fun
+2025-03-10 22:45:42,119 - INFO - Database connected successfully
+2025-03-10 22:45:42,120 - INFO - 127.0.0.1 - - [10/Mar/2025 22:45:42] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:48:15,822 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\Chatbot\\app.py', reloading
+2025-03-10 22:51:32,948 - WARNING -  * Debugger is active!
+2025-03-10 22:51:32,950 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 22:51:42,788 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:42] "GET / HTTP/1.1" 200 -
+2025-03-10 22:51:43,653 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:43] "GET / HTTP/1.1" 200 -
+2025-03-10 22:51:43,907 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:43] "GET / HTTP/1.1" 200 -
+2025-03-10 22:51:44,114 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:44] "GET / HTTP/1.1" 200 -
+2025-03-10 22:51:44,314 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:44] "GET / HTTP/1.1" 200 -
+2025-03-10 22:51:44,515 - INFO - 127.0.0.1 - - [10/Mar/2025 22:51:44] "GET / HTTP/1.1" 200 -
+2025-03-10 22:52:56,173 - INFO - 127.0.0.1 - - [10/Mar/2025 22:52:56] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:52:56,422 - INFO - Received message: popular destinations
+2025-03-10 22:52:56,422 - INFO - Intents loaded successfully
+2025-03-10 22:52:56,423 - INFO - Matched intent: list_packages
+2025-03-10 22:52:56,423 - INFO - Matched intent: package_details
+2025-03-10 22:52:56,423 - INFO - Matched intent: book_tour
+2025-03-10 22:52:56,423 - INFO - Matched intent: cancel_booking
+2025-03-10 22:52:56,423 - INFO - Matched intent: popular_destinations
+2025-03-10 22:52:56,423 - INFO - Matched intent: destination_details
+2025-03-10 22:52:56,423 - INFO - Matched intent: weather
+2025-03-10 22:52:56,423 - INFO - Matched intent: food
+2025-03-10 22:52:56,423 - INFO - Matched intent: emergency
+2025-03-10 22:52:56,423 - INFO - Matched intent: fun
+2025-03-10 22:52:56,483 - INFO - Database connected successfully
+2025-03-10 22:52:56,484 - INFO - 127.0.0.1 - - [10/Mar/2025 22:52:56] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:52:58,884 - INFO - 127.0.0.1 - - [10/Mar/2025 22:52:58] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 22:52:59,187 - INFO - Received message: list packages
+2025-03-10 22:52:59,188 - INFO - Intents loaded successfully
+2025-03-10 22:52:59,188 - INFO - Matched intent: list_packages
+2025-03-10 22:52:59,188 - INFO - Matched intent: package_details
+2025-03-10 22:52:59,188 - INFO - Matched intent: book_tour
+2025-03-10 22:52:59,188 - INFO - Matched intent: cancel_booking
+2025-03-10 22:52:59,188 - INFO - Matched intent: list_offers
+2025-03-10 22:52:59,188 - INFO - Matched intent: destination_details
+2025-03-10 22:52:59,188 - INFO - Matched intent: about_us
+2025-03-10 22:52:59,188 - INFO - Matched intent: fun
+2025-03-10 22:52:59,190 - INFO - Database connected successfully
+2025-03-10 22:52:59,190 - INFO - 127.0.0.1 - - [10/Mar/2025 22:52:59] "POST /api/chat HTTP/1.1" 200 -
+2025-03-10 22:55:29,134 - INFO - 127.0.0.1 - - [10/Mar/2025 22:55:29] "[31m[1mPOST /api/packages HTTP/1.1[0m" 405 -
+2025-03-10 23:07:48,862 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\Chatbot\\app.py', reloading
+2025-03-10 23:07:49,363 - WARNING -  * Debugger is active!
+2025-03-10 23:07:49,370 - INFO -  * Debugger PIN: 104-243-190
+2025-03-10 23:08:55,334 - INFO - 127.0.0.1 - - [10/Mar/2025 23:08:55] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-10 23:08:55,583 - INFO - Received message: popular destinations
+2025-03-10 23:08:55,584 - INFO - Intents loaded successfully
+2025-03-10 23:08:55,585 - INFO - Matched intent: list_packages
+2025-03-10 23:08:55,585 - INFO - Matched intent: package_details
+2025-03-10 23:08:55,585 - INFO - Matched intent: book_tour
+2025-03-10 23:08:55,585 - INFO - Matched intent: cancel_booking
+2025-03-10 23:08:55,585 - INFO - Matched intent: popular_destinations
+2025-03-10 23:08:55,585 - INFO - Matched intent: destination_details
+2025-03-10 23:08:55,585 - INFO - Matched intent: weather
+2025-03-10 23:08:55,585 - INFO - Matched intent: food
+2025-03-10 23:08:55,585 - INFO - Matched intent: emergency
+2025-03-10 23:08:55,585 - INFO - Matched intent: fun
+2025-03-10 23:08:55,783 - INFO - Database connected successfully
+2025-03-10 23:08:55,784 - INFO - 127.0.0.1 - - [10/Mar/2025 23:08:55] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:40:47,000 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 07:40:47,002 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 07:40:47,005 - INFO -  * Restarting with stat
+2025-03-11 07:40:47,456 - WARNING -  * Debugger is active!
+2025-03-11 07:40:47,462 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 07:41:41,438 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:41] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:41,693 - INFO - Received message: hey
+2025-03-11 07:41:41,694 - INFO - Intents loaded successfully
+2025-03-11 07:41:41,694 - INFO - Matched intent: greeting
+2025-03-11 07:41:41,777 - INFO - Database connected successfully
+2025-03-11 07:41:41,779 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:41] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:44,694 - INFO - Received message: bye
+2025-03-11 07:41:44,695 - INFO - Intents loaded successfully
+2025-03-11 07:41:44,695 - INFO - Matched intent: goodbye
+2025-03-11 07:41:44,697 - INFO - Database connected successfully
+2025-03-11 07:41:44,698 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:44] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:48,090 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:48] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:48,351 - INFO - Received message: thank you
+2025-03-11 07:41:48,352 - INFO - Intents loaded successfully
+2025-03-11 07:41:48,352 - INFO - Matched intent: goodbye
+2025-03-11 07:41:48,352 - INFO - Matched intent: thanks
+2025-03-11 07:41:48,352 - INFO - Matched intent: list_packages
+2025-03-11 07:41:48,353 - INFO - Matched intent: package_details
+2025-03-11 07:41:48,353 - INFO - Matched intent: book_tour
+2025-03-11 07:41:48,353 - INFO - Matched intent: cancel_booking
+2025-03-11 07:41:48,353 - INFO - Matched intent: offer_details
+2025-03-11 07:41:48,353 - INFO - Matched intent: destination_details
+2025-03-11 07:41:48,353 - INFO - Matched intent: about_us
+2025-03-11 07:41:48,353 - INFO - Matched intent: contact_us
+2025-03-11 07:41:48,353 - INFO - Matched intent: fun
+2025-03-11 07:41:48,356 - INFO - Database connected successfully
+2025-03-11 07:41:48,358 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:48] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:51,865 - INFO - Received message: list packages
+2025-03-11 07:41:51,866 - INFO - Intents loaded successfully
+2025-03-11 07:41:51,866 - INFO - Matched intent: list_packages
+2025-03-11 07:41:51,866 - INFO - Matched intent: package_details
+2025-03-11 07:41:51,866 - INFO - Matched intent: book_tour
+2025-03-11 07:41:51,866 - INFO - Matched intent: cancel_booking
+2025-03-11 07:41:51,866 - INFO - Matched intent: list_offers
+2025-03-11 07:41:51,866 - INFO - Matched intent: destination_details
+2025-03-11 07:41:51,866 - INFO - Matched intent: about_us
+2025-03-11 07:41:51,867 - INFO - Matched intent: fun
+2025-03-11 07:41:51,869 - INFO - Database connected successfully
+2025-03-11 07:41:51,870 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:51] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:54,491 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:54] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 07:41:54,736 - INFO - Received message: popular destinations
+2025-03-11 07:41:54,737 - INFO - Intents loaded successfully
+2025-03-11 07:41:54,737 - INFO - Matched intent: list_packages
+2025-03-11 07:41:54,737 - INFO - Matched intent: package_details
+2025-03-11 07:41:54,737 - INFO - Matched intent: book_tour
+2025-03-11 07:41:54,737 - INFO - Matched intent: cancel_booking
+2025-03-11 07:41:54,738 - INFO - Matched intent: popular_destinations
+2025-03-11 07:41:54,738 - INFO - Matched intent: destination_details
+2025-03-11 07:41:54,738 - INFO - Matched intent: weather
+2025-03-11 07:41:54,738 - INFO - Matched intent: food
+2025-03-11 07:41:54,738 - INFO - Matched intent: emergency
+2025-03-11 07:41:54,738 - INFO - Matched intent: fun
+2025-03-11 07:41:54,740 - INFO - Database connected successfully
+2025-03-11 07:41:54,742 - INFO - 127.0.0.1 - - [11/Mar/2025 07:41:54] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 07:59:13,942 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 07:59:14,008 - INFO -  * Restarting with stat
+2025-03-11 07:59:43,480 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 07:59:43,578 - WARNING -  * Debugger is active!
+2025-03-11 07:59:43,597 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:01:50,348 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:01:50,409 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 08:01:50,409 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 08:01:50,417 - INFO -  * Restarting with stat
+2025-03-11 08:01:57,408 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:01:57,424 - WARNING -  * Debugger is active!
+2025-03-11 08:01:57,427 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:02:25,955 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:25] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:26,202 - INFO - Received message: List Packages
+2025-03-11 08:02:30,901 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:30] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:31,259 - INFO - Received message: Popular Destinations
+2025-03-11 08:02:31,578 - ERROR - Error in /api/chat: 'WordNetCorpusReader' object has no attribute 'subdir'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\corpus\util.py", line 81, in __load
+    root = nltk.data.find(f"{self.subdir}/{self.__name}")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\data.py", line 579, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\Acer/nltk_data'
+    - 'C:\\xampp\\htdocs\\B&BTravel\\myenv\\nltk_data'
+    - 'C:\\xampp\\htdocs\\B&BTravel\\myenv\\share\\nltk_data'
+    - 'C:\\xampp\\htdocs\\B&BTravel\\myenv\\lib\\nltk_data'
+    - 'C:\\Users\\Acer\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 94, in chat
+    intent = predict_intent(message)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 67, in predict_intent
+    processed = preprocess(message)
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 37, in preprocess
+    return ' '.join([lemmatizer.lemmatize(token) for token in tokens if token.isalnum() and token not in stop_words])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 37, in <listcomp>
+    return ' '.join([lemmatizer.lemmatize(token) for token in tokens if token.isalnum() and token not in stop_words])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\stem\wordnet.py", line 85, in lemmatize
+    lemmas = self._morphy(word, pos)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\stem\wordnet.py", line 41, in _morphy
+    return wn._morphy(form, pos, check_exceptions)
+           ^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\corpus\util.py", line 120, in __getattr__
+    self.__load()
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\nltk\corpus\util.py", line 84, in __load
+    root = nltk.data.find(f"{self.subdir}/{zip_name}")
+                             ^^^^^^^^^^^
+AttributeError: 'WordNetCorpusReader' object has no attribute 'subdir'
+2025-03-11 08:02:31,667 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:31] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2025-03-11 08:02:31,911 - INFO - Predicted intent: list_packages with confidence: 0.7838531136512756
+2025-03-11 08:02:31,925 - INFO - Database connected successfully
+2025-03-11 08:02:31,927 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:31] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:50,453 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:50] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:50,702 - INFO - Received message: List Packages
+2025-03-11 08:02:50,875 - INFO - Predicted intent: list_packages with confidence: 0.7838531136512756
+2025-03-11 08:02:50,877 - INFO - Database connected successfully
+2025-03-11 08:02:50,878 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:50] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:53,170 - INFO - Received message: More Packages
+2025-03-11 08:02:53,372 - INFO - Predicted intent: list_packages with confidence: 0.6797751188278198
+2025-03-11 08:02:53,374 - INFO - Database connected successfully
+2025-03-11 08:02:53,376 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:53] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:02:59,829 - INFO - 127.0.0.1 - - [11/Mar/2025 08:02:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:00,077 - INFO - Received message: hey
+2025-03-11 08:03:00,253 - INFO - Predicted intent: greeting with confidence: 0.8202527165412903
+2025-03-11 08:03:00,255 - INFO - Database connected successfully
+2025-03-11 08:03:00,255 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:00] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:04,239 - INFO - Received message: namaste
+2025-03-11 08:03:04,417 - INFO - Predicted intent: greeting with confidence: 0.7746506333351135
+2025-03-11 08:03:04,419 - INFO - Database connected successfully
+2025-03-11 08:03:04,420 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:04] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:07,168 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:07] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:07,420 - INFO - Received message: k xa
+2025-03-11 08:03:07,594 - INFO - Predicted intent: greeting with confidence: 0.27193814516067505
+2025-03-11 08:03:07,598 - INFO - Database connected successfully
+2025-03-11 08:03:07,598 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:07] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:10,749 - INFO - Received message: how are you
+2025-03-11 08:03:10,931 - INFO - Predicted intent: greeting with confidence: 0.27193814516067505
+2025-03-11 08:03:10,933 - INFO - Database connected successfully
+2025-03-11 08:03:10,934 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:10] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:14,045 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:14] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:14,296 - INFO - Received message: bye
+2025-03-11 08:03:14,461 - INFO - Predicted intent: goodbye with confidence: 0.7809901833534241
+2025-03-11 08:03:14,463 - INFO - Database connected successfully
+2025-03-11 08:03:14,465 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:14] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:17,116 - INFO - Received message: thank you
+2025-03-11 08:03:17,285 - INFO - Predicted intent: thanks with confidence: 0.6308257579803467
+2025-03-11 08:03:17,288 - INFO - Database connected successfully
+2025-03-11 08:03:17,289 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:17] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:25,869 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:25] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:26,119 - INFO - Received message: list packages
+2025-03-11 08:03:26,291 - INFO - Predicted intent: list_packages with confidence: 0.7838531136512756
+2025-03-11 08:03:26,293 - INFO - Database connected successfully
+2025-03-11 08:03:26,295 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:26] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:28,400 - INFO - Received message: Book a Package
+2025-03-11 08:03:28,579 - INFO - Predicted intent: book_tour with confidence: 0.9625899195671082
+2025-03-11 08:03:28,581 - INFO - Database connected successfully
+2025-03-11 08:03:28,582 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:28] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:32,108 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:32] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:32,360 - INFO - Received message: Book Now
+2025-03-11 08:03:32,549 - INFO - Predicted intent: book_tour with confidence: 0.9764339923858643
+2025-03-11 08:03:32,551 - INFO - Database connected successfully
+2025-03-11 08:03:32,552 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:32] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:37,899 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:03:38,204 - INFO - Received message: Book Now
+2025-03-11 08:03:38,397 - INFO - Predicted intent: book_tour with confidence: 0.9764339923858643
+2025-03-11 08:03:38,398 - INFO - Database connected successfully
+2025-03-11 08:03:38,400 - INFO - 127.0.0.1 - - [11/Mar/2025 08:03:38] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:19:09,751 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 08:19:10,562 - INFO -  * Restarting with stat
+2025-03-11 08:19:15,258 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:19:15,267 - WARNING -  * Debugger is active!
+2025-03-11 08:19:15,270 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:30:56,896 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 08:30:57,551 - INFO -  * Restarting with stat
+2025-03-11 08:34:56,521 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:34:56,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 08:34:56,544 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 08:34:56,546 - INFO -  * Restarting with stat
+2025-03-11 08:35:00,417 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:35:00,429 - WARNING -  * Debugger is active!
+2025-03-11 08:35:00,431 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:37:16,672 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 08:37:17,277 - INFO -  * Restarting with stat
+2025-03-11 08:37:22,773 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:37:22,788 - WARNING -  * Debugger is active!
+2025-03-11 08:37:22,791 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:37:44,795 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:37:44,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 08:37:44,814 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 08:37:44,815 - INFO -  * Restarting with stat
+2025-03-11 08:37:48,496 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 08:37:48,506 - WARNING -  * Debugger is active!
+2025-03-11 08:37:48,509 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:40:29,809 - INFO - 127.0.0.1 - - [11/Mar/2025 08:40:29] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:40:30,057 - INFO - Received message: List Packages
+2025-03-11 08:40:32,697 - INFO - Predicted intent: list_packages with confidence: 0.5988166332244873
+2025-03-11 08:40:32,726 - INFO - Database connected successfully
+2025-03-11 08:40:32,727 - INFO - 127.0.0.1 - - [11/Mar/2025 08:40:32] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:40:33,960 - INFO - Received message: Popular Destinations
+2025-03-11 08:40:34,041 - INFO - Predicted intent: popular_destinations with confidence: 0.549314558506012
+2025-03-11 08:40:34,043 - INFO - Database connected successfully
+2025-03-11 08:40:34,043 - INFO - 127.0.0.1 - - [11/Mar/2025 08:40:34] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:40:36,340 - INFO - 127.0.0.1 - - [11/Mar/2025 08:40:36] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:40:36,589 - INFO - Received message: Book a Package
+2025-03-11 08:40:36,667 - INFO - Predicted intent: book_tour with confidence: 0.927460253238678
+2025-03-11 08:40:36,668 - INFO - Database connected successfully
+2025-03-11 08:40:36,669 - INFO - 127.0.0.1 - - [11/Mar/2025 08:40:36] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:46:01,582 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 08:46:02,509 - INFO -  * Restarting with stat
+2025-03-11 08:51:20,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 08:51:20,222 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 08:51:20,224 - INFO -  * Restarting with stat
+2025-03-11 08:51:20,728 - WARNING -  * Debugger is active!
+2025-03-11 08:51:20,731 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 08:51:45,024 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:45] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:51:45,274 - INFO - Received message: popular destinations
+2025-03-11 08:51:45,274 - INFO - Intents loaded successfully
+2025-03-11 08:51:45,276 - INFO - Matched intent: list_packages
+2025-03-11 08:51:45,277 - INFO - Matched intent: package_details
+2025-03-11 08:51:45,277 - INFO - Matched intent: book_tour
+2025-03-11 08:51:45,277 - INFO - Matched intent: cancel_booking
+2025-03-11 08:51:45,277 - INFO - Matched intent: popular_destinations
+2025-03-11 08:51:45,277 - INFO - Matched intent: destination_details
+2025-03-11 08:51:45,277 - INFO - Matched intent: weather
+2025-03-11 08:51:45,277 - INFO - Matched intent: food
+2025-03-11 08:51:45,277 - INFO - Matched intent: emergency
+2025-03-11 08:51:45,277 - INFO - Matched intent: fun
+2025-03-11 08:51:45,305 - INFO - Database connected successfully
+2025-03-11 08:51:45,306 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:45] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:51:46,422 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:46] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:51:46,725 - INFO - Received message: list packages
+2025-03-11 08:51:46,726 - INFO - Intents loaded successfully
+2025-03-11 08:51:46,726 - INFO - Matched intent: list_packages
+2025-03-11 08:51:46,726 - INFO - Matched intent: package_details
+2025-03-11 08:51:46,726 - INFO - Matched intent: book_tour
+2025-03-11 08:51:46,726 - INFO - Matched intent: cancel_booking
+2025-03-11 08:51:46,726 - INFO - Matched intent: list_offers
+2025-03-11 08:51:46,726 - INFO - Matched intent: destination_details
+2025-03-11 08:51:46,726 - INFO - Matched intent: about_us
+2025-03-11 08:51:46,726 - INFO - Matched intent: fun
+2025-03-11 08:51:46,728 - INFO - Database connected successfully
+2025-03-11 08:51:46,729 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:46] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:51:48,541 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:48] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-03-11 08:51:48,844 - INFO - Received message: book a package
+2025-03-11 08:51:48,844 - INFO - Intents loaded successfully
+2025-03-11 08:51:48,844 - INFO - Matched intent: package_details
+2025-03-11 08:51:48,844 - INFO - Matched intent: book_tour
+2025-03-11 08:51:48,844 - INFO - Matched intent: cancel_booking
+2025-03-11 08:51:48,844 - INFO - Matched intent: destination_details
+2025-03-11 08:51:48,846 - INFO - Matched intent: fun
+2025-03-11 08:51:48,847 - INFO - Database connected successfully
+2025-03-11 08:51:48,848 - INFO - 127.0.0.1 - - [11/Mar/2025 08:51:48] "POST /api/chat HTTP/1.1" 200 -
+2025-03-11 08:58:08,831 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 08:58:08,943 - INFO -  * Restarting with stat
+2025-03-11 08:58:09,308 - WARNING -  * Debugger is active!
+2025-03-11 08:58:09,311 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 18:29:35,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 18:29:35,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 18:29:35,669 - INFO -  * Restarting with stat
+2025-03-11 18:29:36,193 - WARNING -  * Debugger is active!
+2025-03-11 18:29:36,198 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 18:34:59,476 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 18:34:59,521 - INFO -  * Restarting with stat
+2025-03-11 18:35:22,077 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:35:22,131 - WARNING -  * Debugger is active!
+2025-03-11 18:35:22,134 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 18:49:41,057 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 18:49:41,733 - INFO -  * Restarting with stat
+2025-03-11 18:54:29,894 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:54:31,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2025-03-11 18:54:31,196 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 18:54:31,197 - INFO -  * Restarting with stat
+2025-03-11 18:54:35,057 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:54:35,074 - WARNING -  * Debugger is active!
+2025-03-11 18:54:35,076 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 18:54:44,360 - INFO - 127.0.0.1 - - [11/Mar/2025 18:54:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 18:55:36,785 - INFO - 127.0.0.1 - - [11/Mar/2025 18:55:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 18:57:14,234 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 18:57:14,793 - INFO -  * Restarting with stat
+2025-03-11 18:57:19,175 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:57:19,189 - WARNING -  * Debugger is active!
+2025-03-11 18:57:19,191 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 18:58:21,443 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:58:22,739 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2025-03-11 18:58:22,739 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 18:58:22,741 - INFO -  * Restarting with stat
+2025-03-11 18:58:26,535 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 18:58:26,547 - WARNING -  * Debugger is active!
+2025-03-11 18:58:26,550 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 19:16:23,202 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:29,122 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:29] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:40,338 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:40,860 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:40] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:43,323 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:43] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:51,973 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:16:52,395 - INFO - 127.0.0.1 - - [11/Mar/2025 19:16:52] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:17:00,120 - INFO - 127.0.0.1 - - [11/Mar/2025 19:17:00] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:17:00,630 - INFO - 127.0.0.1 - - [11/Mar/2025 19:17:00] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:17:05,513 - INFO - 127.0.0.1 - - [11/Mar/2025 19:17:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:17:05,974 - INFO - 127.0.0.1 - - [11/Mar/2025 19:17:05] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:17:08,185 - INFO - 127.0.0.1 - - [11/Mar/2025 19:17:08] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:21:26,469 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 19:21:27,753 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2025-03-11 19:21:27,753 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 19:21:27,754 - INFO -  * Restarting with stat
+2025-03-11 19:21:32,507 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 19:21:32,519 - WARNING -  * Debugger is active!
+2025-03-11 19:21:32,521 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 19:26:19,944 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:26:26,154 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:26] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:26:31,552 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:26:32,050 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:32] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:26:50,986 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:26:51,366 - INFO - 127.0.0.1 - - [11/Mar/2025 19:26:51] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:03,646 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:03] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:04,018 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:04] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:09,349 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:09,727 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:09] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:17,116 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:17] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:17,486 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:17] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:26,410 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:26] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:26,789 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:26] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:35,947 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:27:36,337 - INFO - 127.0.0.1 - - [11/Mar/2025 19:27:36] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:31:14,514 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 19:31:15,311 - INFO -  * Restarting with stat
+2025-03-11 19:31:40,056 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 19:31:41,374 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2025-03-11 19:31:41,374 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 19:31:41,376 - INFO -  * Restarting with stat
+2025-03-11 19:31:46,144 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-11 19:31:46,160 - WARNING -  * Debugger is active!
+2025-03-11 19:31:46,163 - INFO -  * Debugger PIN: 104-243-190
+2025-03-11 19:31:51,613 - INFO - 127.0.0.1 - - [11/Mar/2025 19:31:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:31:57,540 - INFO - Input: hey, Predicted intent: greeting, Confidence: 0.7262260317802429
+2025-03-11 19:31:57,551 - INFO - 127.0.0.1 - - [11/Mar/2025 19:31:57] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:02,076 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:02,548 - INFO - Input: who are you, Predicted intent: greeting, Confidence: 0.259343683719635
+2025-03-11 19:32:02,556 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:02] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:05,763 - INFO - Input: help, Predicted intent: book_tour, Confidence: 0.5287423133850098
+2025-03-11 19:32:05,771 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:05] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:49,632 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:50,052 - INFO - Input: list packages, Predicted intent: list_packages, Confidence: 0.5658382177352905
+2025-03-11 19:32:50,060 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:50] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:56,313 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+2025-03-11 19:32:56,806 - INFO - Input: list destinations, Predicted intent: destination_details, Confidence: 0.31608349084854126
+2025-03-11 19:32:56,813 - INFO - 127.0.0.1 - - [11/Mar/2025 19:32:56] "POST /chatbot HTTP/1.1" 200 -
+2025-03-11 19:37:42,000 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-11 19:37:42,949 - INFO -  * Restarting with stat
+2025-03-11 19:38:16,685 - INFO -  * Restarting with stat

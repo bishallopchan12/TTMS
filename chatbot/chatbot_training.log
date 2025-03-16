@@ -1,0 +1,184 @@
+2025-03-06 09:19:51,873 - INFO - Downloading NLTK data...
+2025-03-06 09:19:52,708 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:19:52,716 - ERROR - Error loading intents.json: Expecting value: line 1 column 1 (char 0)
+2025-03-06 09:23:55,581 - INFO - Downloading NLTK data...
+2025-03-06 09:23:56,327 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:23:56,330 - INFO - Intents loaded successfully.
+2025-03-06 09:23:58,197 - INFO - TF-IDF vectorization completed. X shape: (64, 60), y shape: (64,)
+2025-03-06 09:23:58,315 - INFO - Model built and compiled successfully.
+2025-03-06 09:23:58,316 - INFO - Starting model training...
+2025-03-06 09:24:02,653 - INFO - Training completed successfully.
+2025-03-06 09:24:02,654 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 09:24:02,697 - INFO - Model and vectorizer saved successfully.
+2025-03-06 09:42:34,955 - INFO - Downloading NLTK data...
+2025-03-06 09:42:35,633 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:42:35,634 - INFO - Intents loaded successfully.
+2025-03-06 09:42:37,567 - INFO - TF-IDF vectorization completed. X shape: (64, 60), y shape: (64,)
+2025-03-06 09:42:37,624 - INFO - Model built and compiled successfully.
+2025-03-06 09:42:37,624 - INFO - Starting model training...
+2025-03-06 09:42:42,009 - INFO - Training completed successfully.
+2025-03-06 09:42:42,009 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 09:42:42,030 - INFO - Model and vectorizer saved successfully.
+2025-03-06 09:49:44,710 - INFO - Downloading NLTK data...
+2025-03-06 09:49:45,506 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:49:45,508 - INFO - Intents loaded successfully.
+2025-03-06 09:49:47,537 - INFO - TF-IDF vectorization completed. X shape: (64, 60), y shape: (64,)
+2025-03-06 09:49:47,599 - INFO - Model built and compiled successfully.
+2025-03-06 09:49:47,599 - INFO - Starting model training...
+2025-03-06 09:49:51,974 - INFO - Training completed successfully.
+2025-03-06 09:49:51,974 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 09:49:52,022 - INFO - Model and vectorizer saved successfully.
+2025-03-06 09:55:56,761 - INFO - Downloading NLTK data...
+2025-03-06 09:55:57,548 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:55:57,549 - INFO - Intents loaded successfully.
+2025-03-06 09:55:59,416 - INFO - TF-IDF vectorization completed. X shape: (64, 60), y shape: (64,)
+2025-03-06 09:55:59,485 - INFO - Model built and compiled successfully.
+2025-03-06 09:55:59,485 - INFO - Starting model training...
+2025-03-06 09:56:04,031 - INFO - Training completed successfully.
+2025-03-06 09:56:04,031 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 09:56:04,076 - INFO - Model and vectorizer saved successfully.
+2025-03-06 18:57:59,252 - INFO - Downloading NLTK data...
+2025-03-06 18:58:00,012 - INFO - NLTK data downloaded successfully.
+2025-03-06 18:58:00,028 - INFO - Intents loaded successfully.
+2025-03-06 18:58:01,840 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-06 18:58:01,899 - INFO - Model built and compiled successfully.
+2025-03-06 18:58:01,900 - INFO - Starting model training...
+2025-03-06 18:58:06,392 - INFO - Training completed successfully.
+2025-03-06 18:58:06,393 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 18:58:06,419 - INFO - Model and vectorizer saved successfully.
+2025-03-06 19:44:38,607 - INFO - Downloading NLTK data...
+2025-03-06 19:44:39,822 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:44:39,823 - INFO - Intents loaded successfully.
+2025-03-06 19:44:43,133 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-06 19:44:43,292 - INFO - Model built and compiled successfully.
+2025-03-06 19:44:43,292 - INFO - Starting model training...
+2025-03-06 19:44:52,958 - INFO - Training completed successfully.
+2025-03-06 19:44:52,958 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-06 19:44:53,029 - INFO - Model and vectorizer saved successfully.
+2025-03-09 19:02:24,236 - INFO - Downloading NLTK wordnet...
+2025-03-09 19:02:28,504 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-09 19:02:28,527 - INFO - Model training completed and saved.
+2025-03-09 19:40:42,573 - INFO - Downloading NLTK data...
+2025-03-09 19:40:45,115 - INFO - NLTK data downloaded successfully.
+2025-03-09 19:40:45,116 - INFO - Intents loaded successfully.
+2025-03-09 19:40:46,952 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-09 19:40:47,051 - INFO - Model built and compiled successfully.
+2025-03-09 19:40:47,052 - INFO - Starting model training...
+2025-03-09 19:40:52,798 - INFO - Training completed successfully.
+2025-03-09 19:40:52,798 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-09 19:40:52,828 - INFO - Model and vectorizer saved successfully.
+2025-03-09 21:42:56,995 - INFO - Downloading NLTK data...
+2025-03-09 21:42:58,251 - INFO - NLTK data downloaded successfully.
+2025-03-09 21:42:58,269 - INFO - Intents loaded successfully.
+2025-03-09 21:43:02,020 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-09 21:43:02,219 - INFO - Model built and compiled successfully.
+2025-03-09 21:43:02,221 - INFO - Starting model training...
+2025-03-09 21:43:12,605 - INFO - Training completed successfully.
+2025-03-09 21:43:12,608 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-09 21:43:12,706 - INFO - Model and vectorizer saved successfully.
+2025-03-10 19:39:59,715 - INFO - Downloading NLTK data...
+2025-03-10 19:40:01,274 - INFO - NLTK data downloaded successfully.
+2025-03-10 19:40:01,300 - INFO - Intents loaded successfully.
+2025-03-10 19:40:06,093 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-10 19:40:06,345 - INFO - Model built and compiled successfully.
+2025-03-10 19:40:06,345 - INFO - Starting model training...
+2025-03-10 19:40:24,456 - INFO - Training completed successfully.
+2025-03-10 19:40:24,457 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 19:40:24,531 - INFO - Model and vectorizer saved successfully.
+2025-03-10 20:18:51,188 - INFO - Downloading NLTK data...
+2025-03-10 20:18:51,912 - INFO - NLTK data downloaded successfully.
+2025-03-10 20:18:51,913 - INFO - Intents loaded successfully.
+2025-03-10 20:18:53,753 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-10 20:18:53,821 - INFO - Model built and compiled successfully.
+2025-03-10 20:18:53,822 - INFO - Starting model training...
+2025-03-10 20:18:58,477 - INFO - Training completed successfully.
+2025-03-10 20:18:58,478 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 20:18:58,533 - INFO - Model and vectorizer saved successfully.
+2025-03-10 21:16:38,053 - INFO - Downloading NLTK data...
+2025-03-10 21:16:38,839 - INFO - NLTK data downloaded successfully.
+2025-03-10 21:16:38,841 - INFO - Intents loaded successfully.
+2025-03-10 21:16:40,774 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-10 21:16:40,862 - INFO - Model built and compiled successfully.
+2025-03-10 21:16:40,863 - INFO - Starting model training...
+2025-03-10 21:16:45,317 - INFO - Training completed successfully.
+2025-03-10 21:16:45,317 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 21:16:45,354 - INFO - Model and vectorizer saved successfully.
+2025-03-10 21:19:32,214 - INFO - Downloading NLTK data...
+2025-03-10 21:19:34,130 - INFO - NLTK data downloaded successfully.
+2025-03-10 21:19:34,131 - INFO - Intents loaded successfully.
+2025-03-10 21:19:35,973 - INFO - TF-IDF vectorization completed. X shape: (85, 85), y shape: (85,)
+2025-03-10 21:19:36,040 - INFO - Model built and compiled successfully.
+2025-03-10 21:19:36,041 - INFO - Starting model training...
+2025-03-10 21:19:40,429 - INFO - Training completed successfully.
+2025-03-10 21:19:40,429 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 21:19:40,476 - INFO - Model and vectorizer saved successfully.
+2025-03-10 22:05:40,766 - INFO - Downloading NLTK data...
+2025-03-10 22:05:41,498 - INFO - NLTK data downloaded successfully.
+2025-03-10 22:05:41,520 - INFO - Intents loaded successfully.
+2025-03-10 22:05:43,605 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-10 22:05:43,669 - INFO - Model built and compiled successfully.
+2025-03-10 22:05:43,669 - INFO - Starting model training...
+2025-03-10 22:05:48,719 - INFO - Training completed successfully.
+2025-03-10 22:05:48,719 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 22:05:48,765 - INFO - Model and vectorizer saved successfully.
+2025-03-10 22:30:34,745 - INFO - Downloading NLTK data...
+2025-03-10 22:30:35,486 - INFO - NLTK data downloaded successfully.
+2025-03-10 22:30:35,488 - INFO - Intents loaded successfully.
+2025-03-10 22:30:37,386 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-10 22:30:37,515 - INFO - Model built and compiled successfully.
+2025-03-10 22:30:37,515 - INFO - Starting model training...
+2025-03-10 22:30:42,547 - INFO - Training completed successfully.
+2025-03-10 22:30:42,547 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-10 22:30:42,592 - INFO - Model and vectorizer saved successfully.
+2025-03-11 07:36:16,685 - INFO - Downloading NLTK data...
+2025-03-11 07:36:17,893 - INFO - NLTK data downloaded successfully.
+2025-03-11 07:36:17,902 - INFO - Intents loaded successfully.
+2025-03-11 07:36:24,044 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 07:36:24,335 - INFO - Model built and compiled successfully.
+2025-03-11 07:36:24,336 - INFO - Starting model training...
+2025-03-11 07:36:40,668 - INFO - Training completed successfully.
+2025-03-11 07:36:40,669 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 07:36:40,763 - INFO - Model and vectorizer saved successfully.
+2025-03-11 08:01:06,890 - INFO - Downloading NLTK data...
+2025-03-11 08:01:07,830 - INFO - NLTK data downloaded successfully.
+2025-03-11 08:01:07,850 - INFO - Intents loaded successfully.
+2025-03-11 08:01:11,213 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 08:01:11,361 - INFO - Model built and compiled successfully.
+2025-03-11 08:01:11,361 - INFO - Starting model training...
+2025-03-11 08:01:21,492 - INFO - Training completed successfully.
+2025-03-11 08:01:21,492 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 08:01:21,548 - INFO - Model and vectorizer saved successfully.
+2025-03-11 08:34:41,361 - INFO - Downloading NLTK data...
+2025-03-11 08:34:42,108 - INFO - NLTK data downloaded successfully.
+2025-03-11 08:34:42,110 - INFO - Intents loaded successfully.
+2025-03-11 08:34:44,079 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 08:34:44,153 - INFO - Model built and compiled successfully.
+2025-03-11 08:34:44,154 - INFO - Starting model training...
+2025-03-11 08:34:49,312 - INFO - Training completed successfully.
+2025-03-11 08:34:49,313 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 08:34:49,341 - INFO - Model and vectorizer saved successfully.
+2025-03-11 18:49:46,005 - INFO - Intents loaded successfully.
+2025-03-11 18:49:48,067 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 18:49:48,145 - INFO - Model built and compiled successfully.
+2025-03-11 18:49:48,145 - INFO - Starting model training...
+2025-03-11 18:50:00,500 - INFO - Training completed successfully.
+2025-03-11 18:50:00,500 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 18:50:00,576 - INFO - Model and vectorizer saved successfully.
+2025-03-11 18:57:59,865 - INFO - Downloading NLTK data...
+2025-03-11 18:58:00,675 - INFO - NLTK data downloaded successfully.
+2025-03-11 18:58:00,676 - INFO - Intents loaded successfully.
+2025-03-11 18:58:02,585 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 18:58:02,654 - INFO - Model built and compiled successfully.
+2025-03-11 18:58:02,654 - INFO - Starting model training...
+2025-03-11 18:58:07,412 - INFO - Training completed successfully.
+2025-03-11 18:58:07,412 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 18:58:07,437 - INFO - Model and vectorizer saved successfully.
+2025-03-11 19:31:26,220 - INFO - Downloading NLTK data...
+2025-03-11 19:31:26,977 - INFO - NLTK data downloaded successfully.
+2025-03-11 19:31:26,978 - INFO - Intents loaded successfully.
+2025-03-11 19:31:28,655 - INFO - TF-IDF vectorization completed. X shape: (95, 86), y shape: (95,)
+2025-03-11 19:31:28,718 - INFO - Model built and compiled successfully.
+2025-03-11 19:31:28,719 - INFO - Starting model training...
+2025-03-11 19:31:33,258 - INFO - Training completed successfully.
+2025-03-11 19:31:33,258 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-11 19:31:33,282 - INFO - Model and vectorizer saved successfully.

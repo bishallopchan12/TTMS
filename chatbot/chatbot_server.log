@@ -1,0 +1,1339 @@
+2025-03-06 09:24:16,018 - INFO - Downloading NLTK data...
+2025-03-06 09:24:16,759 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:24:16,848 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-06 09:24:16,878 - INFO - Model and resources loaded successfully.
+2025-03-06 09:24:18,180 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 09:24:18,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 09:24:18,186 - INFO -  * Restarting with stat
+2025-03-06 09:24:21,292 - INFO - Downloading NLTK data...
+2025-03-06 09:24:22,026 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:24:22,105 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-06 09:24:22,109 - INFO - Model and resources loaded successfully.
+2025-03-06 09:24:22,114 - WARNING -  * Debugger is active!
+2025-03-06 09:24:22,116 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 09:24:53,416 - INFO - 127.0.0.1 - - [06/Mar/2025 09:24:53] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:24:55,814 - INFO - Predicted tag: greeting, Confidence: 0.6411203742027283
+2025-03-06 09:24:55,814 - INFO - 127.0.0.1 - - [06/Mar/2025 09:24:55] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:25:00,162 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:25:00,545 - INFO - Predicted tag: greeting, Confidence: 0.649833083152771
+2025-03-06 09:25:00,546 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:00] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:25:49,583 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:25:49,985 - INFO - Predicted tag: greeting, Confidence: 0.742164134979248
+2025-03-06 09:25:49,986 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:49] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:25:54,630 - INFO - Predicted tag: greeting, Confidence: 0.649833083152771
+2025-03-06 09:25:54,630 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:54] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:25:57,955 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:25:58,276 - INFO - Predicted tag: greeting, Confidence: 0.742164134979248
+2025-03-06 09:25:58,276 - INFO - 127.0.0.1 - - [06/Mar/2025 09:25:58] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:42:23,655 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 09:42:24,509 - INFO -  * Restarting with stat
+2025-03-06 09:42:27,709 - INFO - Downloading NLTK data...
+2025-03-06 09:42:28,435 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:42:28,505 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-06 09:42:28,509 - INFO - Model and resources loaded successfully.
+2025-03-06 09:42:28,513 - WARNING -  * Debugger is active!
+2025-03-06 09:42:28,515 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 09:56:22,940 - INFO - Downloading NLTK data...
+2025-03-06 09:56:23,715 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:56:23,805 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-06 09:56:23,821 - INFO - Model and resources loaded successfully.
+2025-03-06 09:56:25,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 09:56:25,091 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 09:56:25,093 - INFO -  * Restarting with stat
+2025-03-06 09:56:28,055 - INFO - Downloading NLTK data...
+2025-03-06 09:56:28,828 - INFO - NLTK data downloaded successfully.
+2025-03-06 09:56:28,904 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-06 09:56:28,907 - INFO - Model and resources loaded successfully.
+2025-03-06 09:56:28,912 - WARNING -  * Debugger is active!
+2025-03-06 09:56:28,915 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 09:57:57,127 - INFO - 127.0.0.1 - - [06/Mar/2025 09:57:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:57:57,393 - INFO - Received message: 'hey', Context: {}
+2025-03-06 09:57:59,463 - INFO - Vector shape for 'hey': (1, 60)
+2025-03-06 09:57:59,592 - INFO - Prediction shape: (1, 14), Prediction: [[5.00522670e-04 3.48662250e-02 1.99327935e-02 4.29101773e-02
+  2.01429017e-02 2.94237456e-04 5.86448200e-02 7.18410552e-01
+  3.17371488e-02 1.56335291e-02 1.33545725e-02 6.94538234e-03
+  3.62196639e-02 4.07452870e-04]]
+2025-03-06 09:57:59,592 - INFO - Predicted tag: greeting, Confidence: 0.7184105515480042
+2025-03-06 09:57:59,592 - INFO - Sending response: 'Hi there! Ready to explore Nepal?', Updated context: {}
+2025-03-06 09:57:59,593 - INFO - 127.0.0.1 - - [06/Mar/2025 09:57:59] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:58:01,977 - INFO - Received message: 'yes', Context: {}
+2025-03-06 09:58:01,978 - INFO - Vector shape for 'yes': (1, 60)
+2025-03-06 09:58:02,050 - INFO - Prediction shape: (1, 14), Prediction: [[0.00288865 0.08395346 0.05768881 0.11263267 0.07029935 0.00348924
+  0.16379966 0.11691352 0.10917637 0.07734927 0.05207335 0.06546548
+  0.08034653 0.00392362]]
+2025-03-06 09:58:02,050 - INFO - Predicted tag: goodbye, Confidence: 0.16379965841770172
+2025-03-06 09:58:02,050 - INFO - Confidence 0.16379965841770172 below threshold 0.7, defaulting to 'no_answer'
+2025-03-06 09:58:02,050 - INFO - Sending response: 'I’m not sure I understand. Could you rephrase that?', Updated context: {}
+2025-03-06 09:58:02,050 - INFO - 127.0.0.1 - - [06/Mar/2025 09:58:02] "POST /chat HTTP/1.1" 200 -
+2025-03-06 09:58:09,383 - INFO - 127.0.0.1 - - [06/Mar/2025 09:58:09] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 09:58:09,652 - INFO - Received message: 'bye', Context: {}
+2025-03-06 09:58:09,653 - INFO - Vector shape for 'bye': (1, 60)
+2025-03-06 09:58:09,720 - INFO - Prediction shape: (1, 14), Prediction: [[1.8714320e-04 1.1434741e-02 6.9567137e-03 6.9339983e-02 2.2788325e-02
+  2.0219498e-04 6.7032856e-01 5.6258075e-02 7.6932847e-02 1.5546595e-02
+  1.1873474e-02 1.4921320e-02 4.2845868e-02 3.8416323e-04]]
+2025-03-06 09:58:09,720 - INFO - Predicted tag: goodbye, Confidence: 0.6703285574913025
+2025-03-06 09:58:09,720 - INFO - Confidence 0.6703285574913025 below threshold 0.7, defaulting to 'no_answer'
+2025-03-06 09:58:09,720 - INFO - Sending response: 'I’m not sure I understand. Could you rephrase that?', Updated context: {}
+2025-03-06 09:58:09,720 - INFO - 127.0.0.1 - - [06/Mar/2025 09:58:09] "POST /chat HTTP/1.1" 200 -
+2025-03-06 16:18:42,564 - INFO - 127.0.0.1 - - [06/Mar/2025 16:18:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 16:18:42,783 - INFO - Received message: 'hey', Context: {}
+2025-03-06 16:18:42,814 - INFO - Vector shape for 'hey': (1, 60)
+2025-03-06 16:18:43,097 - INFO - Prediction shape: (1, 14), Prediction: [[5.00522670e-04 3.48662250e-02 1.99327935e-02 4.29101773e-02
+  2.01429017e-02 2.94237456e-04 5.86448200e-02 7.18410552e-01
+  3.17371488e-02 1.56335291e-02 1.33545725e-02 6.94538234e-03
+  3.62196639e-02 4.07452870e-04]]
+2025-03-06 16:18:43,097 - INFO - Predicted tag: greeting, Confidence: 0.7184105515480042
+2025-03-06 16:18:43,097 - INFO - Sending response: 'Hello! Welcome to B&B Travel. How can I assist you?', Updated context: {}
+2025-03-06 16:18:43,099 - INFO - 127.0.0.1 - - [06/Mar/2025 16:18:43] "POST /chat HTTP/1.1" 200 -
+2025-03-06 16:18:47,221 - INFO - Received message: 'bye', Context: {}
+2025-03-06 16:18:47,223 - INFO - Vector shape for 'bye': (1, 60)
+2025-03-06 16:18:47,340 - INFO - Prediction shape: (1, 14), Prediction: [[1.8714320e-04 1.1434741e-02 6.9567137e-03 6.9339983e-02 2.2788325e-02
+  2.0219498e-04 6.7032856e-01 5.6258075e-02 7.6932847e-02 1.5546595e-02
+  1.1873474e-02 1.4921320e-02 4.2845868e-02 3.8416323e-04]]
+2025-03-06 16:18:47,341 - INFO - Predicted tag: goodbye, Confidence: 0.6703285574913025
+2025-03-06 16:18:47,341 - INFO - Confidence 0.6703285574913025 below threshold 0.7, defaulting to 'no_answer'
+2025-03-06 16:18:47,341 - INFO - Sending response: 'Sorry, I didn’t get that. How can I assist?', Updated context: {}
+2025-03-06 16:18:47,341 - INFO - 127.0.0.1 - - [06/Mar/2025 16:18:47] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:46:51,011 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 18:46:52,309 - INFO -  * Restarting with stat
+2025-03-06 18:46:54,226 - INFO - Downloading NLTK data...
+2025-03-06 18:46:54,983 - INFO - NLTK data downloaded successfully.
+2025-03-06 18:46:54,986 - INFO - Intents loaded successfully.
+2025-03-06 18:46:57,477 - INFO - MLPClassifier model trained successfully.
+2025-03-06 18:46:57,494 - WARNING -  * Debugger is active!
+2025-03-06 18:46:57,496 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 18:48:04,160 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:48:04,416 - INFO - Predicted tag for 'hey': greeting
+2025-03-06 18:48:04,416 - INFO - Response: 'Hi there! Ready to explore Nepal?', Context: {}
+2025-03-06 18:48:04,417 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:04] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:48:07,852 - INFO - Predicted tag for 'tour': list_packages
+2025-03-06 18:48:07,886 - INFO - Database connection successful.
+2025-03-06 18:48:07,887 - INFO - Response: 'Here are some tour packages from our database:
+ID: 1 - Kathmandu Cultural Tour, Location: Kathmandu, Price: Rs12000
+ID: 2 - Pokhara Adventure Package, Location: Pokhara, Price: Rs15000
+ID: 3 - Chitwan Jungle Safari, Location: Chitwan National Park, Price: Rs18000
+ID: 4 - Lumbini Pilgrimage Tour, Location: Lumbini, Price: Rs10000
+ID: 5 - Nagarkot Hill Station Getaway, Location: Nagarkot, Price: Rs8000', Context: {}
+2025-03-06 18:48:07,888 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:07] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:48:20,178 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:48:20,442 - INFO - Predicted tag for '1': about_us
+2025-03-06 18:48:20,442 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:48:20,442 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:20] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:48:55,200 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:48:55,521 - INFO - Predicted tag for 'offers': offer_details
+2025-03-06 18:48:55,521 - INFO - Response: 'Please provide the Offer ID.', Context: {'state': 'offer_details'}
+2025-03-06 18:48:55,522 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:55] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:48:58,037 - INFO - Database connection successful.
+2025-03-06 18:48:58,038 - INFO - Response: 'Offer not found.', Context: {}
+2025-03-06 18:48:58,039 - INFO - 127.0.0.1 - - [06/Mar/2025 18:48:58] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:49:11,860 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:49:12,131 - INFO - Predicted tag for 'offer details': offer_details
+2025-03-06 18:49:12,131 - INFO - Response: 'Please provide the Offer ID.', Context: {'state': 'offer_details'}
+2025-03-06 18:49:12,131 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:49:17,179 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:49:17,498 - INFO - Database connection successful.
+2025-03-06 18:49:17,498 - INFO - Response: 'Offer not found.', Context: {}
+2025-03-06 18:49:17,499 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:17] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:49:22,098 - INFO - Predicted tag for 'tour': list_packages
+2025-03-06 18:49:22,101 - INFO - Database connection successful.
+2025-03-06 18:49:22,102 - INFO - Response: 'Here are some tour packages from our database:
+ID: 1 - Kathmandu Cultural Tour, Location: Kathmandu, Price: Rs12000
+ID: 2 - Pokhara Adventure Package, Location: Pokhara, Price: Rs15000
+ID: 3 - Chitwan Jungle Safari, Location: Chitwan National Park, Price: Rs18000
+ID: 4 - Lumbini Pilgrimage Tour, Location: Lumbini, Price: Rs10000
+ID: 5 - Nagarkot Hill Station Getaway, Location: Nagarkot, Price: Rs8000', Context: {}
+2025-03-06 18:49:22,103 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:22] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:49:28,102 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:49:28,370 - INFO - Predicted tag for 'destination': destination_details
+2025-03-06 18:49:28,370 - INFO - Response: 'Please provide the Destination ID.', Context: {'state': 'destination_details'}
+2025-03-06 18:49:28,371 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:28] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:49:30,838 - INFO - Database connection successful.
+2025-03-06 18:49:30,839 - INFO - Response: 'Destination not found.', Context: {}
+2025-03-06 18:49:30,840 - INFO - 127.0.0.1 - - [06/Mar/2025 18:49:30] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:50:16,851 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:50:17,109 - INFO - Predicted tag for '12': about_us
+2025-03-06 18:50:17,110 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:50:17,110 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:17] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:50:18,474 - INFO - Predicted tag for '13': about_us
+2025-03-06 18:50:18,474 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:50:18,475 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:18] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:50:23,838 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:50:24,105 - INFO - Predicted tag for 'offer': offer_details
+2025-03-06 18:50:24,105 - INFO - Response: 'Please provide the Offer ID.', Context: {'state': 'offer_details'}
+2025-03-06 18:50:24,106 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:24] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:50:25,205 - INFO - Database connection successful.
+2025-03-06 18:50:25,206 - INFO - Response: 'Offer: Kathmandu Valley
+Location: Kathmandu
+Price: Rs4500
+Details: Kathmandu Valley is the cultural heart of Nepal. The valley includes the cities of Kathmandu, Bhakta...', Context: {}
+2025-03-06 18:50:25,206 - INFO - 127.0.0.1 - - [06/Mar/2025 18:50:25] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:34,108 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:51:34,358 - INFO - Predicted tag for 'destination': destination_details
+2025-03-06 18:51:34,358 - INFO - Response: 'Please provide the Destination ID.', Context: {'state': 'destination_details'}
+2025-03-06 18:51:34,358 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:35,552 - INFO - Database connection successful.
+2025-03-06 18:51:35,552 - INFO - Response: 'Destination not found.', Context: {}
+2025-03-06 18:51:35,552 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:35] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:38,311 - INFO - Predicted tag for '21': about_us
+2025-03-06 18:51:38,311 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:51:38,312 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:38] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:39,797 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:51:40,108 - INFO - Predicted tag for '12': about_us
+2025-03-06 18:51:40,108 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:51:40,109 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:40] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:43,765 - INFO - Predicted tag for 'destination': destination_details
+2025-03-06 18:51:43,766 - INFO - Response: 'Please provide the Destination ID.', Context: {'state': 'destination_details'}
+2025-03-06 18:51:43,766 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:43] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:46,679 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:51:46,927 - INFO - Database connection successful.
+2025-03-06 18:51:46,928 - INFO - Response: 'Destination not found.', Context: {}
+2025-03-06 18:51:46,929 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:46] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:51,068 - INFO - Predicted tag for 'detsination': about_us
+2025-03-06 18:51:51,068 - INFO - Response: 'We’re B&B Travel, your guide to exploring Nepal’s beauty! Learn more at /about.php.', Context: {}
+2025-03-06 18:51:51,069 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:51] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:55,525 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:51:55,785 - INFO - Predicted tag for 'destination': destination_details
+2025-03-06 18:51:55,785 - INFO - Response: 'Please provide the Destination ID.', Context: {'state': 'destination_details'}
+2025-03-06 18:51:55,786 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:55] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:51:57,705 - INFO - Database connection successful.
+2025-03-06 18:51:57,705 - INFO - Response: 'Destination not found.', Context: {}
+2025-03-06 18:51:57,705 - INFO - 127.0.0.1 - - [06/Mar/2025 18:51:57] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:58:15,030 - INFO - Downloading NLTK data...
+2025-03-06 18:58:15,868 - INFO - NLTK data downloaded successfully.
+2025-03-06 18:58:15,870 - INFO - Intents loaded successfully.
+2025-03-06 18:58:17,646 - INFO - MLPClassifier model trained successfully.
+2025-03-06 18:58:18,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 18:58:18,932 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 18:58:18,935 - INFO -  * Restarting with stat
+2025-03-06 18:58:19,989 - INFO - Downloading NLTK data...
+2025-03-06 18:58:20,835 - INFO - NLTK data downloaded successfully.
+2025-03-06 18:58:20,836 - INFO - Intents loaded successfully.
+2025-03-06 18:58:22,926 - INFO - MLPClassifier model trained successfully.
+2025-03-06 18:58:22,931 - WARNING -  * Debugger is active!
+2025-03-06 18:58:22,933 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 18:58:30,037 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:58:30,284 - INFO - Input: 'namaste', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 18:58:30,284 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 18:58:30,285 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:30] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:58:42,018 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:58:42,340 - INFO - Input: 'nepal's culture', Predicted tag: culture, Confidence: 0.99
+2025-03-06 18:58:42,340 - INFO - Response: 'Nepal’s rich culture is a treat! Expect vibrant festivals, warm hospitality, and delicious dal bhat.', Context: {}
+2025-03-06 18:58:42,341 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:42] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:58:54,555 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:58:54,868 - INFO - Input: 'book a tour', Predicted tag: book_tour, Confidence: 0.99
+2025-03-06 18:58:54,868 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 18:58:54,869 - INFO - 127.0.0.1 - - [06/Mar/2025 18:58:54] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:59:02,706 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:59:03,024 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 9, 23, 0, 0)}
+2025-03-06 18:59:03,025 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:03] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:59:11,881 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:59:12,206 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 18:59:12,206 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 18:59:23,887 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 18:59:24,204 - ERROR - Error in get_response: '>' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 18:59:24,205 - INFO - Response: '\U0001f613 Oops, something went wrong! Try again or contact support.', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 18:59:24,205 - INFO - 127.0.0.1 - - [06/Mar/2025 18:59:24] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:00,796 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:01,111 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:00:01,111 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:01] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:11,915 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:12,230 - ERROR - Error in get_response: '>' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:00:12,231 - INFO - Response: '\U0001f613 Oops, something went wrong! Try again or contact support.', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:00:12,231 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:19,653 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:19,964 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:00:19,965 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:19] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:23,690 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Tue, 23 Sep 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:00:23,691 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:23] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:33,978 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:34,232 - INFO - Input: 'namase', Predicted tag: about_us, Confidence: 0.90
+2025-03-06 19:00:34,232 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:00:34,232 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:37,183 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:00:37,183 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 19:00:37,184 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:37] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:42,262 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:42,513 - INFO - Input: 'travel', Predicted tag: about_us, Confidence: 0.99
+2025-03-06 19:00:42,513 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:00:42,514 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:42] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:45,084 - INFO - Input: 'tour', Predicted tag: list_packages, Confidence: 0.87
+2025-03-06 19:00:45,093 - INFO - Response: 'Here are some exciting tour packages to explore Nepal:
+\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour, Location: Kathmandu, Price: Rs12000
+\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package, Location: Pokhara, Price: Rs15000
+\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari, Location: Chitwan National Park, Price: Rs18000
+\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour, Location: Lumbini, Price: Rs10000
+\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway, Location: Nagarkot, Price: Rs8000', Context: {}
+2025-03-06 19:00:45,093 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:45] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:49,997 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:00:50,250 - INFO - Input: 'destination', Predicted tag: destination_details, Confidence: 0.95
+2025-03-06 19:00:50,250 - INFO - Response: 'Which Destination ID do you want to know about? (See 'list destinations')', Context: {'state': 'destination_details'}
+2025-03-06 19:00:50,251 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:50] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:00:54,429 - INFO - Response: 'Destination ID 3 not found.', Context: {}
+2025-03-06 19:00:54,429 - INFO - 127.0.0.1 - - [06/Mar/2025 19:00:54] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:07,204 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:01:07,458 - INFO - Input: 'yes', Predicted tag: about_us, Confidence: 0.90
+2025-03-06 19:01:07,458 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:01:07,458 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:07] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:09,481 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:01:09,481 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:01:09,482 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:09] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:15,196 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:01:15,449 - INFO - Input: 'travel tour', Predicted tag: about_us, Confidence: 0.80
+2025-03-06 19:01:15,449 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:01:15,449 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:15] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:18,762 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.98
+2025-03-06 19:01:18,762 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:01:18,762 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:18] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:27,953 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:01:28,218 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-06 19:01:28,219 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:28] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:01:35,014 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:01:35,331 - ERROR - Error in get_response: '>' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:01:35,332 - INFO - Response: '\U0001f613 Oops, something went wrong! Try again or contact support.', Context: {'start_date': 'Sat, 15 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:01:35,333 - INFO - 127.0.0.1 - - [06/Mar/2025 19:01:35] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:03:12,427 - INFO - 127.0.0.1 - - [06/Mar/2025 19:03:12] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:03:12,691 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Sat, 15 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:03:12,692 - INFO - 127.0.0.1 - - [06/Mar/2025 19:03:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:04:46,327 - INFO - 127.0.0.1 - - [06/Mar/2025 19:04:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:04:46,589 - INFO - Response: 'End date must be after start date. Try again (YYYY-MM-DD)!', Context: {'start_date': 'Sat, 15 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:04:46,589 - INFO - 127.0.0.1 - - [06/Mar/2025 19:04:46] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:18:26,922 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:18:27,187 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:18:27,187 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 19:18:27,188 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:27] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:18:34,031 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:18:34,340 - INFO - Input: 'i want to travel', Predicted tag: about_us, Confidence: 0.91
+2025-03-06 19:18:34,340 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:18:34,341 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:18:39,856 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:18:40,175 - INFO - Input: 'travel a tout', Predicted tag: about_us, Confidence: 0.99
+2025-03-06 19:18:40,176 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:18:40,176 - INFO - 127.0.0.1 - - [06/Mar/2025 19:18:40] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:19:11,976 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:19:12,466 - INFO -  * Restarting with stat
+2025-03-06 19:19:13,798 - INFO - Downloading NLTK data...
+2025-03-06 19:19:14,542 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:19:14,543 - INFO - Intents loaded successfully.
+2025-03-06 19:19:16,550 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:19:16,557 - WARNING -  * Debugger is active!
+2025-03-06 19:19:16,560 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:24:09,723 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:24:11,218 - INFO -  * Restarting with stat
+2025-03-06 19:24:17,415 - INFO - Downloading NLTK data...
+2025-03-06 19:24:18,112 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:24:18,113 - INFO - Intents loaded successfully.
+2025-03-06 19:24:20,094 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:24:21,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 19:24:21,379 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 19:24:21,381 - INFO -  * Restarting with stat
+2025-03-06 19:24:22,484 - INFO - Downloading NLTK data...
+2025-03-06 19:24:23,214 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:24:23,215 - INFO - Intents loaded successfully.
+2025-03-06 19:24:25,140 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:24:25,146 - WARNING -  * Debugger is active!
+2025-03-06 19:24:25,148 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:24:41,011 - INFO - 127.0.0.1 - - [06/Mar/2025 19:24:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:24:41,275 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:24:41,275 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 19:24:41,275 - INFO - 127.0.0.1 - - [06/Mar/2025 19:24:41] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:24:52,809 - INFO - 127.0.0.1 - - [06/Mar/2025 19:24:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:24:53,129 - INFO - Input: 'I want to book a tour', Predicted tag: book_tour, Confidence: 1.00
+2025-03-06 19:24:53,129 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:24:53,130 - INFO - 127.0.0.1 - - [06/Mar/2025 19:24:53] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:25:01,158 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:25:01,481 - WARNING - Invalid date format: "2025-04-01
+2025-03-06 19:25:01,481 - INFO - Response: 'Hmm, that date doesn’t work. Please use YYYY-MM-DD and ensure it’s in the future!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:25:01,482 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:01] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:25:07,986 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:25:08,297 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 4, 1, 0, 0)}
+2025-03-06 19:25:08,298 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:08] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:25:16,217 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:25:16,535 - ERROR - Error in get_response: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "c:\xampp\htdocs\B&BTravel\chatbot\app.py", line 281, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:25:16,539 - INFO - Response: '\U0001f613 Oops, something went wrong! I’ve reset our chat. Try again or contact support.', Context: {}
+2025-03-06 19:25:16,539 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:16] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:25:35,777 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:25:36,097 - INFO - Response: '\U0001f31f Context reset! How can I assist you now?', Context: {}
+2025-03-06 19:25:36,098 - INFO - 127.0.0.1 - - [06/Mar/2025 19:25:36] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:28:17,417 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:28:17,685 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:28:17,686 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:28:17,686 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:17] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:28:20,020 - INFO - Input: 'book atour', Predicted tag: book_tour, Confidence: 0.99
+2025-03-06 19:28:20,020 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:28:20,022 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:20] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:28:27,878 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:28:28,125 - INFO - Response: 'Hmm, that date doesn’t work. Please use YYYY-MM-DD and ensure it’s in the future!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:28:28,126 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:28] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:28:35,563 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:28:35,885 - INFO - Response: 'Hmm, that date doesn’t work. Please use YYYY-MM-DD and ensure it’s in the future!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:28:35,885 - INFO - 127.0.0.1 - - [06/Mar/2025 19:28:35] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:30:44,266 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:30:44,745 - INFO -  * Restarting with stat
+2025-03-06 19:30:45,886 - INFO - Downloading NLTK data...
+2025-03-06 19:30:46,642 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:30:46,643 - INFO - Intents loaded successfully.
+2025-03-06 19:30:48,703 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:30:48,712 - WARNING -  * Debugger is active!
+2025-03-06 19:30:48,714 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:31:08,947 - INFO - Downloading NLTK data...
+2025-03-06 19:31:09,692 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:31:09,693 - INFO - Intents loaded successfully.
+2025-03-06 19:31:11,924 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:31:13,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 19:31:13,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 19:31:13,179 - INFO -  * Restarting with stat
+2025-03-06 19:31:14,415 - INFO - Downloading NLTK data...
+2025-03-06 19:31:15,252 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:31:15,253 - INFO - Intents loaded successfully.
+2025-03-06 19:31:17,415 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:31:17,426 - WARNING -  * Debugger is active!
+2025-03-06 19:31:17,430 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:31:38,392 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:38] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:31:38,644 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:31:38,644 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:31:38,645 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:38] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:31:44,936 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:31:45,246 - INFO - Input: 'i wanna go to pokhara', Predicted tag: popular_destinations, Confidence: 0.99
+2025-03-06 19:31:45,253 - INFO - Response: 'Here are some must-visit destinations in Nepal:
+\U0001f4cd ID: 24 - Bandipur, Location: Nepal
+\U0001f4cd ID: 25 - Bhaktapur, Location: Nepal
+\U0001f4cd ID: 26 - Chitwan National Park, Location:  Nepal
+\U0001f4cd ID: 27 - Kathmandu Valley, Location: Nepal
+\U0001f4cd ID: 28 - Lumbini, Location: Nepal', Context: {}
+2025-03-06 19:31:45,253 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:45] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:31:50,989 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:31:51,304 - INFO - Input: 'i wanna book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-06 19:31:51,304 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:31:51,305 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:51] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:31:58,874 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:31:59,190 - INFO - Parsed date: 2025-02-09 00:00:00
+2025-03-06 19:31:59,190 - INFO - Checking start_date: 2025-02-09 00:00:00 vs now: 2025-03-06 19:31:59.190080
+2025-03-06 19:31:59,190 - INFO - Response: 'That date (2025-02-09) isn’t in the future. Please pick a date after 2025-03-06!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:31:59,190 - INFO - 127.0.0.1 - - [06/Mar/2025 19:31:59] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:32:09,969 - INFO - 127.0.0.1 - - [06/Mar/2025 19:32:09] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:32:10,273 - INFO - Parsed date: 2025-03-07 00:00:00
+2025-03-06 19:32:10,273 - INFO - Checking start_date: 2025-03-07 00:00:00 vs now: 2025-03-06 19:32:10.273977
+2025-03-06 19:32:10,273 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 7, 0, 0)}
+2025-03-06 19:32:10,273 - INFO - 127.0.0.1 - - [06/Mar/2025 19:32:10] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:32:17,163 - INFO - 127.0.0.1 - - [06/Mar/2025 19:32:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:32:17,478 - INFO - Parsed date: 2025-03-09 00:00:00
+2025-03-06 19:32:17,479 - ERROR - Error in get_response: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 287, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:32:17,480 - INFO - Response: '\U0001f613 Oops, something went wrong! I’ve reset our chat. Try again or contact support.', Context: {}
+2025-03-06 19:32:17,480 - INFO - 127.0.0.1 - - [06/Mar/2025 19:32:17] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:39:35,741 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:39:36,188 - INFO -  * Restarting with stat
+2025-03-06 19:39:37,335 - INFO - Downloading NLTK data...
+2025-03-06 19:39:38,164 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:39:38,165 - INFO - Intents loaded successfully.
+2025-03-06 19:39:42,777 - INFO - Downloading NLTK data...
+2025-03-06 19:39:43,533 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:39:43,534 - INFO - Intents loaded successfully.
+2025-03-06 19:39:45,584 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:39:46,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 19:39:46,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 19:39:46,879 - INFO -  * Restarting with stat
+2025-03-06 19:39:47,899 - INFO - Downloading NLTK data...
+2025-03-06 19:39:48,754 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:39:48,754 - INFO - Intents loaded successfully.
+2025-03-06 19:39:50,872 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:39:50,877 - WARNING -  * Debugger is active!
+2025-03-06 19:39:50,880 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:40:31,945 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:40:32,215 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 1.00
+2025-03-06 19:40:32,215 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 19:40:32,216 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:32] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:40:33,279 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.98
+2025-03-06 19:40:33,279 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:40:33,280 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:33] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:40:40,946 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:40:41,217 - INFO - Parsed date: 2025-08-09 00:00:00
+2025-03-06 19:40:41,217 - INFO - Checking start_date: 2025-08-09 00:00:00 vs now: 2025-03-06 19:40:41.217423
+2025-03-06 19:40:41,217 - INFO - Start date set: 2025-08-09 00:00:00, moving to waiting_for_end_date
+2025-03-06 19:40:41,217 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 8, 9, 0, 0)}
+2025-03-06 19:40:41,218 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:41] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:40:46,826 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:40:47,135 - INFO - Parsed date: 2035-08-24 00:00:00
+2025-03-06 19:40:47,135 - INFO - Parsed end_date: 2035-08-24 00:00:00
+2025-03-06 19:40:47,135 - ERROR - Error in get_response: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 292, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:40:47,138 - INFO - Response: '\U0001f613 Oops, something went wrong! I’ve reset our chat. Try again or contact support.', Context: {}
+2025-03-06 19:40:47,139 - INFO - 127.0.0.1 - - [06/Mar/2025 19:40:47] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:41:01,927 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:41:02,245 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.98
+2025-03-06 19:41:02,245 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:41:02,245 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:02] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:41:08,610 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:41:08,924 - INFO - Parsed date: 2025-03-10 00:00:00
+2025-03-06 19:41:08,925 - INFO - Checking start_date: 2025-03-10 00:00:00 vs now: 2025-03-06 19:41:08.925987
+2025-03-06 19:41:08,925 - INFO - Start date set: 2025-03-10 00:00:00, moving to waiting_for_end_date
+2025-03-06 19:41:08,925 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 10, 0, 0)}
+2025-03-06 19:41:08,926 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:08] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:41:13,998 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:41:14,319 - INFO - Parsed date: 2035-03-15 00:00:00
+2025-03-06 19:41:14,319 - INFO - Parsed end_date: 2035-03-15 00:00:00
+2025-03-06 19:41:14,319 - ERROR - Error in get_response: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 292, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:41:14,321 - INFO - Response: '\U0001f613 Oops, something went wrong! I’ve reset our chat. Try again or contact support.', Context: {}
+2025-03-06 19:41:14,322 - INFO - 127.0.0.1 - - [06/Mar/2025 19:41:14] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:44:26,093 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:44:27,033 - INFO -  * Restarting with stat
+2025-03-06 19:45:01,233 - INFO - Downloading NLTK data...
+2025-03-06 19:45:03,480 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:45:03,482 - INFO - Intents loaded successfully.
+2025-03-06 19:45:07,160 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:45:08,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 19:45:08,468 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 19:45:08,470 - INFO -  * Restarting with stat
+2025-03-06 19:45:11,130 - INFO - Downloading NLTK data...
+2025-03-06 19:45:12,973 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:45:12,976 - INFO - Intents loaded successfully.
+2025-03-06 19:45:17,482 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:45:17,500 - WARNING -  * Debugger is active!
+2025-03-06 19:45:17,510 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:45:17,653 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:45:17,658 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:45:17,660 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:45:17,660 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:17] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:45:20,088 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.96
+2025-03-06 19:45:20,088 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:45:20,089 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:20] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:45:25,298 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:45:25,616 - INFO - Parsed date: 2025-03-09 00:00:00
+2025-03-06 19:45:25,617 - INFO - Checking start_date: 2025-03-09 00:00:00 vs now: 2025-03-06 19:45:25.616193
+2025-03-06 19:45:25,617 - INFO - Start date set: 2025-03-09 00:00:00, moving to waiting_for_end_date
+2025-03-06 19:45:25,617 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 9, 0, 0)}
+2025-03-06 19:45:25,618 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:25] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:45:32,144 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:45:32,462 - INFO - Parsed date: 2025-04-10 00:00:00
+2025-03-06 19:45:32,462 - INFO - Parsed end_date: 2025-04-10 00:00:00
+2025-03-06 19:45:32,462 - ERROR - Error in get_response: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\chatbot\app.py", line 292, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:45:32,465 - INFO - Response: '\U0001f613 Oops, something went wrong! I’ve reset our chat. Try again or contact support.', Context: {}
+2025-03-06 19:45:32,466 - INFO - 127.0.0.1 - - [06/Mar/2025 19:45:32] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:51:21,353 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:51:22,263 - INFO -  * Restarting with stat
+2025-03-06 19:51:27,058 - INFO - Downloading NLTK data...
+2025-03-06 19:51:28,398 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:51:28,400 - INFO - Intents loaded successfully.
+2025-03-06 19:51:31,735 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:51:33,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 19:51:33,050 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 19:51:33,052 - INFO -  * Restarting with stat
+2025-03-06 19:51:35,826 - INFO - Downloading NLTK data...
+2025-03-06 19:51:38,474 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:51:38,476 - INFO - Intents loaded successfully.
+2025-03-06 19:51:43,311 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:51:43,326 - WARNING -  * Debugger is active!
+2025-03-06 19:51:43,333 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:51:51,376 - INFO - 127.0.0.1 - - [06/Mar/2025 19:51:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:51:51,644 - DEBUG - Processing input: 'hey', Current context: {}
+2025-03-06 19:51:51,646 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:51:51,646 - INFO - Response: 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', Context: {}
+2025-03-06 19:51:51,647 - INFO - 127.0.0.1 - - [06/Mar/2025 19:51:51] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:51:52,279 - DEBUG - Processing input: 'book', Current context: {}
+2025-03-06 19:51:52,281 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.96
+2025-03-06 19:51:52,282 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:51:52,283 - INFO - 127.0.0.1 - - [06/Mar/2025 19:51:52] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:51:59,151 - INFO - 127.0.0.1 - - [06/Mar/2025 19:51:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:51:59,401 - DEBUG - Processing input: '2025-06-3', Current context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:51:59,406 - DEBUG - Parsed date: 2025-06-03 00:00:00
+2025-03-06 19:51:59,406 - DEBUG - Checking start_date: 2025-06-03 00:00:00 vs now: 2025-03-06 19:51:59.406768
+2025-03-06 19:51:59,406 - INFO - Start date set: 2025-06-03 00:00:00, moving to waiting_for_end_date
+2025-03-06 19:51:59,406 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 6, 3, 0, 0)}
+2025-03-06 19:51:59,407 - INFO - 127.0.0.1 - - [06/Mar/2025 19:51:59] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:52:07,213 - INFO - 127.0.0.1 - - [06/Mar/2025 19:52:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:52:07,526 - DEBUG - Processing input: '2025-06-10', Current context: {'start_date': 'Tue, 03 Jun 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:52:07,527 - DEBUG - Parsed date: 2025-06-10 00:00:00
+2025-03-06 19:52:07,527 - DEBUG - Parsed end_date: 2025-06-10 00:00:00
+2025-03-06 19:52:07,527 - DEBUG - Comparing end_date 2025-06-10 00:00:00 with start_date Tue, 03 Jun 2025 00:00:00 GMT
+2025-03-06 19:52:07,527 - ERROR - Error in waiting_for_end_date: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "c:\xampp\htdocs\B&BTravel\chatbot\app.py", line 216, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:52:07,528 - INFO - Response: 'Error processing end date. Please start over!', Context: {}
+2025-03-06 19:52:07,529 - INFO - 127.0.0.1 - - [06/Mar/2025 19:52:07] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:55:15,294 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 19:55:16,204 - INFO -  * Restarting with stat
+2025-03-06 19:55:19,062 - INFO - Downloading NLTK data...
+2025-03-06 19:55:20,292 - INFO - NLTK data downloaded successfully.
+2025-03-06 19:55:20,295 - INFO - Intents loaded successfully.
+2025-03-06 19:55:25,466 - INFO - MLPClassifier model trained successfully.
+2025-03-06 19:55:25,536 - WARNING -  * Debugger is active!
+2025-03-06 19:55:25,545 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 19:58:08,860 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:58:09,111 - DEBUG - Processing input: 'herana', Current context: {}
+2025-03-06 19:58:09,115 - INFO - Input: 'herana', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 19:58:09,115 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:58:09,116 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:09] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:11,410 - DEBUG - Processing input: 'hy', Current context: {}
+2025-03-06 19:58:11,413 - INFO - Input: 'hy', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 19:58:11,413 - INFO - Response: 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', Context: {}
+2025-03-06 19:58:11,414 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:11] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:14,858 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:14] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:58:15,120 - DEBUG - Processing input: 'hey', Current context: {}
+2025-03-06 19:58:15,124 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:58:15,125 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:58:15,125 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:15] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:17,997 - DEBUG - Processing input: 'namaste', Current context: {}
+2025-03-06 19:58:18,002 - INFO - Input: 'namaste', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 19:58:18,002 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Context: {}
+2025-03-06 19:58:18,003 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:18] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:23,200 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:58:23,469 - DEBUG - Processing input: 'book a tour', Current context: {}
+2025-03-06 19:58:23,471 - INFO - Input: 'book a tour', Predicted tag: book_tour, Confidence: 0.99
+2025-03-06 19:58:23,471 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:58:23,472 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:23] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:28,751 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:58:29,065 - DEBUG - Processing input: '2025-04-12', Current context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 19:58:29,068 - DEBUG - Parsed date: 2025-04-12 00:00:00
+2025-03-06 19:58:29,068 - DEBUG - Checking start_date: 2025-04-12 00:00:00 vs now: 2025-03-06 19:58:29.068664
+2025-03-06 19:58:29,069 - INFO - Start date set: 2025-04-12 00:00:00, moving to waiting_for_end_date
+2025-03-06 19:58:29,069 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 4, 12, 0, 0)}
+2025-03-06 19:58:29,069 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:29] "POST /chat HTTP/1.1" 200 -
+2025-03-06 19:58:34,089 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 19:58:34,396 - DEBUG - Processing input: '2025-05-12', Current context: {'start_date': 'Sat, 12 Apr 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:58:34,397 - DEBUG - Parsed date: 2025-05-12 00:00:00
+2025-03-06 19:58:34,397 - DEBUG - Parsed end_date: 2025-05-12 00:00:00
+2025-03-06 19:58:34,397 - DEBUG - Comparing end_date 2025-05-12 00:00:00 with start_date Sat, 12 Apr 2025 00:00:00 GMT
+2025-03-06 19:58:34,397 - ERROR - TypeError in waiting_for_end_date: '<=' not supported between instances of 'datetime.datetime' and 'str'
+Traceback (most recent call last):
+  File "c:\xampp\htdocs\B&BTravel\chatbot\app.py", line 216, in get_response
+    if end_date <= context["start_date"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'datetime.datetime' and 'str'
+2025-03-06 19:58:34,399 - INFO - Response: 'Error comparing dates. Please start over!', Context: {'start_date': 'Sat, 12 Apr 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 19:58:34,400 - INFO - 127.0.0.1 - - [06/Mar/2025 19:58:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:14:22,113 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 20:14:23,087 - INFO -  * Restarting with stat
+2025-03-06 20:14:26,778 - INFO - Downloading NLTK data...
+2025-03-06 20:14:29,729 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:14:29,732 - INFO - Intents loaded successfully.
+2025-03-06 20:14:41,332 - INFO - Downloading NLTK data...
+2025-03-06 20:14:43,095 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:14:43,097 - INFO - Intents loaded successfully.
+2025-03-06 20:14:47,822 - INFO - MLPClassifier model trained successfully.
+2025-03-06 20:14:49,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 20:14:49,133 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 20:14:49,137 - INFO -  * Restarting with stat
+2025-03-06 20:14:52,832 - INFO - Downloading NLTK data...
+2025-03-06 20:14:54,285 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:14:54,287 - INFO - Intents loaded successfully.
+2025-03-06 20:15:00,095 - INFO - MLPClassifier model trained successfully.
+2025-03-06 20:15:00,114 - WARNING -  * Debugger is active!
+2025-03-06 20:15:00,124 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 20:15:58,707 - INFO - 127.0.0.1 - - [06/Mar/2025 20:15:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:15:58,970 - DEBUG - Received request with input: 'hey', Context: {}
+2025-03-06 20:15:58,971 - DEBUG - Processing input: 'hey', Initial context: {}
+2025-03-06 20:15:58,973 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 20:15:58,974 - INFO - Response: 'Hello adventurer! Ready to explore Nepal’s wonders?', Updated context: {}
+2025-03-06 20:15:58,974 - INFO - 127.0.0.1 - - [06/Mar/2025 20:15:58] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:16:00,903 - DEBUG - Received request with input: 'book', Context: {}
+2025-03-06 20:16:00,904 - DEBUG - Processing input: 'book', Initial context: {}
+2025-03-06 20:16:00,908 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.98
+2025-03-06 20:16:00,910 - DEBUG - Set initial booking context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:16:00,910 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Updated context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:16:00,911 - INFO - 127.0.0.1 - - [06/Mar/2025 20:16:00] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:16:06,796 - INFO - 127.0.0.1 - - [06/Mar/2025 20:16:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:16:07,043 - DEBUG - Received request with input: '2025-03-09', Context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:16:07,043 - DEBUG - Processing input: '2025-03-09', Initial context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:16:07,049 - DEBUG - Parsed date: 2025-03-09 00:00:00
+2025-03-06 20:16:07,050 - DEBUG - Checking start_date: 2025-03-09 00:00:00 vs now: 2025-03-06 20:16:07.050788
+2025-03-06 20:16:07,050 - INFO - Start date set: 2025-03-09 00:00:00, moving to waiting_for_end_date, Updated context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 9, 0, 0)}
+2025-03-06 20:16:07,050 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Updated context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 3, 9, 0, 0)}
+2025-03-06 20:16:07,051 - INFO - 127.0.0.1 - - [06/Mar/2025 20:16:07] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:16:11,881 - INFO - 127.0.0.1 - - [06/Mar/2025 20:16:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:16:12,201 - DEBUG - Received request with input: '2025-03-12', Context: {'start_date': 'Sun, 09 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:16:12,201 - DEBUG - Processing input: '2025-03-12', Initial context: {'start_date': 'Sun, 09 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:16:12,201 - DEBUG - Before parsing end_date, context: {'start_date': 'Sun, 09 Mar 2025 00:00:00 GMT', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:16:12,202 - DEBUG - Parsed date: 2025-03-12 00:00:00
+2025-03-06 20:16:12,202 - DEBUG - Parsed end_date: 2025-03-12 00:00:00
+2025-03-06 20:16:12,202 - DEBUG - Retrieved start_date from context: Sun, 09 Mar 2025 00:00:00 GMT, type: <class 'str'>
+2025-03-06 20:16:12,202 - ERROR - start_date is not a datetime object: Sun, 09 Mar 2025 00:00:00 GMT, type: <class 'str'>
+2025-03-06 20:16:12,202 - INFO - Response: 'Error: Start date is invalid or lost. Please start over!', Updated context: {}
+2025-03-06 20:16:12,202 - INFO - 127.0.0.1 - - [06/Mar/2025 20:16:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:19:13,772 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 20:19:14,521 - INFO -  * Restarting with stat
+2025-03-06 20:19:19,181 - INFO - Downloading NLTK data...
+2025-03-06 20:19:19,520 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:19:19,522 - INFO - Intents loaded successfully.
+2025-03-06 20:19:24,183 - INFO - MLPClassifier model trained successfully.
+2025-03-06 20:19:25,482 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-06 20:19:25,482 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 20:19:25,484 - INFO -  * Restarting with stat
+2025-03-06 20:19:28,470 - INFO - Downloading NLTK data...
+2025-03-06 20:19:29,429 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:19:29,430 - INFO - Intents loaded successfully.
+2025-03-06 20:19:33,727 - INFO - MLPClassifier model trained successfully.
+2025-03-06 20:19:33,744 - WARNING -  * Debugger is active!
+2025-03-06 20:19:33,751 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 20:19:47,164 - INFO - 127.0.0.1 - - [06/Mar/2025 20:19:47] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:19:47,429 - DEBUG - Received request with input: 'book a tour', Raw context: {}
+2025-03-06 20:19:47,429 - DEBUG - Processing input: 'book a tour', Deserialized context: {}
+2025-03-06 20:19:47,432 - INFO - Input: 'book a tour', Predicted tag: book_tour, Confidence: 0.99
+2025-03-06 20:19:47,432 - DEBUG - Set initial booking context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:19:47,432 - INFO - Response: '\U0001f30d Ready to explore Nepal? Let’s start with your travel date (YYYY-MM-DD)!', Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:19:47,433 - INFO - 127.0.0.1 - - [06/Mar/2025 20:19:47] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:20:04,561 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:20:04,882 - DEBUG - Received request with input: '2025-04-12', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:20:04,882 - DEBUG - Processing input: '2025-04-12', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:20:04,887 - DEBUG - Parsed date: 2025-04-12 00:00:00
+2025-03-06 20:20:04,887 - DEBUG - Checking start_date: 2025-04-12 00:00:00 vs now: 2025-03-06 20:20:04.887048
+2025-03-06 20:20:04,887 - INFO - Start date set: 2025-04-12 00:00:00, moving to waiting_for_end_date, Updated context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': datetime.datetime(2025, 4, 12, 0, 0)}
+2025-03-06 20:20:04,887 - INFO - Response: '\U0001f31f Awesome! When’s your end date? (YYYY-MM-DD)', Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-04-12T00:00:00'}
+2025-03-06 20:20:04,888 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:04] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:20:13,583 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:20:13,888 - DEBUG - Received request with input: '2025-05-12', Raw context: {'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:20:13,888 - DEBUG - Processing input: '2025-05-12', Deserialized context: {'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:20:13,888 - DEBUG - Before parsing end_date, context: {'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:20:13,889 - DEBUG - Parsed date: 2025-05-12 00:00:00
+2025-03-06 20:20:13,889 - DEBUG - Parsed end_date: 2025-05-12 00:00:00
+2025-03-06 20:20:13,889 - DEBUG - Retrieved start_date from context: 2025-04-12 00:00:00, type: <class 'datetime.datetime'>
+2025-03-06 20:20:13,889 - DEBUG - Comparing end_date 2025-05-12 00:00:00 with start_date 2025-04-12 00:00:00
+2025-03-06 20:20:13,889 - INFO - End date set: 2025-05-12 00:00:00, moving to waiting_for_package_id, Updated context: {'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': datetime.datetime(2025, 5, 12, 0, 0)}
+2025-03-06 20:20:13,889 - INFO - Response: 'Perfect! Which Package ID would you like? (Check them with 'list packages')', Serialized context: {'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-05-12T00:00:00'}
+2025-03-06 20:20:13,889 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:13] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:20:26,731 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:20:26,980 - DEBUG - Received request with input: 'okay 10', Raw context: {'end_date': '2025-05-12T00:00:00', 'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:20:26,980 - DEBUG - Processing input: 'okay 10', Deserialized context: {'end_date': datetime.datetime(2025, 5, 12, 0, 0), 'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:20:26,980 - INFO - Response: 'Please enter a valid Package ID (numbers only)!', Serialized context: {'end_date': '2025-05-12T00:00:00', 'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:20:26,981 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:26] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:20:29,667 - DEBUG - Received request with input: '10', Raw context: {'end_date': '2025-05-12T00:00:00', 'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:20:29,667 - DEBUG - Processing input: '10', Deserialized context: {'end_date': datetime.datetime(2025, 5, 12, 0, 0), 'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:20:29,667 - INFO - Package ID set: 10, moving to waiting_for_purpose, Updated context: {'end_date': datetime.datetime(2025, 5, 12, 0, 0), 'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '10'}
+2025-03-06 20:20:29,667 - INFO - Response: 'Got it! What’s the purpose of your trip? (e.g., Adventure, Relaxation)', Serialized context: {'end_date': '2025-05-12T00:00:00', 'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '10'}
+2025-03-06 20:20:29,668 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:29] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:20:34,756 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:20:35,021 - DEBUG - Received request with input: 'adventure', Raw context: {'end_date': '2025-05-12T00:00:00', 'package_id': '10', 'start_date': '2025-04-12T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-06 20:20:35,021 - DEBUG - Processing input: 'adventure', Deserialized context: {'end_date': datetime.datetime(2025, 5, 12, 0, 0), 'package_id': '10', 'start_date': datetime.datetime(2025, 4, 12, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-06 20:20:35,021 - INFO - Purpose set: adventure, attempting to book tour
+2025-03-06 20:20:35,035 - DEBUG - Package details retrieved: \U0001f304 **Swoyambhunath Cultural Day Trip**
+Type: Cultural
+Location: Swoyambhunath
+Price: Rs6000
+Details: A day trip to Swoyambhunath (Monkey Temple), offering panoramic views of Kathmandu city and a deep dive into the Buddhist culture and history....
+2025-03-06 20:20:35,039 - INFO - Price extracted: 6000.0
+2025-03-06 20:20:35,041 - DEBUG - Checking availability with query: 
+        SELECT * FROM booking
+        WHERE PackageId = 10 AND status = 0
+        AND (
+            (BookingTime <= 2025-04-12 00:00:00 AND BookingTime >= 2025-04-12 00:00:00) OR
+            (BookingTime <= 2025-05-12 00:00:00 AND BookingTime >= 2025-05-12 00:00:00) OR
+            (BookingTime >= 2025-04-12 00:00:00 AND BookingTime <= 2025-05-12 00:00:00)
+        )
+        
+2025-03-06 20:20:35,043 - INFO - Package 10 availability from 2025-04-12 00:00:00 to 2025-05-12 00:00:00: True
+2025-03-06 20:20:35,045 - DEBUG - Executing booking SQL: INSERT INTO booking (PackageId, FirstName, Email, Phone, NameOnCard, CardNumber, ExpMonth, ExpYear, CVV, Country, StreetLine1, StreetLine2, City, State1, Pincode, Additional_Information, status, BookingTime)
+                 VALUES (10, Guest, unknown@example.com, 1234567890, Guest, 1234567812345678, 12, 2026, 000, Nepal, Street1, Street2, Kathmandu, Bagmati, 44600, adventure, 0, NOW())
+2025-03-06 20:20:35,048 - INFO - Booking result: \U0001f389 Booking confirmed! Booking ID: 55, Confirmation Code: 53a90ebb
+Your adventure to Nepal starts 2025-04-12!
+2025-03-06 20:20:35,048 - INFO - Response: '\U0001f389 Booking confirmed! Booking ID: 55, Confirmation Code: 53a90ebb
+Your adventure to Nepal starts 2025-04-12!', Serialized context: {}
+2025-03-06 20:20:35,048 - INFO - 127.0.0.1 - - [06/Mar/2025 20:20:35] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:27:41,765 - INFO -  * Detected change in 'c:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-06 20:27:42,844 - INFO -  * Restarting with stat
+2025-03-06 20:27:45,491 - INFO - Downloading NLTK data...
+2025-03-06 20:27:49,752 - INFO - NLTK data downloaded successfully.
+2025-03-06 20:27:49,754 - INFO - Intents loaded successfully.
+2025-03-06 20:27:53,606 - INFO - MLPClassifier model trained successfully.
+2025-03-06 20:27:53,617 - WARNING -  * Debugger is active!
+2025-03-06 20:27:53,623 - INFO -  * Debugger PIN: 104-243-190
+2025-03-06 20:29:06,640 - DEBUG - Received request with input: '', Raw context: {'category': 'Science and Technology', 'course': 'BSc CSIT', 'history': ['course_categories', 'category_science_tech', 'fallback'], 'state': 'greeting'}
+2025-03-06 20:29:06,641 - INFO - 127.0.0.1 - - [06/Mar/2025 20:29:06] "[31m[1mPOST /chat HTTP/1.1[0m" 400 -
+2025-03-06 20:29:08,843 - ERROR - Error in /chat endpoint: 400 Bad Request: Failed to decode JSON object: Expecting value: line 4 column 73 (char 200)
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\werkzeug\wrappers\request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 4 column 73 (char 200)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\xampp\htdocs\B&BTravel\chatbot\app.py", line 385, in chat
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\werkzeug\wrappers\request.py", line 560, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\werkzeug\wrappers\request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\B&BTravel\myenv\Lib\site-packages\werkzeug\wrappers\request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting value: line 4 column 73 (char 200)
+2025-03-06 20:29:08,892 - INFO - 127.0.0.1 - - [06/Mar/2025 20:29:08] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-03-06 20:29:19,925 - DEBUG - Received request with input: '', Raw context: {}
+2025-03-06 20:29:19,925 - INFO - 127.0.0.1 - - [06/Mar/2025 20:29:19] "[31m[1mPOST /chat HTTP/1.1[0m" 400 -
+2025-03-06 20:51:28,107 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:51:28,362 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-06 20:51:28,362 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-06 20:51:28,370 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 20:51:28,370 - INFO - Response: {'text': 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', 'image': None}, Serialized context: {}
+2025-03-06 20:51:28,371 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:28] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:51:33,005 - DEBUG - Received request with input: 'how are you', Raw context: {}
+2025-03-06 20:51:33,005 - DEBUG - Processing input: 'how are you', Deserialized context: {}
+2025-03-06 20:51:33,008 - INFO - Input: 'how are you', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 20:51:33,008 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 20:51:33,008 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:33] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:51:36,929 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:51:37,183 - DEBUG - Received request with input: 'book', Raw context: {}
+2025-03-06 20:51:37,183 - DEBUG - Processing input: 'book', Deserialized context: {}
+2025-03-06 20:51:37,187 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-06 20:51:37,188 - INFO - Response: {'text': '\U0001f30d Let’s plan your Nepal adventure! When do you want to start? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:51:37,190 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:37] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:51:43,625 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:51:43,934 - DEBUG - Received request with input: '2025-04-10', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:51:43,934 - DEBUG - Processing input: '2025-04-10', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:51:43,942 - DEBUG - Parsed date: 2025-04-10 00:00:00
+2025-03-06 20:51:43,942 - INFO - Start date set: 2025-04-10 00:00:00, moving to waiting_for_end_date
+2025-03-06 20:51:43,943 - INFO - Response: {'text': '\U0001f389 Great choice! Your trip starts 2025-04-10. When’s your end date? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-04-10T00:00:00'}
+2025-03-06 20:51:43,944 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:43] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:51:58,931 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:51:59,243 - DEBUG - Received request with input: '2025-02-10', Raw context: {'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:51:59,243 - DEBUG - Processing input: '2025-02-10', Deserialized context: {'start_date': datetime.datetime(2025, 4, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:51:59,244 - DEBUG - Parsed date: 2025-02-10 00:00:00
+2025-03-06 20:51:59,244 - INFO - Response: {'text': 'End date (2025-02-10) must be after 2025-04-10. Pick a later date! \u23f0', 'image': None}, Serialized context: {'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:51:59,245 - INFO - 127.0.0.1 - - [06/Mar/2025 20:51:59] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:52:05,193 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:52:05,504 - DEBUG - Received request with input: '2025-10-19', Raw context: {'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:52:05,504 - DEBUG - Processing input: '2025-10-19', Deserialized context: {'start_date': datetime.datetime(2025, 4, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:52:05,504 - DEBUG - Parsed date: 2025-10-19 00:00:00
+2025-03-06 20:52:05,504 - INFO - End date set: 2025-10-19 00:00:00, moving to waiting_for_package_id
+2025-03-06 20:52:05,504 - INFO - Response: {'text': "\U0001f31f Dates locked in: 2025-04-10 to 2025-10-19! Which package ID catches your eye? (Type 'list packages' to see options) \U0001f392", 'image': None}, Serialized context: {'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-10-19T00:00:00'}
+2025-03-06 20:52:05,505 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:05] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:52:11,524 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:52:11,842 - DEBUG - Received request with input: 'list packeages', Raw context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:11,842 - DEBUG - Processing input: 'list packeages', Deserialized context: {'end_date': datetime.datetime(2025, 10, 19, 0, 0), 'start_date': datetime.datetime(2025, 4, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:11,843 - INFO - Response: {'text': "Please enter a valid Package ID (numbers only). Need help? Type 'list packages'! \U0001f50d", 'image': None}, Serialized context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:11,844 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:11] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:52:19,630 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:52:19,940 - DEBUG - Received request with input: 'list packages', Raw context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:19,941 - DEBUG - Processing input: 'list packages', Deserialized context: {'end_date': datetime.datetime(2025, 10, 19, 0, 0), 'start_date': datetime.datetime(2025, 4, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:19,989 - INFO - Response: {'text': '\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nPick an ID to continue! \U0001f60a', 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:19,990 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:19] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:52:30,690 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:52:31,009 - DEBUG - Received request with input: '5', Raw context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:31,009 - DEBUG - Processing input: '5', Deserialized context: {'end_date': datetime.datetime(2025, 10, 19, 0, 0), 'start_date': datetime.datetime(2025, 4, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:52:31,013 - INFO - Package ID set: 5, moving to waiting_for_purpose
+2025-03-06 20:52:31,013 - INFO - Response: {'text': '\U0001f3de\ufe0f You chose:\n\U0001f31f **Nagarkot Hill Station Getaway**\nType: Leisure\nLocation: Nagarkot\nPrice: Rs8000\nFeatures: Sunrise View, Relaxation, Short Hiking\nWhat’s the purpose of your trip? (e.g., Adventure, Relaxation) \u2728', 'image': 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg'}, Serialized context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-04-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '5'}
+2025-03-06 20:52:31,014 - INFO - 127.0.0.1 - - [06/Mar/2025 20:52:31] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:57:00,243 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:57:00,507 - DEBUG - Received request with input: 'book', Raw context: {}
+2025-03-06 20:57:00,507 - DEBUG - Processing input: 'book', Deserialized context: {}
+2025-03-06 20:57:00,510 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-06 20:57:00,511 - INFO - Response: {'text': '\U0001f30d Let’s plan your Nepal adventure! When do you want to start? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:00,511 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:00] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:57:05,794 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:57:06,112 - DEBUG - Received request with input: '2025-01-10', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:06,112 - DEBUG - Processing input: '2025-01-10', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:06,113 - DEBUG - Parsed date: 2025-01-10 00:00:00
+2025-03-06 20:57:06,113 - INFO - Response: {'text': 'Oops! 2025-01-10 is in the past. Pick a future date after 2025-03-06! \u23f3', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:06,115 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:06] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:57:14,924 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:14] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:57:15,239 - DEBUG - Received request with input: '2025-10-10', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:15,239 - DEBUG - Processing input: '2025-10-10', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 20:57:15,239 - DEBUG - Parsed date: 2025-10-10 00:00:00
+2025-03-06 20:57:15,239 - INFO - Start date set: 2025-10-10 00:00:00, moving to waiting_for_end_date
+2025-03-06 20:57:15,239 - INFO - Response: {'text': '\U0001f389 Great choice! Your trip starts 2025-10-10. When’s your end date? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-10-10T00:00:00'}
+2025-03-06 20:57:15,240 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:15] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:57:20,742 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:57:21,065 - DEBUG - Received request with input: '2025-10-19', Raw context: {'start_date': '2025-10-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:57:21,065 - DEBUG - Processing input: '2025-10-19', Deserialized context: {'start_date': datetime.datetime(2025, 10, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 20:57:21,065 - DEBUG - Parsed date: 2025-10-19 00:00:00
+2025-03-06 20:57:21,065 - INFO - End date set: 2025-10-19 00:00:00, moving to waiting_for_package_id
+2025-03-06 20:57:21,065 - INFO - Response: {'text': "\U0001f31f Dates locked in: 2025-10-10 to 2025-10-19! Which package ID catches your eye? (Type 'list packages' to see options) \U0001f392", 'image': None}, Serialized context: {'start_date': '2025-10-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-10-19T00:00:00'}
+2025-03-06 20:57:21,066 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:21] "POST /chat HTTP/1.1" 200 -
+2025-03-06 20:57:26,357 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 20:57:26,671 - DEBUG - Received request with input: 'list packages', Raw context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-10-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:57:26,672 - DEBUG - Processing input: 'list packages', Deserialized context: {'end_date': datetime.datetime(2025, 10, 19, 0, 0), 'start_date': datetime.datetime(2025, 10, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:57:26,675 - INFO - Response: {'text': '\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nPick an ID to continue! \U0001f60a', 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {'end_date': '2025-10-19T00:00:00', 'start_date': '2025-10-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 20:57:26,676 - INFO - 127.0.0.1 - - [06/Mar/2025 20:57:26] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:00:04,070 - INFO - 127.0.0.1 - - [06/Mar/2025 21:00:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:00:04,335 - DEBUG - Received request with input: 'packages', Raw context: {}
+2025-03-06 21:00:04,335 - DEBUG - Processing input: 'packages', Deserialized context: {}
+2025-03-06 21:00:04,338 - INFO - Input: 'packages', Predicted tag: list_packages, Confidence: 0.97
+2025-03-06 21:00:04,342 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:00:04,342 - INFO - 127.0.0.1 - - [06/Mar/2025 21:00:04] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:00:18,508 - INFO - 127.0.0.1 - - [06/Mar/2025 21:00:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:00:18,821 - DEBUG - Received request with input: 'packages', Raw context: {}
+2025-03-06 21:00:18,821 - DEBUG - Processing input: 'packages', Deserialized context: {}
+2025-03-06 21:00:18,823 - INFO - Input: 'packages', Predicted tag: list_packages, Confidence: 0.97
+2025-03-06 21:00:18,828 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:00:18,829 - INFO - 127.0.0.1 - - [06/Mar/2025 21:00:18] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:01:58,202 - INFO - 127.0.0.1 - - [06/Mar/2025 21:01:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:01:58,452 - DEBUG - Received request with input: 'packages', Raw context: {}
+2025-03-06 21:01:58,452 - DEBUG - Processing input: 'packages', Deserialized context: {}
+2025-03-06 21:01:58,456 - INFO - Input: 'packages', Predicted tag: list_packages, Confidence: 0.97
+2025-03-06 21:01:58,460 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:01:58,461 - INFO - 127.0.0.1 - - [06/Mar/2025 21:01:58] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:18,525 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:02:18,832 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-06 21:02:18,832 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-06 21:02:18,834 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:02:18,835 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:02:18,835 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:18] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:27,900 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:02:28,216 - DEBUG - Received request with input: 'details', Raw context: {}
+2025-03-06 21:02:28,217 - DEBUG - Processing input: 'details', Deserialized context: {}
+2025-03-06 21:02:28,220 - INFO - Input: 'details', Predicted tag: package_details, Confidence: 0.54
+2025-03-06 21:02:28,221 - INFO - Confidence 0.54 below threshold 0.65, defaulting to 'no_answer'
+2025-03-06 21:02:28,221 - INFO - Response: {'text': 'Hmm, I’m stumped! Could you rephrase that?', 'image': None}, Serialized context: {}
+2025-03-06 21:02:28,221 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:28] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:31,088 - DEBUG - Received request with input: 'okay', Raw context: {}
+2025-03-06 21:02:31,089 - DEBUG - Processing input: 'okay', Deserialized context: {}
+2025-03-06 21:02:31,091 - INFO - Input: 'okay', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:02:31,092 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:02:31,092 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:31] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:33,751 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:02:34,002 - DEBUG - Received request with input: 'back', Raw context: {}
+2025-03-06 21:02:34,002 - DEBUG - Processing input: 'back', Deserialized context: {}
+2025-03-06 21:02:34,005 - INFO - Input: 'back', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:02:34,005 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:02:34,006 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:36,653 - DEBUG - Received request with input: 'packages', Raw context: {}
+2025-03-06 21:02:36,653 - DEBUG - Processing input: 'packages', Deserialized context: {}
+2025-03-06 21:02:36,656 - INFO - Input: 'packages', Predicted tag: list_packages, Confidence: 0.97
+2025-03-06 21:02:36,660 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:02:36,662 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:36] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:02:41,398 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:02:41,659 - DEBUG - Received request with input: 'details', Raw context: {}
+2025-03-06 21:02:41,659 - DEBUG - Processing input: 'details', Deserialized context: {}
+2025-03-06 21:02:41,662 - INFO - Input: 'details', Predicted tag: package_details, Confidence: 0.54
+2025-03-06 21:02:41,662 - INFO - Confidence 0.54 below threshold 0.65, defaulting to 'no_answer'
+2025-03-06 21:02:41,662 - INFO - Response: {'text': "Not sure what you mean. Try something like 'list packages'!", 'image': None}, Serialized context: {}
+2025-03-06 21:02:41,663 - INFO - 127.0.0.1 - - [06/Mar/2025 21:02:41] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:09,952 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:09] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:10,273 - DEBUG - Received request with input: 'list packeages', Raw context: {}
+2025-03-06 21:03:10,273 - DEBUG - Processing input: 'list packeages', Deserialized context: {}
+2025-03-06 21:03:10,275 - INFO - Input: 'list packeages', Predicted tag: list_offers, Confidence: 0.78
+2025-03-06 21:03:10,275 - INFO - Response: {'text': 'Check out these amazing offers for your Nepal trip:', 'image': None}, Serialized context: {}
+2025-03-06 21:03:10,276 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:10] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:14,184 - DEBUG - Received request with input: 'okay', Raw context: {}
+2025-03-06 21:03:14,184 - DEBUG - Processing input: 'okay', Deserialized context: {}
+2025-03-06 21:03:14,190 - INFO - Input: 'okay', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:03:14,190 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:03:14,191 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:14] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:20,443 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:20,706 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-06 21:03:20,706 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-06 21:03:20,709 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 21:03:20,709 - INFO - Response: {'text': 'Hello adventurer! Ready to explore Nepal’s wonders?', 'image': None}, Serialized context: {}
+2025-03-06 21:03:20,710 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:20] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:25,364 - DEBUG - Received request with input: 'book', Raw context: {}
+2025-03-06 21:03:25,364 - DEBUG - Processing input: 'book', Deserialized context: {}
+2025-03-06 21:03:25,371 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-06 21:03:25,371 - INFO - Response: {'text': '\U0001f30d Let’s plan your Nepal adventure! When do you want to start? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 21:03:25,373 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:25] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:34,119 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:34,386 - DEBUG - Received request with input: '2025-8-10', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 21:03:34,387 - DEBUG - Processing input: '2025-8-10', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-06 21:03:34,387 - DEBUG - Parsed date: 2025-08-10 00:00:00
+2025-03-06 21:03:34,387 - INFO - Start date set: 2025-08-10 00:00:00, moving to waiting_for_end_date
+2025-03-06 21:03:34,388 - INFO - Response: {'text': '\U0001f389 Great choice! Your trip starts 2025-08-10. When’s your end date? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-08-10T00:00:00'}
+2025-03-06 21:03:34,388 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:39,529 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:39,852 - DEBUG - Received request with input: '2025-8-19', Raw context: {'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 21:03:39,852 - DEBUG - Processing input: '2025-8-19', Deserialized context: {'start_date': datetime.datetime(2025, 8, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-06 21:03:39,853 - DEBUG - Parsed date: 2025-08-19 00:00:00
+2025-03-06 21:03:39,853 - INFO - End date set: 2025-08-19 00:00:00, moving to waiting_for_package_id
+2025-03-06 21:03:39,853 - INFO - Response: {'text': "\U0001f31f Dates locked in: 2025-08-10 to 2025-08-19! Which package ID catches your eye? (Type 'list packages' to see options) \U0001f392", 'image': None}, Serialized context: {'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-08-19T00:00:00'}
+2025-03-06 21:03:39,853 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:39] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:43,381 - DEBUG - Received request with input: 'adventures', Raw context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:43,382 - DEBUG - Processing input: 'adventures', Deserialized context: {'end_date': datetime.datetime(2025, 8, 19, 0, 0), 'start_date': datetime.datetime(2025, 8, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:43,382 - INFO - Response: {'text': "Please enter a valid Package ID (numbers only). Need help? Type 'list packages'! \U0001f50d", 'image': None}, Serialized context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:43,384 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:43] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:48,311 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:48] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:48,596 - DEBUG - Received request with input: 'list packages', Raw context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:48,596 - DEBUG - Processing input: 'list packages', Deserialized context: {'end_date': datetime.datetime(2025, 8, 19, 0, 0), 'start_date': datetime.datetime(2025, 8, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:48,607 - INFO - Response: {'text': '\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nPick an ID to continue! \U0001f60a', 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:48,608 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:48] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:03:58,457 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:03:58,781 - DEBUG - Received request with input: 'id:1', Raw context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:58,781 - DEBUG - Processing input: 'id:1', Deserialized context: {'end_date': datetime.datetime(2025, 8, 19, 0, 0), 'start_date': datetime.datetime(2025, 8, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:58,781 - INFO - Response: {'text': "Please enter a valid Package ID (numbers only). Need help? Type 'list packages'! \U0001f50d", 'image': None}, Serialized context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:03:58,782 - INFO - 127.0.0.1 - - [06/Mar/2025 21:03:58] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:04:03,273 - DEBUG - Received request with input: '1', Raw context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:04:03,273 - DEBUG - Processing input: '1', Deserialized context: {'end_date': datetime.datetime(2025, 8, 19, 0, 0), 'start_date': datetime.datetime(2025, 8, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-06 21:04:03,278 - INFO - Package ID set: 1, moving to waiting_for_purpose
+2025-03-06 21:04:03,278 - INFO - Response: {'text': '\U0001f3de\ufe0f You chose:\n\U0001f31f **Kathmandu Cultural Tour**\nType: Cultural\nLocation: Kathmandu\nPrice: Rs12000\nFeatures: Sightseeing, Heritage, Temples\nWhat’s the purpose of your trip? (e.g., Adventure, Relaxation) \u2728', 'image': 'http://localhost/B&BTravel/uploads/kathmandu_tour.jpg'}, Serialized context: {'end_date': '2025-08-19T00:00:00', 'start_date': '2025-08-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '1'}
+2025-03-06 21:04:03,279 - INFO - 127.0.0.1 - - [06/Mar/2025 21:04:03] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:26,076 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:23:26,341 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-06 21:23:26,341 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-06 21:23:26,345 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-06 21:23:26,346 - INFO - Response: {'text': 'Hello adventurer! Ready to explore Nepal’s wonders?', 'image': None}, Serialized context: {}
+2025-03-06 21:23:26,347 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:26] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:34,029 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:23:34,347 - DEBUG - Received request with input: 'list', Raw context: {}
+2025-03-06 21:23:34,347 - DEBUG - Processing input: 'list', Deserialized context: {}
+2025-03-06 21:23:34,350 - INFO - Input: 'list', Predicted tag: list_offers, Confidence: 0.78
+2025-03-06 21:23:34,350 - INFO - Response: {'text': 'Check out these amazing offers for your Nepal trip:', 'image': None}, Serialized context: {}
+2025-03-06 21:23:34,350 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:34] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:37,531 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:23:37,531 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:23:37,533 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:23:37,538 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:23:37,539 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:37] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:40,900 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:23:41,164 - DEBUG - Received request with input: '2', Raw context: {}
+2025-03-06 21:23:41,164 - DEBUG - Processing input: '2', Deserialized context: {}
+2025-03-06 21:23:41,167 - INFO - Input: '2', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:23:41,167 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:23:41,168 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:41] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:46,141 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:46] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:23:46,456 - DEBUG - Received request with input: 'id :2', Raw context: {}
+2025-03-06 21:23:46,456 - DEBUG - Processing input: 'id :2', Deserialized context: {}
+2025-03-06 21:23:46,459 - INFO - Input: 'id :2', Predicted tag: package_details, Confidence: 0.42
+2025-03-06 21:23:46,459 - INFO - Confidence 0.42 below threshold 0.65, defaulting to 'no_answer'
+2025-03-06 21:23:46,459 - INFO - Response: {'text': 'Hmm, I’m stumped! Could you rephrase that?', 'image': None}, Serialized context: {}
+2025-03-06 21:23:46,460 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:46] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:49,717 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:23:49,717 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:23:49,721 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:23:49,726 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:23:49,727 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:49] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:56,483 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:23:56,748 - DEBUG - Received request with input: 'ID :2', Raw context: {}
+2025-03-06 21:23:56,748 - DEBUG - Processing input: 'ID :2', Deserialized context: {}
+2025-03-06 21:23:56,750 - INFO - Input: 'ID :2', Predicted tag: package_details, Confidence: 0.42
+2025-03-06 21:23:56,750 - INFO - Confidence 0.42 below threshold 0.65, defaulting to 'no_answer'
+2025-03-06 21:23:56,751 - INFO - Response: {'text': 'Hmm, I’m stumped! Could you rephrase that?', 'image': None}, Serialized context: {}
+2025-03-06 21:23:56,751 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:56] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:23:59,039 - DEBUG - Received request with input: '2', Raw context: {}
+2025-03-06 21:23:59,039 - DEBUG - Processing input: '2', Deserialized context: {}
+2025-03-06 21:23:59,042 - INFO - Input: '2', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:23:59,042 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:23:59,042 - INFO - 127.0.0.1 - - [06/Mar/2025 21:23:59] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:00,763 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-06 21:24:00,763 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-06 21:24:00,767 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:00,767 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:00,768 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:00] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:05,905 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:24:06,220 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-06 21:24:06,221 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-06 21:24:06,223 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:06,223 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:06,224 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:06] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:09,507 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:24:09,507 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:24:09,511 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:24:09,515 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:24:09,515 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:09] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:12,194 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:12] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:24:12,457 - DEBUG - Received request with input: 'details', Raw context: {}
+2025-03-06 21:24:12,457 - DEBUG - Processing input: 'details', Deserialized context: {}
+2025-03-06 21:24:12,459 - INFO - Input: 'details', Predicted tag: package_details, Confidence: 0.54
+2025-03-06 21:24:12,459 - INFO - Confidence 0.54 below threshold 0.65, defaulting to 'no_answer'
+2025-03-06 21:24:12,460 - INFO - Response: {'text': 'Hmm, I’m stumped! Could you rephrase that?', 'image': None}, Serialized context: {}
+2025-03-06 21:24:12,460 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:12] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:13,266 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-06 21:24:13,266 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-06 21:24:13,269 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:13,270 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:13,270 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:13] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:18,819 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:24:19,069 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:24:19,069 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:24:19,071 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:24:19,074 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:24:19,076 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:19] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:19,962 - DEBUG - Received request with input: '4', Raw context: {}
+2025-03-06 21:24:19,962 - DEBUG - Processing input: '4', Deserialized context: {}
+2025-03-06 21:24:19,966 - INFO - Input: '4', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:19,966 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:19,969 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:19] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:24,879 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:24:25,128 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:24:25,128 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:24:25,130 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:24:25,134 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:24:25,134 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:25] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:26,716 - DEBUG - Received request with input: '3', Raw context: {}
+2025-03-06 21:24:26,717 - DEBUG - Processing input: '3', Deserialized context: {}
+2025-03-06 21:24:26,720 - INFO - Input: '3', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:26,720 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:26,721 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:26] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:33,693 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-06 21:24:33,965 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-06 21:24:33,965 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-06 21:24:33,967 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-06 21:24:33,971 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-06 21:24:33,972 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:33] "POST /chat HTTP/1.1" 200 -
+2025-03-06 21:24:35,187 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-06 21:24:35,187 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-06 21:24:35,194 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-06 21:24:35,194 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-06 21:24:35,195 - INFO - 127.0.0.1 - - [06/Mar/2025 21:24:35] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:21:05,147 - INFO - 127.0.0.1 - - [07/Mar/2025 07:21:05] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:21:05,374 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-07 07:21:05,375 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-07 07:21:05,394 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-07 07:21:05,395 - INFO - Response: {'text': 'Hello adventurer! Ready to explore Nepal’s wonders?', 'image': None}, Serialized context: {}
+2025-03-07 07:21:05,395 - INFO - 127.0.0.1 - - [07/Mar/2025 07:21:05] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:21:08,534 - DEBUG - Received request with input: 'yes', Raw context: {}
+2025-03-07 07:21:08,534 - DEBUG - Processing input: 'yes', Deserialized context: {}
+2025-03-07 07:21:08,556 - INFO - Input: 'yes', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:21:08,556 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:21:08,557 - INFO - 127.0.0.1 - - [07/Mar/2025 07:21:08] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:27:49,883 - INFO - 127.0.0.1 - - [07/Mar/2025 07:27:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:27:50,150 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-07 07:27:50,151 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-07 07:27:50,153 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-07 07:27:50,154 - INFO - Response: {'text': 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', 'image': None}, Serialized context: {}
+2025-03-07 07:27:50,154 - INFO - 127.0.0.1 - - [07/Mar/2025 07:27:50] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:27:56,099 - INFO - 127.0.0.1 - - [07/Mar/2025 07:27:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:27:56,416 - DEBUG - Received request with input: 'package list', Raw context: {}
+2025-03-07 07:27:56,416 - DEBUG - Processing input: 'package list', Deserialized context: {}
+2025-03-07 07:27:56,419 - INFO - Input: 'package list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-07 07:27:56,432 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-07 07:27:56,434 - INFO - 127.0.0.1 - - [07/Mar/2025 07:27:56] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:27:59,932 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-07 07:27:59,932 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-07 07:27:59,938 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:27:59,938 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:27:59,939 - INFO - 127.0.0.1 - - [07/Mar/2025 07:27:59] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:04,148 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:04] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:28:04,403 - DEBUG - Received request with input: '2', Raw context: {}
+2025-03-07 07:28:04,403 - DEBUG - Processing input: '2', Deserialized context: {}
+2025-03-07 07:28:04,406 - INFO - Input: '2', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:28:04,406 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:28:04,406 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:04] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:08,294 - DEBUG - Received request with input: 'book', Raw context: {}
+2025-03-07 07:28:08,294 - DEBUG - Processing input: 'book', Deserialized context: {}
+2025-03-07 07:28:08,296 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-07 07:28:08,298 - INFO - Response: {'text': '\U0001f30d Let’s plan your Nepal adventure! When do you want to start? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:28:08,299 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:08] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:16,853 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:28:17,115 - DEBUG - Received request with input: '2025-04-19', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:28:17,116 - DEBUG - Processing input: '2025-04-19', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:28:17,116 - DEBUG - Parsed date: 2025-04-19 00:00:00
+2025-03-07 07:28:17,116 - INFO - Start date set: 2025-04-19 00:00:00, moving to waiting_for_end_date
+2025-03-07 07:28:17,117 - INFO - Response: {'text': '\U0001f389 Great choice! Your trip starts 2025-04-19. When’s your end date? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-04-19T00:00:00'}
+2025-03-07 07:28:17,117 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:17] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:22,096 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:22] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:28:22,414 - DEBUG - Received request with input: '2025-10-20', Raw context: {'start_date': '2025-04-19T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-07 07:28:22,415 - DEBUG - Processing input: '2025-10-20', Deserialized context: {'start_date': datetime.datetime(2025, 4, 19, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-07 07:28:22,415 - DEBUG - Parsed date: 2025-10-20 00:00:00
+2025-03-07 07:28:22,415 - INFO - End date set: 2025-10-20 00:00:00, moving to waiting_for_package_id
+2025-03-07 07:28:22,417 - INFO - Response: {'text': "\U0001f31f Dates locked in: 2025-04-19 to 2025-10-20! Which package ID catches your eye? (Type 'list packages' to see options) \U0001f392", 'image': None}, Serialized context: {'start_date': '2025-04-19T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-10-20T00:00:00'}
+2025-03-07 07:28:22,419 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:22] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:27,975 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:28:28,294 - DEBUG - Received request with input: '1', Raw context: {'end_date': '2025-10-20T00:00:00', 'start_date': '2025-04-19T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:28:28,294 - DEBUG - Processing input: '1', Deserialized context: {'end_date': datetime.datetime(2025, 10, 20, 0, 0), 'start_date': datetime.datetime(2025, 4, 19, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:28:28,298 - INFO - Package ID set: 1, moving to waiting_for_purpose
+2025-03-07 07:28:28,298 - INFO - Response: {'text': '\U0001f3de\ufe0f You chose:\n\U0001f31f **Kathmandu Cultural Tour**\nType: Cultural\nLocation: Kathmandu\nPrice: Rs12000\nFeatures: Sightseeing, Heritage, Temples\nWhat’s the purpose of your trip? (e.g., Adventure, Relaxation) \u2728', 'image': 'http://localhost/B&BTravel/uploads/kathmandu_tour.jpg'}, Serialized context: {'end_date': '2025-10-20T00:00:00', 'start_date': '2025-04-19T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '1'}
+2025-03-07 07:28:28,299 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:28] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:28:32,053 - DEBUG - Received request with input: 'okay', Raw context: {'end_date': '2025-10-20T00:00:00', 'package_id': '1', 'start_date': '2025-04-19T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-07 07:28:32,054 - DEBUG - Processing input: 'okay', Deserialized context: {'end_date': datetime.datetime(2025, 10, 20, 0, 0), 'package_id': '1', 'start_date': datetime.datetime(2025, 4, 19, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-07 07:28:32,072 - INFO - Package 1 availability from 2025-04-19 00:00:00 to 2025-10-20 00:00:00: True
+2025-03-07 07:28:32,086 - INFO - Response: {'text': '\U0001f389 Booking confirmed! Booking ID: 56, Code: c09d8703\nYour okay adventure starts 2025-04-19 and ends 2025-10-20!\nForecast for Kathmandu on 2025-04-19: Chilly \u2744\ufe0f. Pack accordingly! \U0001f392\nProgress: \u2705 Dates \u2192 \u2705 Package \u2192 \u2705 Purpose \u2192 Booking Complete! Enjoy your trip! \U0001f30f', 'image': 'http://localhost/B&BTravel/uploads/kathmandu_tour.jpg'}, Serialized context: {}
+2025-03-07 07:28:32,087 - INFO - 127.0.0.1 - - [07/Mar/2025 07:28:32] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:32:58,197 - DEBUG - Received request with input: '', Raw context: {}
+2025-03-07 07:32:58,197 - INFO - 127.0.0.1 - - [07/Mar/2025 07:32:58] "[31m[1mPOST /chat HTTP/1.1[0m" 400 -
+2025-03-07 07:33:00,597 - DEBUG - Received request with input: '', Raw context: {}
+2025-03-07 07:33:00,598 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:00] "[31m[1mPOST /chat HTTP/1.1[0m" 400 -
+2025-03-07 07:33:12,965 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:12] "[33mPOST /book HTTP/1.1[0m" 404 -
+2025-03-07 07:33:43,517 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:33:43,781 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-07 07:33:43,781 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-07 07:33:43,784 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-07 07:33:43,784 - INFO - Response: {'text': 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', 'image': None}, Serialized context: {}
+2025-03-07 07:33:43,785 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:43] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:33:45,627 - DEBUG - Received request with input: 'lis', Raw context: {}
+2025-03-07 07:33:45,627 - DEBUG - Processing input: 'lis', Deserialized context: {}
+2025-03-07 07:33:45,635 - INFO - Input: 'lis', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:33:45,635 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:33:45,636 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:45] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:33:50,992 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:33:51,240 - DEBUG - Received request with input: 'packages list', Raw context: {}
+2025-03-07 07:33:51,240 - DEBUG - Processing input: 'packages list', Deserialized context: {}
+2025-03-07 07:33:51,243 - INFO - Input: 'packages list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-07 07:33:51,247 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-07 07:33:51,249 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:51] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:33:52,616 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-07 07:33:52,616 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-07 07:33:52,621 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:33:52,621 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:33:52,622 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:52] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:33:59,248 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:33:59,518 - DEBUG - Received request with input: 'packages list', Raw context: {}
+2025-03-07 07:33:59,519 - DEBUG - Processing input: 'packages list', Deserialized context: {}
+2025-03-07 07:33:59,521 - INFO - Input: 'packages list', Predicted tag: list_packages, Confidence: 0.95
+2025-03-07 07:33:59,525 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-07 07:33:59,526 - INFO - 127.0.0.1 - - [07/Mar/2025 07:33:59] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:02,216 - DEBUG - Received request with input: 'chitwan', Raw context: {}
+2025-03-07 07:34:02,217 - DEBUG - Processing input: 'chitwan', Deserialized context: {}
+2025-03-07 07:34:02,222 - INFO - Input: 'chitwan', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:34:02,222 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:34:02,222 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:02] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:06,699 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:34:06,951 - DEBUG - Received request with input: 'package lsit', Raw context: {}
+2025-03-07 07:34:06,951 - DEBUG - Processing input: 'package lsit', Deserialized context: {}
+2025-03-07 07:34:06,955 - INFO - Input: 'package lsit', Predicted tag: list_packages, Confidence: 0.97
+2025-03-07 07:34:06,958 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-07 07:34:06,959 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:06] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:08,293 - DEBUG - Received request with input: '3', Raw context: {}
+2025-03-07 07:34:08,293 - DEBUG - Processing input: '3', Deserialized context: {}
+2025-03-07 07:34:08,296 - INFO - Input: '3', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 07:34:08,296 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 07:34:08,297 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:08] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:11,328 - DEBUG - Received request with input: 'book', Raw context: {}
+2025-03-07 07:34:11,328 - DEBUG - Processing input: 'book', Deserialized context: {}
+2025-03-07 07:34:11,332 - INFO - Input: 'book', Predicted tag: book_tour, Confidence: 0.97
+2025-03-07 07:34:11,333 - INFO - Response: {'text': '\U0001f30d Let’s plan your Nepal adventure! When do you want to start? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:34:11,334 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:11] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:15,497 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:34:15,802 - DEBUG - Received request with input: '2025-09-10', Raw context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:34:15,802 - DEBUG - Processing input: '2025-09-10', Deserialized context: {'state': 'book_tour', 'step': 'waiting_for_start_date'}
+2025-03-07 07:34:15,802 - DEBUG - Parsed date: 2025-09-10 00:00:00
+2025-03-07 07:34:15,802 - INFO - Start date set: 2025-09-10 00:00:00, moving to waiting_for_end_date
+2025-03-07 07:34:15,803 - INFO - Response: {'text': '\U0001f389 Great choice! Your trip starts 2025-09-10. When’s your end date? (YYYY-MM-DD)', 'image': None}, Serialized context: {'state': 'book_tour', 'step': 'waiting_for_end_date', 'start_date': '2025-09-10T00:00:00'}
+2025-03-07 07:34:15,804 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:15] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:23,594 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:34:23,900 - DEBUG - Received request with input: '2025-09-19', Raw context: {'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-07 07:34:23,900 - DEBUG - Processing input: '2025-09-19', Deserialized context: {'start_date': datetime.datetime(2025, 9, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_end_date'}
+2025-03-07 07:34:23,901 - DEBUG - Parsed date: 2025-09-19 00:00:00
+2025-03-07 07:34:23,901 - INFO - End date set: 2025-09-19 00:00:00, moving to waiting_for_package_id
+2025-03-07 07:34:23,901 - INFO - Response: {'text': "\U0001f31f Dates locked in: 2025-09-10 to 2025-09-19! Which package ID catches your eye? (Type 'list packages' to see options) \U0001f392", 'image': None}, Serialized context: {'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id', 'end_date': '2025-09-19T00:00:00'}
+2025-03-07 07:34:23,901 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:23] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:32,310 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:34:32,619 - DEBUG - Received request with input: 'list packages', Raw context: {'end_date': '2025-09-19T00:00:00', 'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:34:32,620 - DEBUG - Processing input: 'list packages', Deserialized context: {'end_date': datetime.datetime(2025, 9, 19, 0, 0), 'start_date': datetime.datetime(2025, 9, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:34:32,623 - INFO - Response: {'text': '\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nPick an ID to continue! \U0001f60a', 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {'end_date': '2025-09-19T00:00:00', 'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:34:32,625 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:32] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:34,018 - DEBUG - Received request with input: '3', Raw context: {'end_date': '2025-09-19T00:00:00', 'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:34:34,019 - DEBUG - Processing input: '3', Deserialized context: {'end_date': datetime.datetime(2025, 9, 19, 0, 0), 'start_date': datetime.datetime(2025, 9, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_package_id'}
+2025-03-07 07:34:34,021 - INFO - Package ID set: 3, moving to waiting_for_purpose
+2025-03-07 07:34:34,022 - INFO - Response: {'text': '\U0001f3de\ufe0f You chose:\n\U0001f31f **Chitwan Jungle Safari**\nType: Wildlife\nLocation: Chitwan National Park\nPrice: Rs18000\nFeatures: Wildlife Safari, Bird Watching, Canoeing\nWhat’s the purpose of your trip? (e.g., Adventure, Relaxation) \u2728', 'image': 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg'}, Serialized context: {'end_date': '2025-09-19T00:00:00', 'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose', 'package_id': '3'}
+2025-03-07 07:34:34,023 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:34] "POST /chat HTTP/1.1" 200 -
+2025-03-07 07:34:44,893 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 07:34:45,145 - DEBUG - Received request with input: 'adventure', Raw context: {'end_date': '2025-09-19T00:00:00', 'package_id': '3', 'start_date': '2025-09-10T00:00:00', 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-07 07:34:45,145 - DEBUG - Processing input: 'adventure', Deserialized context: {'end_date': datetime.datetime(2025, 9, 19, 0, 0), 'package_id': '3', 'start_date': datetime.datetime(2025, 9, 10, 0, 0), 'state': 'book_tour', 'step': 'waiting_for_purpose'}
+2025-03-07 07:34:45,152 - INFO - Package 3 availability from 2025-09-10 00:00:00 to 2025-09-19 00:00:00: True
+2025-03-07 07:34:45,158 - INFO - Response: {'text': '\U0001f389 Booking confirmed! Booking ID: 57, Code: 52c79f86\nYour adventure adventure starts 2025-09-10 and ends 2025-09-19!\nForecast for Chitwan National Park on 2025-09-10: Sunny \u2600\ufe0f. Pack accordingly! \U0001f392\nProgress: \u2705 Dates \u2192 \u2705 Package \u2192 \u2705 Purpose \u2192 Booking Complete! Enjoy your trip! \U0001f30f', 'image': 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg'}, Serialized context: {}
+2025-03-07 07:34:45,159 - INFO - 127.0.0.1 - - [07/Mar/2025 07:34:45] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:02:19,442 - INFO - 127.0.0.1 - - [07/Mar/2025 08:02:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 08:02:19,708 - DEBUG - Received request with input: 'hi', Raw context: {}
+2025-03-07 08:02:19,708 - DEBUG - Processing input: 'hi', Deserialized context: {}
+2025-03-07 08:02:19,717 - INFO - Input: 'hi', Predicted tag: greeting, Confidence: 0.99
+2025-03-07 08:02:19,718 - INFO - Response: {'text': 'Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?', 'image': None}, Serialized context: {}
+2025-03-07 08:02:19,719 - INFO - 127.0.0.1 - - [07/Mar/2025 08:02:19] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:02:22,299 - DEBUG - Received request with input: 'list packages', Raw context: {}
+2025-03-07 08:02:22,300 - DEBUG - Processing input: 'list packages', Deserialized context: {}
+2025-03-07 08:02:22,303 - INFO - Input: 'list packages', Predicted tag: list_packages, Confidence: 0.95
+2025-03-07 08:02:22,307 - INFO - Response: {'text': "Here’s what we’ve got:\n\U0001f3de\ufe0f ID: 1 - Kathmandu Cultural Tour (Kathmandu), Price: Rs12000\n\U0001f3de\ufe0f ID: 2 - Pokhara Adventure Package (Pokhara), Price: Rs15000\n\U0001f3de\ufe0f ID: 3 - Chitwan Jungle Safari (Chitwan National Park), Price: Rs18000\n\U0001f3de\ufe0f ID: 4 - Lumbini Pilgrimage Tour (Lumbini), Price: Rs10000\n\U0001f3de\ufe0f ID: 5 - Nagarkot Hill Station Getaway (Nagarkot), Price: Rs8000\nWant details? Just say 'details <ID>'! \U0001f60e", 'images': ['http://localhost/B&BTravel/uploads/kathmandu_tour.jpg', 'http://localhost/B&BTravel/uploads/pokhara_adventure.jpg', 'http://localhost/B&BTravel/uploads/chitwan_safari.jpg', 'http://localhost/B&BTravel/uploads/lumbini_tour.jpg', 'http://localhost/B&BTravel/uploads/nagarkot_getaway.jpg']}, Serialized context: {}
+2025-03-07 08:02:22,307 - INFO - 127.0.0.1 - - [07/Mar/2025 08:02:22] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:02:23,980 - DEBUG - Received request with input: '1', Raw context: {}
+2025-03-07 08:02:23,981 - DEBUG - Processing input: '1', Deserialized context: {}
+2025-03-07 08:02:23,984 - INFO - Input: '1', Predicted tag: about_us, Confidence: 0.89
+2025-03-07 08:02:23,985 - INFO - Response: {'text': 'We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.', 'image': None}, Serialized context: {}
+2025-03-07 08:02:23,985 - INFO - 127.0.0.1 - - [07/Mar/2025 08:02:23] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:07:07,084 - INFO - 127.0.0.1 - - [07/Mar/2025 08:07:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-07 08:07:07,157 - INFO - 127.0.0.1 - - [07/Mar/2025 08:07:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 08:08:37,217 - INFO - 127.0.0.1 - - [07/Mar/2025 08:08:37] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 08:08:37,482 - DEBUG - Received request with input: 'hey', Raw context: {}
+2025-03-07 08:08:37,482 - DEBUG - Processing input: 'hey', Deserialized context: {}
+2025-03-07 08:08:37,485 - INFO - Input: 'hey', Predicted tag: greeting, Confidence: 0.99
+2025-03-07 08:08:37,485 - INFO - Response: {'text': 'Hello adventurer! Ready to explore Nepal’s wonders?', 'image': None}, Serialized context: {}
+2025-03-07 08:08:37,486 - INFO - 127.0.0.1 - - [07/Mar/2025 08:08:37] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:08:41,533 - DEBUG - Received request with input: 'bye', Raw context: {}
+2025-03-07 08:08:41,533 - DEBUG - Processing input: 'bye', Deserialized context: {}
+2025-03-07 08:08:41,544 - INFO - Input: 'bye', Predicted tag: goodbye, Confidence: 0.99
+2025-03-07 08:08:41,544 - INFO - Response: {'text': 'Safe travels! Namaste!', 'image': None}, Serialized context: {}
+2025-03-07 08:08:41,545 - INFO - 127.0.0.1 - - [07/Mar/2025 08:08:41] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:08:45,201 - INFO - 127.0.0.1 - - [07/Mar/2025 08:08:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-07 08:08:45,464 - DEBUG - Received request with input: 'thank you', Raw context: {}
+2025-03-07 08:08:45,464 - DEBUG - Processing input: 'thank you', Deserialized context: {}
+2025-03-07 08:08:45,478 - INFO - Input: 'thank you', Predicted tag: thanks, Confidence: 0.99
+2025-03-07 08:08:45,478 - INFO - Response: {'text': 'You’re welcome! Happy to help.', 'image': None}, Serialized context: {}
+2025-03-07 08:08:45,479 - INFO - 127.0.0.1 - - [07/Mar/2025 08:08:45] "POST /chat HTTP/1.1" 200 -
+2025-03-07 08:25:39,029 - INFO - Downloading NLTK data...
+2025-03-07 08:25:39,831 - INFO - NLTK data downloaded successfully.
+2025-03-07 08:25:39,843 - INFO - Intents loaded successfully.
+2025-03-07 08:25:41,902 - INFO - MLPClassifier model trained successfully.
+2025-03-07 08:25:43,219 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+2025-03-07 08:25:43,219 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 08:25:43,221 - INFO -  * Restarting with stat
+2025-03-07 08:25:44,378 - INFO - Downloading NLTK data...
+2025-03-07 08:25:45,142 - INFO - NLTK data downloaded successfully.
+2025-03-07 08:25:45,143 - INFO - Intents loaded successfully.
+2025-03-07 08:25:47,446 - INFO - MLPClassifier model trained successfully.
+2025-03-07 08:25:47,453 - WARNING -  * Debugger is active!
+2025-03-07 08:25:47,457 - INFO -  * Debugger PIN: 104-243-190
+2025-03-07 08:25:52,784 - INFO - 127.0.0.1 - - [07/Mar/2025 08:25:52] "[33mGET /api/favorites?user_id=user_123 HTTP/1.1[0m" 404 -
+2025-03-07 08:26:15,324 - INFO - 127.0.0.1 - - [07/Mar/2025 08:26:15] "[33mGET /api/recommend?user_id=user_123 HTTP/1.1[0m" 404 -
+2025-03-07 08:26:30,207 - INFO - 127.0.0.1 - - [07/Mar/2025 08:26:30] "[33mGET /api/packages HTTP/1.1[0m" 404 -
+2025-03-07 08:33:59,419 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\B&BTravel\\chatbot\\app.py', reloading
+2025-03-07 08:34:00,282 - INFO -  * Restarting with stat

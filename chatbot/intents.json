@@ -1,0 +1,516 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "namaste",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "नमस्ते",
+        "के छ",
+        "hi there",
+        "howdy",
+        "greetings"
+      ],
+      "responses": [
+        "🌟 Namaste! Welcome to B&B Travel Nepal. How can I make your trip amazing?",
+        "नमस्ते! तपाईंको यात्रा कस्तो छ? Ready to explore Nepal?",
+        "Hello, fellow traveler! How can B&B Travel Nepal assist you today?",
+        "Hi there! Let’s plan your dream Nepal adventure!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "later",
+        "exit",
+        "take care",
+        "catch you later",
+        "farewell",
+        "बिदा"
+      ],
+      "responses": [
+        "👋 Safe travels! Namaste!",
+        "See you soon for your next Nepal adventure!",
+        "Take care and come back for more Nepal magic!",
+        "Farewell, traveler! May your journey be unforgettable."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "dhanyabad",
+        "appreciate it",
+        "cheers",
+        "thank you so much",
+        "धन्यवाद",
+        "grateful"
+      ],
+      "responses": [
+        "You’re welcome! Happy to help.",
+        "धन्यवाद! Enjoy your journey with B&B Travel!",
+        "My pleasure! Anything else I can do for you?",
+        "Cheers! Let me know how else I can assist."
+      ]
+    },
+    {
+      "tag": "list_packages",
+      "patterns": [
+        "show me tour packages",
+        "what packages do you have",
+        "list tours",
+        "available packages",
+        "tour options",
+        "can you show me some tours",
+        "what trips are available",
+        "I want to see travel packages",
+        "what are my options for tours",
+        "package list",
+        "show me your tours",
+        "any travel plans"
+      ],
+      "responses": [
+        "Here are some exciting tour packages to explore Nepal:",
+        "Based on your preferences, here are some tours you might like:",
+        "Ready to discover Nepal? Here’s our package lineup:",
+        "Check out these amazing travel options:"
+      ]
+    },
+    {
+      "tag": "package_details",
+      "patterns": [
+        "tell me about a package",
+        "package info",
+        "details of a tour",
+        "what’s package ID",
+        "describe package",
+        "more about a tour",
+        "package description",
+        "tell me more about this package",
+        "what’s included in the tour",
+        "give me package details"
+      ],
+      "responses": [
+        "We have amazing packages like Everest Base Camp, Annapurna Circuit, and Chitwan Jungle Safari. Which one would you like to know more about?",
+        "Tell me which package you’re interested in, and I’ll spill all the details!",
+        "Which tour catches your eye? I’ll give you the full scoop.",
+        "Pick a package, and I’ll tell you everything you need to know!"
+      ]
+    },
+    {
+      "tag": "book_tour",
+      "patterns": [
+        "book a tour",
+        "reserve a trip",
+        "i want to book",
+        "schedule a tour",
+        "plan a trip",
+        "how do I book a package",
+        "I’d like to reserve a tour",
+        "can you help me book a trip",
+        "I want to plan a vacation",
+        "book now",
+        "let’s book it",
+        "secure a spot"
+      ],
+      "responses": [
+        "Let’s get your Nepal adventure booked!",
+        "Ready to book your dream trip? Let’s do it!",
+        "Booking time! Which tour are we locking in?",
+        "Your Nepal journey starts here—let’s reserve your spot!"
+      ]
+    },
+    {
+      "tag": "confirm_booking",
+      "patterns": [
+        "yes",
+        "confirm",
+        "sure",
+        "book it",
+        "go ahead",
+        "proceed",
+        "okay",
+        "yep"
+      ],
+      "responses": [
+        "✅ Booking confirmed! Let’s make it happen.",
+        "Great choice! Your trip is locked in.",
+        "All set! Your Nepal adventure is confirmed."
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "cancel my booking",
+        "cancel a tour",
+        "delete reservation",
+        "cancel trip",
+        "stop booking",
+        "undo my reservation",
+        "cancel it",
+        "no thanks"
+      ],
+      "responses": [
+        "I’ll help you cancel your booking.",
+        "Let’s process your cancellation. Can you provide your booking ID?",
+        "No problem, cancelling now. Anything else I can assist with?",
+        "Booking cancelled. What’s your next travel idea?"
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "special offers",
+        "discounts",
+        "deals",
+        "promotions",
+        "any cheap packages",
+        "show me offers",
+        "what’s on offer",
+        "discounted tours",
+        "show me offers",
+        "special deals",
+        "list special packages",
+        "any promotions",
+        "deal me in",
+        "show discounts"
+      ],
+      "responses": [
+        "Here are some exclusive deals for your Nepal trip:",
+        "Check out these special offers just for you:",
+        "Save big with these discounted packages:",
+        "Hot deals alert! Take a look:"
+      ]
+    },
+    {
+      "tag": "offer_details",
+      "patterns": [
+        "tell me about an offer",
+        "offer info",
+        "details of offer",
+        "what’s offer ID",
+        "describe special deal",
+        "more about this offer",
+        "offer description",
+        "tell me about the discount",
+        "what’s in the deal"
+      ],
+      "responses": [
+        "Which offer catches your eye?",
+        "Tell me which offer you’re interested in, and I’ll give you the details.",
+        "Pick an offer, and I’ll break it down for you!",
+        "Which deal do you want to dive into?"
+      ]
+    },
+    {
+      "tag": "popular_destinations",
+      "patterns": [
+        "popular places",
+        "top destinations",
+        "famous spots",
+        "where to go in Nepal",
+        "best locations",
+        "must-see places",
+        "top spots",
+        "recommended destinations",
+        "where should I visit",
+        "list destinations",
+        "show destinations",
+        "destinations"
+      ],
+      "responses": [
+        "Here are some must-visit destinations in Nepal:",
+        "Explore these amazing places in Nepal:",
+        "Nepal’s top gems await you:",
+        "Check out these popular spots:"
+      ]
+    },
+    {
+      "tag": "destination_details",
+      "patterns": [
+        "tell me about a place",
+        "destination info",
+        "details of a spot",
+        "what’s destination ID",
+        "describe location",
+        "more about this place",
+        "place description",
+        "tell me about this destination",
+        "what’s there to see"
+      ],
+      "responses": [
+        "Which Nepal gem do you want to explore?",
+        "Tell me which destination you’re curious about.",
+        "Pick a spot, and I’ll tell you all about it!",
+        "Which place are you dreaming of?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what’s the weather",
+        "weather in Nepal",
+        "climate info",
+        "forecast",
+        "how’s the weather",
+        "temperature in Nepal",
+        "weather today",
+        "is it raining"
+      ],
+      "responses": [
+        "Nepal’s weather varies by region! Want to know about a specific place?",
+        "Tell me the location, and I’ll give you the weather details.",
+        "Weather check! Which spot in Nepal are you curious about?",
+        "Let me know where, and I’ll fetch the forecast!"
+      ]
+    },
+    {
+      "tag": "travel_tips",
+      "patterns": [
+        "travel tips",
+        "advice for Nepal",
+        "what to know",
+        "tips for tourists",
+        "travel advice",
+        "Nepal travel guide",
+        "how to prepare",
+        "tourist tips"
+      ],
+      "responses": [
+        "Here are some pro tips for your Nepal trip: Pack layers, respect local customs, and try the street momos!",
+        "Stay safe and enjoy with these tips: Carry cash for rural areas, learn a few Nepali phrases, and hydrate on treks.",
+        "Travel smart in Nepal: Avoid monsoon trails, bargain politely, and savor dal bhat!",
+        "Nepal travel 101: Respect temples, wear comfy shoes, and don’t miss the sunrise views!"
+      ]
+    },
+    {
+      "tag": "culture",
+      "patterns": [
+        "Nepal culture",
+        "traditions",
+        "customs",
+        "what’s Nepali culture like",
+        "tell me about Nepali traditions",
+        "Nepal heritage",
+        "cultural info",
+        "local customs"
+      ],
+      "responses": [
+        "Nepal’s rich culture is a treat! Expect vibrant festivals like Dashain and Tihar, warm hospitality, and delicious dal bhat.",
+        "Did you know Nepal is the birthplace of Lord Buddha? Explore Lumbini to learn more about Buddhism!",
+        "Nepal’s culture blends Hindu and Buddhist vibes—think prayer flags, ancient temples, and colorful celebrations!",
+        "From Sherpa hospitality to Newari feasts, Nepal’s traditions are a traveler’s delight!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Nepali food",
+        "what to eat",
+        "local cuisine",
+        "food in Nepal",
+        "Nepali dishes",
+        "best food",
+        "what’s good to eat",
+        "local flavors"
+      ],
+      "responses": [
+        "You must try momos, dal bhat, and sel roti! Hungry yet?",
+        "Nepali cuisine is a delight! Don’t miss gundruk, thukpa, and Newari dishes like bara and chatamari.",
+        "Savor Nepal with spicy momos, hearty dal bhat, and sweet sel roti!",
+        "Foodie alert: Try kwati soup, yak cheese, and juju dhau yogurt!"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "emergency contact",
+        "help in Nepal",
+        "safety info",
+        "urgent assistance",
+        "emergency numbers",
+        "I need help",
+        "SOS",
+        "emergency services"
+      ],
+      "responses": [
+        "For emergencies, call 100 (police) or 101 (fire). Need more specific help? Visit /emergency.php.",
+        "Stay safe! For emergencies, call 100 or 101. You can also visit /emergency.php for more resources.",
+        "In a pinch? Dial 100 for police or 102 for ambulance. Check /emergency.php too!",
+        "Emergency? Call 100 or 101, and I’m here to guide you further."
+      ]
+    },
+    {
+      "tag": "about_us",
+      "patterns": [
+        "who are you",
+        "about B&B Travel",
+        "tell me about your company",
+        "what is B&B",
+        "who runs this",
+        "company info",
+        "about your agency",
+        "B&B details"
+      ],
+      "responses": [
+        "We’re B&B Travel, your gateway to Nepal’s mountains, culture, and adventure! Learn more at /about.php.",
+        "B&B Travel Nepal—your trusted partner for epic Himalayan journeys since [year]!",
+        "We’re all about crafting unforgettable Nepal experiences. Curious? Visit /about.php!",
+        "B&B Travel: Where Nepal’s wonders meet your wanderlust!"
+      ]
+    },
+    {
+      "tag": "contact_us",
+      "patterns": [
+        "contact you",
+        "how to reach you",
+        "customer support",
+        "help desk",
+        "get in touch",
+        "talk to someone",
+        "support contact",
+        "reach out"
+      ],
+      "responses": [
+        "Reach us at support@bbtravel.com or visit /contact.php. How can I assist you now?",
+        "We’re here for you! Email support@bbtravel.com or check /contact.php.",
+        "Need to chat? Hit us up at /contact.php or support@bbtravel.com!",
+        "Contact us anytime at support@bbtravel.com—your Nepal adventure awaits!"
+      ]
+    },
+    {
+      "tag": "fun",
+      "patterns": [
+        "tell me a joke",
+        "something funny",
+        "make me laugh",
+        "fun fact",
+        "joke about Nepal",
+        "entertain me",
+        "say something fun",
+        "Nepal trivia"
+      ],
+      "responses": [
+        "Why did the yak cross the road? To get to the other ridge! 😄",
+        "What’s a trekker’s favorite snack? Peak-nuts!",
+        "Did you know Nepal is home to 8 of the world’s 10 tallest mountains?",
+        "Why don’t Sherpas ever get lost? Because the mountains are their GPS!",
+        "Fun fact: Nepal’s flag is the only non-rectangular national flag in the world!"
+      ]
+    },
+    {
+      "tag": "budget_travel",
+      "patterns": [
+        "cheap travel",
+        "budget trips",
+        "affordable packages",
+        "low-cost tours",
+        "travel on a budget",
+        "inexpensive options",
+        "how to travel cheap",
+        "budget-friendly"
+      ],
+      "responses": [
+        "Looking to travel Nepal on a budget? We’ve got affordable packages for you!",
+        "Budget-friendly trips? Try our low-cost tours—perfect for thrifty adventurers!",
+        "Save money and still see Nepal’s best—ask about our budget options!",
+        "Travel smart with our affordable deals. Which destination fits your budget?"
+      ]
+    },
+    {
+      "tag": "group_travel",
+      "patterns": [
+        "group tours",
+        "travel with friends",
+        "family trips",
+        "group packages",
+        "tour for a group",
+        "group discounts",
+        "traveling with others",
+        "party travel"
+      ],
+      "responses": [
+        "Planning a group adventure? We’ve got tours perfect for friends and family!",
+        "Group travel made easy—check out our packages for teams and tribes!",
+        "Bring your crew! We offer group discounts and fun itineraries.",
+        "Tell me your group size, and I’ll find the perfect Nepal trip!"
+      ]
+    },
+    {
+      "tag": "solo_travel",
+      "patterns": [
+        "solo trips",
+        "travel alone",
+        "solo tour",
+        "single traveler",
+        "solo packages",
+        "alone in Nepal",
+        "solo adventure",
+        "travel by myself"
+      ],
+      "responses": [
+        "Solo travel vibes? Nepal’s perfect for your personal adventure!",
+        "Traveling alone? We’ve got safe, exciting solo packages for you!",
+        "Embrace the solo journey—ask about our single-traveler tours!",
+        "Just you and Nepal’s wonders—let’s plan your solo escape!"
+      ]
+    },
+    {
+      "tag": "adventure",
+      "patterns": [
+        "adventure trips",
+        "trekking",
+        "hiking",
+        "adventure in Nepal",
+        "outdoor activities",
+        "extreme travel",
+        "thrilling tours",
+        "adrenaline rush"
+      ],
+      "responses": [
+        "Craving adventure? Nepal’s treks and thrills are calling!",
+        "From Everest to Annapurna, our adventure tours are epic!",
+        "Ready for a rush? Try trekking, rafting, or paragliding with us!",
+        "Nepal’s the adventure capital—where do you want to start?"
+      ]
+    },
+    {
+      "tag": "relaxation",
+      "patterns": [
+        "relaxing trips",
+        "calm vacation",
+        "peaceful places",
+        "chill travel",
+        "relax in Nepal",
+        "quiet destinations",
+        "stress-free tour",
+        "easy getaway"
+      ],
+      "responses": [
+        "Need to unwind? Nepal’s serene spots are perfect for relaxation!",
+        "Chill out with our peaceful packages—think lakes and monasteries!",
+        "Relaxation mode on—try Pokhara or a Himalayan retreat!",
+        "Tell me how you like to relax, and I’ll find your calm Nepal escape!"
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [],
+      "responses": [
+        "Hmm, I’m stumped! Could you rephrase that?",
+        "Not sure what you mean. Try something like 'list packages', 'book a tour', or 'tell me about Nepal’s culture'!",
+        "Oops, lost my trail there! What’s on your mind?",
+        "I’m a bit confused—give me a nudge with another question!"
+      ]
+    }
+  ]
+}
