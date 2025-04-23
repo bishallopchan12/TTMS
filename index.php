@@ -457,7 +457,7 @@ include './recommend/index.php';
    include 'include/javascript.php';
    ?>
 
-<<!-- Chatbot HTML -->
+<!-- Chatbot HTML -->
 <div id="chatbot-container" class="chatbot-container">
    <div class="chatbot-header">
       <div class="chatbot-title">
@@ -482,7 +482,22 @@ include './recommend/index.php';
       <button onclick="sendQuickMessage('special offers')">Offers</button>
    </div>
 </div>
-<button id="chatbot-toggle" class="chatbot-toggle-btn"><i class="fas fa-plane"></i></button>
+<button id="chatbot-toggle" class="chatbot-toggle-btn">
+   <svg width="65" height="65" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <!-- Background Circle -->
+      <circle cx="50" cy="50" r="50" fill="#1e3a8a"/>
+      <!-- Mountain Peaks -->
+      <path d="M20 80 L40 60 L60 80 L80 60 L100 80" fill="white" stroke="#3b82f6" stroke-width="2"/>
+      <!-- B&B Travels Text -->
+      <text x="50" y="40" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">B&B Travels</text>
+      <!-- Slogan -->
+      <text x="50" y="90" font-family="Arial" font-size="8" fill="#3b82f6" text-anchor="middle">
+         <textPath href="#sloganPath">Explore Nepal’s Beauty</textPath>
+      </text>
+      <!-- Path for curved slogan -->
+      <path id="sloganPath" d="M20 85 A30 30 0 0 1 80 85" fill="none"/>
+   </svg>
+</button>
 
 <!-- Updated Chatbot CSS -->
 <style>
@@ -490,22 +505,23 @@ include './recommend/index.php';
       position: fixed;
       bottom: 90px;
       right: 20px;
-      width: 400px;
+      width: 420px;
       max-height: 80vh;
-      background: #fff;
-      border-radius: 25px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+      background: linear-gradient(135deg, #f5f7fa, #e4e9f0);
+      border-radius: 20px;
+      box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
       display: flex;
       flex-direction: column;
       z-index: 1000;
       overflow: hidden;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-      transform: scale(0.95);
+      transition: transform 0.4s ease, opacity 0.4s ease;
+      transform: translateY(20px);
       opacity: 0;
+      font-family: 'Arial', sans-serif;
    }
 
    .chatbot-container.show {
-      transform: scale(1);
+      transform: translateY(0);
       opacity: 1;
    }
 
@@ -514,51 +530,52 @@ include './recommend/index.php';
          width: 90vw;
          bottom: 80px;
          right: 5vw;
+         max-height: 70vh;
       }
    }
 
    .chatbot-header {
-      background: linear-gradient(135deg, #2a9d8f, #264653);
+      background: linear-gradient(90deg, #1e3a8a, #3b82f6);
       color: #fff;
-      padding: 15px 20px;
-      border-radius: 25px 25px 0 0;
+      padding: 18px 25px;
+      border-radius: 20px 20px 0 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
    }
 
    .chatbot-title {
       display: flex;
       align-items: center;
-      font-size: 1.3rem;
-      font-weight: 600;
-      letter-spacing: 0.5px;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 1px;
    }
 
    .chatbot-logo {
-      width: 40px;
-      height: 40px;
-      margin-right: 12px;
+      width: 45px;
+      height: 45px;
+      margin-right: 15px;
       border-radius: 50%;
       border: 3px solid #fff;
       transition: transform 0.3s ease;
    }
 
    .chatbot-logo:hover {
-      transform: rotate(15deg);
+      transform: rotate(360deg);
    }
 
    .chatbot-actions {
       display: flex;
-      gap: 12px;
+      gap: 15px;
    }
 
    .chatbot-action-btn, .chatbot-close-btn {
-      background: rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.2);
       border: none;
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       padding: 8px;
       border-radius: 50%;
       cursor: pointer;
@@ -566,41 +583,41 @@ include './recommend/index.php';
    }
 
    .chatbot-action-btn:hover, .chatbot-close-btn:hover {
-      background: rgba(255, 255, 255, 0.5);
-      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.4);
+      transform: rotate(90deg);
    }
 
    .chatbot-action-btn.listening {
-      background: #f4a261;
-      color: #264653;
-      animation: pulse 1s infinite;
+      background: #f97316;
+      color: #fff;
+      animation: pulse 1.2s infinite;
    }
 
    @keyframes pulse {
       0% { transform: scale(1); }
-      50% { transform: scale(1.1); }
+      50% { transform: scale(1.15); }
       100% { transform: scale(1); }
    }
 
    .chatbot-messages {
       flex-grow: 1;
-      padding: 20px;
+      padding: 25px;
       overflow-y: auto;
       background: #f8fafc;
-      font-size: 1rem;
-      line-height: 1.6;
+      font-size: 1.1rem;
+      line-height: 1.7;
    }
 
    .message {
       display: flex;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       align-items: flex-start;
-      animation: slideIn 0.3s ease;
+      animation: fadeIn 0.4s ease;
    }
 
-   @keyframes slideIn {
-      from { transform: translateY(20px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
+   @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
    }
 
    .user-message {
@@ -608,45 +625,45 @@ include './recommend/index.php';
    }
 
    .bot-message .message-avatar {
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      margin-right: 10px;
-      background: url('./assets/images/site-logo.png') center/cover; /* Optional: Use B&B logo for bot */
-      border: 2px solid #2a9d8f;
+      margin-right: 12px;
+      background: url('./assets/images/site-logo.png') center/cover;
+      border: 2px solid #3b82f6;
    }
 
    .user-message .message-avatar {
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      margin-left: 10px;
-      background: url('https://via.placeholder.com/35?text=U') center/cover;
-      border: 2px solid #e76f51;
+      margin-left: 12px;
+      background: url('https://via.placeholder.com/40?text=U') center/cover;
+      border: 2px solid #f97316;
    }
 
    .message-content {
-      padding: 12px 18px;
-      border-radius: 20px;
-      max-width: 75%;
+      padding: 15px 20px;
+      border-radius: 15px;
+      max-width: 70%;
       background: #fff;
-      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-      transition: transform 0.2s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
    }
 
    .message-content:hover {
-      transform: translateY(-3px);
+      transform: translateY(-5px);
    }
 
    .user-message .message-content {
-      background: #e76f51;
+      background: #f97316;
       color: #fff;
    }
 
    .message-time {
-      font-size: 0.8rem;
-      color: #777;
-      margin-top: 5px;
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 8px;
       text-align: right;
    }
 
@@ -654,15 +671,15 @@ include './recommend/index.php';
       padding: 15px;
       display: none;
       justify-content: center;
-      gap: 8px;
+      gap: 10px;
    }
 
    .dot {
-      width: 12px;
-      height: 12px;
-      background: #2a9d8f;
+      width: 10px;
+      height: 10px;
+      background: #3b82f6;
       border-radius: 50%;
-      animation: bounce 1.2s infinite;
+      animation: bounce 1.5s infinite;
    }
 
    .dot:nth-child(2) { animation-delay: 0.3s; }
@@ -670,95 +687,97 @@ include './recommend/index.php';
 
    @keyframes bounce {
       0%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-15px); }
+      40% { transform: translateY(-10px); }
    }
 
    .chatbot-input-container {
-      padding: 15px;
+      padding: 20px;
       background: #fff;
-      border-top: 1px solid #eef2f6;
+      border-top: 1px solid #e5e7eb;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 15px;
    }
 
    #chatbot-input {
       flex-grow: 1;
       padding: 12px 20px;
-      border: 1px solid #ddd;
-      border-radius: 30px;
+      border: 1px solid #d1d5db;
+      border-radius: 25px;
       outline: none;
       font-size: 1rem;
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
    }
 
    #chatbot-input:focus {
-      border-color: #2a9d8f;
-      box-shadow: 0 0 8px rgba(42, 157, 143, 0.3);
+      border-color: #3b82f6;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
    }
 
    .chatbot-send-btn {
       padding: 12px 20px;
-      background: #2a9d8f;
+      background: #3b82f6;
       color: #fff;
       border: none;
-      border-radius: 30px;
+      border-radius: 25px;
       cursor: pointer;
-      transition: background 0.3s ease, transform 0.2s ease;
+      transition: background 0.3s ease, transform 0.3s ease;
    }
 
    .chatbot-send-btn:hover {
-      background: #264653;
-      transform: scale(1.05);
+      background: #1e3a8a;
+      transform: scale(1.1);
    }
 
    .chatbot-quick-actions {
-      padding: 12px;
+      padding: 15px;
       background: #f8fafc;
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       justify-content: center;
    }
 
    .chatbot-quick-actions button {
-      padding: 8px 18px;
+      padding: 10px 20px;
       background: #fff;
-      border: 2px solid #2a9d8f;
-      border-radius: 25px;
-      color: #2a9d8f;
-      font-size: 0.9rem;
+      border: 2px solid #3b82f6;
+      border-radius: 20px;
+      color: #3b82f6;
+      font-size: 0.95rem;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.3s ease;
    }
 
    .chatbot-quick-actions button:hover {
-      background: #2a9d8f;
+      background: #3b82f6;
       color: #fff;
-      transform: translateY(-2px);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
    }
 
    .chatbot-toggle-btn {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      width: 60px;
-      height: 60px;
-      background: #e76f51;
-      color: #fff;
+      width: 65px;
+      height: 65px;
+      background: none;
       border: none;
-      border-radius: 50%;
-      font-size: 1.8rem;
       cursor: pointer;
       z-index: 1000;
-      box-shadow: 0 5px 20px rgba(231, 111, 81, 0.4);
-      transition: transform 0.3s ease, background 0.3s ease;
+      box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+      transition: transform 0.4s ease;
    }
 
    .chatbot-toggle-btn:hover {
-      transform: scale(1.15);
-      background: #f4a261;
+      transform: rotate(360deg);
+   }
+
+   .chatbot-toggle-btn svg {
+      width: 100%;
+      height: 100%;
    }
 </style>
 
